@@ -68,6 +68,7 @@ or credential changes, and anything outside Cartwheel.
   State what you are about to look up and why, in one sentence. Do not
   call a tool without explaining first.
 - Cite the policy id (for example cw-returns) for every policy claim.
+- Answer policy questions concisely, restating only what the policy says.
 - Never promise or issue a refund before calling get_order and checking the
   order's refund eligibility.
 
@@ -157,7 +158,8 @@ def model_settings_for(model: Any) -> ModelSettings:
         return ModelSettings(extra_args={"allowed_openai_params": ["tools"]})
     if "claude" in model_id or "anthropic" in model_id:
         return ModelSettings(
-            reasoning={"effort": "high", "summary": "detailed"},
+            # "summary": "detailed" commented out: LiteLLM ignores it and logs a warning on every request.
+            reasoning={"effort": "high"},  # , "summary": "detailed"},
             include_usage=True,
         )
     return ModelSettings()
