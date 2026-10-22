@@ -123,9 +123,11 @@ def record_tool_result(ctx: "AuthContext", result: dict[str, Any]) -> None:
     if not span.is_recording():
         return
     ### YOUR CODE HERE (HW2)
-    raise NotImplementedError(
-        "HW2: add authenticated caller and permission attributes to the tool span"
-    )
+    span.set_attribute("cartwheel.user_role", ctx.role)                 # attach auth context for role
+    span.set_attribute("cartwheel.user_id", str(ctx.user_id))           # attach auth context for user id (converting to text)
+    if ctx.store_id is not None:                                        # if associated with a store (i.e. merchants)
+        span.set_attribute("cartwheel.store_id", str(ctx.store_id))     # attach store id too
+    _set_permission_denied_attributes(span, result)                     # call function to attach attribute for permission denied
 
 
 def _set_permission_denied_attributes(
@@ -150,4 +152,7 @@ def _set_permission_denied_attributes(
     course where you touch instrumentation by hand.
     """
     ### YOUR CODE HERE (HW2)
-    raise NotImplementedError("HW2: set the cartwheel.permission_denied span attribute")
+    denied = result.get("error") == "permission_denied"             # read dictionary for error, set denied if permission denied
+    span.set_attribute("cartwheel.permission_denied", denied)       # where denied, define span attribute
+    if denied:                                                      # in which case apply span attribute with reason attached
+        span.set_attribute("cartwheel.permission_denied.reason", result.get("reason", ""))
