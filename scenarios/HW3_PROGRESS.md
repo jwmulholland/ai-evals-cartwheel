@@ -28,7 +28,7 @@ Intent gains item_issue; return vs policy_process_info boundary: "Can I return t
 - [x] scenarios/final-results.jsonl (250/250 completed: 175 coverage, 75 challenge; claude-haiku-4-5)
 - [x] reports/smoke-output.txt (final report; includes pilot traces too; output_tokens 0 again)
 - [x] traces/support_traces.json (325 traces, 250/250 scenario ids)
-- [ ] Video (student)
+- [x] Video (student, recorded)
 
 ## Spec gaps noted (HW4 lenses, not scenario changes)
 - No requirement to confirm before cancelling (pilot-17): SPEC does not make the agent confirm a cancellation first.
@@ -57,3 +57,4 @@ Intent gains item_issue; return vs policy_process_info boundary: "Can I return t
 - Part C complete. NEXT: Part D (reset data with seed.generate, run support_scenarios.jsonl into final-results.jsonl), then Part E.
 - Part D DONE (student ran it): 250/250 completed. NEXT: Part E smoke report, trace export, three traces.
 - Part E DONE: smoke report written, 325 traces exported for 250 of 250 scenarios. Student to open three traces (suggested: support-0210 challenge, support-0071 two turns, support-0050 challenge) and record the video.
+- All deliverables exist and checks pass (final validator, lint, 250 scenario ids in the trace export). Student confirmed trace check and video done; merging PR #1.
