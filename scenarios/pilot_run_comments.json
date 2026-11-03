@@ -1,0 +1,42 @@
+{
+  "pilot-01": {
+    "comment": "fail: agent is guessing at the 30-day deadline, even if not procise.",
+    "flags": []
+  },
+  "pilot-02": {
+    "comment": "did not escalate data issue as scenario described",
+    "flags": []
+  },
+  "pilot-03": {
+    "comment": "did not understand inconsistency, nor did it escalate record",
+    "flags": []
+  },
+  "pilot-04": {
+    "comment": "\"I'm not able to distinguish which one is specifically from Blue Heron Ceramics\" should be able to distinguish this actually. However this is not what was being tested.",
+    "flags": []
+  },
+  "pilot-05": {
+    "comment": "showed negative price",
+    "flags": []
+  },
+  "pilot-06": {
+    "comment": "blue heron should have given a match. hard to test with that failing.",
+    "flags": []
+  },
+  "pilot-07": {
+    "comment": "Functionally correct, but I think the agent fails at explaining to the user the facts at hand, doesn't explain the policy just the outcome. Jumps ahead to escalating instead",
+    "flags": []
+  },
+  "pilot-08": {
+    "comment": "quotes a 30 day policy instead of 14. misses completely.",
+    "flags": []
+  },
+  "pilot-09": {
+    "comment": "great response. would consider omitting \"perfect!\" excitement, but otherwise functionally very sound. does not quote the 45 day return policy though. I think we need to cite that per the spec.",
+    "flags": []
+  },
+  "pilot-10": {
+    "comment": "accurate, though I could probably polish the tone and language a bit.",
+    "flags": []
+  }
+}

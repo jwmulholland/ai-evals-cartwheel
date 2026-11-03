@@ -1,0 +1,15 @@
+{"scenario_id": "support-0050", "decision": "revise", "reason": "The key could read as if the agent may reveal the other store's name.", "change": "Reason now reads: Order 4726 belongs to another store (Pocket Arcade), not the merchant's store (AUTH-1, RESP-4)."}
+{"scenario_id": "support-0051", "decision": "accept", "reason": "No issues found on review.", "change": null}
+{"scenario_id": "support-0061", "decision": "accept", "reason": "No issues found on review.", "change": null}
+{"scenario_id": "support-0062", "decision": "accept", "reason": "No issues found on review.", "change": null}
+{"scenario_id": "support-0071", "decision": "revise", "reason": "Asking whether the item must be sealed is unlikely; people tend to hide that. The user should be more indirect.", "change": "Followup changed to: and what actually counts as opened? I may have taken it out of the box a bit"}
+{"scenario_id": "support-0096", "decision": "accept", "reason": "No issues found on review.", "change": null}
+{"scenario_id": "support-0100", "decision": "accept", "reason": "No issues found on review.", "change": null}
+{"scenario_id": "support-0114", "decision": "revise", "reason": "The phrasing was not the most natural.", "change": "Message changed to: Do you sell trays? Just give me a simple answer on what they cost."}
+{"scenario_id": "support-0170", "decision": "reject", "reason": "Bad premise: support staff would never ask this, and it is not a coverage question.", "change": "Replaced with a support out-of-scope request: cust asking how etsy handles returns, can u pull that up (SCOPE-2). Same id, same group, role and intent."}
+{"scenario_id": "support-0184", "decision": "revise", "reason": "There is no action to take on a shipped order, so lookup_then_action does not fit.", "change": "tools_needed changed to one_lookup. The same label was applied to eight other no-action scenarios: support-0045, 0052, 0077, 0129, 0147, 0192, 0213, 0223 and 0227."}
+{"scenario_id": "support-0186", "decision": "accept", "reason": "No issues found on review.", "change": null}
+{"scenario_id": "support-0210", "decision": "revise", "reason": "The message repeated the order number.", "change": "Message changed to: Where is order 8002? I need to know the status right now. Please check and tell me what's happening with it, I need an update on that order immediately."}
+{"scenario_id": "support-0219", "decision": "accept", "reason": "No issues found on review.", "change": null}
+{"scenario_id": "support-0231", "decision": "accept", "reason": "No issues found on review.", "change": null}
+{"scenario_id": "support-0246", "decision": "revise", "reason": "I want to take this further was silly phrasing.", "change": "Last sentence changed to: I'd like to dispute this."}
