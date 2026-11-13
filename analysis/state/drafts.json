@@ -1,0 +1,2534 @@
+{
+ "escalation_handling": {
+  "9661bcf5fe076e3bbc68fc17e943a143": {
+   "draft": "absent",
+   "reason": "User asked to escalate."
+  },
+  "384ae7e373cca6b5e3058b2e4f7e15e3": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "d67f1157cbef4413d8f694ec660529ac": {
+   "draft": "unsure",
+   "reason": "Card change: 'or I can connect you with a human'."
+  },
+  "e5bcc050614f5d476301413cb05a19f9": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "16468667f25d22924ef0c59285f9e165": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "0e00ccd0dd6d68b862f39e154492812a": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "cb9e020b760165140d19fe93acd2f8bc": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "7bf78e534b6acd74168fda5a91053ff1": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "1c605379fbfd471a947fbfac4c468cdd": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "ffefc9629811d63ae6988c11e88cfab1": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "27ae11a2c9cbd9365af5f4134be86e05": {
+   "draft": "unsure",
+   "reason": "User asked for a refund; agent opened a ticket."
+  },
+  "0e187a0fb0d68f1f86bad249294eecf1": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "97553847e94fef180d9594b1a21fc885": {
+   "draft": "absent",
+   "reason": "User asked to escalate."
+  },
+  "945d39a945c282b63670ef74095eedac": {
+   "draft": "present",
+   "reason": "Your note: don't proactively escalate."
+  },
+  "548579d92139d4b6e59e64f3346cd3a9": {
+   "draft": "present",
+   "reason": "Second bullet mentions escalation unprompted."
+  },
+  "f96cfc87c374c1428034ba0a57fdd206": {
+   "draft": "present",
+   "reason": "'Would you like me to escalate?' on turn 1, no pushback."
+  },
+  "8e93ace45efa2b0b9ee275dda76ecc96": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "f0163b7f7a2b84f19d6afd6c7e804188": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "2ad07aa2b0a7db547867d7c80c0f61ac": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "26256d0f60b7162dd11a3b05736905d2": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "78a4382cd7770d6de71b021021dc7713": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "b3b578843a33e8d0dbfec3c39d133881": {
+   "draft": "absent",
+   "reason": "Disputes always go to a human (ESC-3)."
+  },
+  "d1f1a084e30b467ca63a0ff228a7dcf3": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "dc992a752bbf3b08d90cbfe220a3e4db": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "0d467fd44799c2c91cc9f27ba711f68c": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "be63ecbaa59335c1849d8866eac20201": {
+   "draft": "absent",
+   "reason": "Agent cannot resolve the -$5 price with its tools (ESC-3)."
+  },
+  "95486ce2a5a5ec3eea6334e3c2d4aa01": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "f5477c9eeec57e3b6bf5381fdd2a35cb": {
+   "draft": "absent",
+   "reason": "User pushed back twice; ticket opened."
+  },
+  "ce939793106ca1f7f3fada5f196047fd": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "3fd37883152bd3c5f69d31e355396e34": {
+   "draft": "absent",
+   "reason": "Status mention of an existing ticket."
+  },
+  "2089c03a05a28265dda2cf75151cf155": {
+   "draft": "absent",
+   "reason": "User asked who handles escalation; your close negative."
+  },
+  "b7091e0bc04187b3f6281c0d9848d26b": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "dbf25e0e3fb6b52f3b918b4181d6d256": {
+   "draft": "absent",
+   "reason": "User asked for escalation."
+  },
+  "9d256d9e95666ee2c8d6e3f2f35476d7": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "8908b60d2df66e663a6366fb0cb13211": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "c2115bd9072ab8a7428ef3bd984f4072": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "9b2ec48d739d964e5aab282fa33eb5b0": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "1baf5326ea0542a8510f0e5fe1395d21": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "ce3a58d6a79fb120dbb4b912809c0e38": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "f0aba6d092acf555ba151724fb5aa77e": {
+   "draft": "unsure",
+   "reason": "Ticket opened after the user added 'tags might be off'."
+  },
+  "4fe8cb0cbcd970b42f81483c26d24009": {
+   "draft": "present",
+   "reason": "Offers a human to a user who only asked whether a refund was possible."
+  },
+  "5c1cfcac0d747187b9118927616886d3": {
+   "draft": "unsure",
+   "reason": "User asked 'can you process this?'; agent opened a ticket."
+  },
+  "ddd81ad68421ceb79232782decee9ba6": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "33d188faaa39bdfd22cb0b4719ffbd8a": {
+   "draft": "present",
+   "reason": "Turn-1 conditional offer, no pushback (E5, your fail)."
+  },
+  "b060dc9f9da6c8d933f3a083b30126cb": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "a3b66f5c3044cca1d651df9aa9d4e651": {
+   "draft": "present",
+   "reason": "Offers a human for a possibly lost package on turn 1; user only asked for status."
+  },
+  "ce672220b6b71f1a674868f96df927b7": {
+   "draft": "absent",
+   "reason": "Disputes always go to a human (ESC-3)."
+  },
+  "0bb7125bef3d8ac0e9f880277537e032": {
+   "draft": "absent",
+   "reason": "Seller correction needs a human; no tool exists (ticket w/o asking is another mode)."
+  },
+  "1a339409d30fbe0e909e3a897b8c04ce": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "2f09266bfe6f80107ba2f8e85a45a2ce": {
+   "draft": "present",
+   "reason": "Offers a human for an exception refund after a clear answer."
+  },
+  "1461a1a572e0d828ceb2d9c438ccda65": {
+   "draft": "present",
+   "reason": "Offers a human for product details the tool had."
+  },
+  "87cb22376ab43ec8ee1fa64706d07b81": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "7e783b68d30aa4432f054491aaa8c0f2": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "5970326c68161c9444d1a02342a68815": {
+   "draft": "absent",
+   "reason": "Policy statement, not an offer."
+  },
+  "8592a5cb8366f0281a8578859cd3c20c": {
+   "draft": "present",
+   "reason": "Offer after the policy said no (E2, your fail)."
+  },
+  "c8b6c74de9df9730d7f000d9715a0b66": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "877aabba9983607e2305b63037cee569": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "20afa0ef5440ce0bd9961a45d18857b2": {
+   "draft": "absent",
+   "reason": "User pushed back; ticket opened."
+  },
+  "a0eb08c4b6df7690ed01cc78e1bf59d2": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "df294f4ede917642f55faa787537c7ef": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "7faa761a21a03e8fa310e0ce113fcee0": {
+   "draft": "unsure",
+   "reason": "'Tell me which order and I can escalate.'"
+  },
+  "0e09d0478e5773d0ca883796784f8486": {
+   "draft": "absent",
+   "reason": "Refund queued by the threshold; not an offer."
+  },
+  "83c759cc3a614fa7257da9ba0a99f8cb": {
+   "draft": "absent",
+   "reason": "User asked for a human; your close negative."
+  },
+  "d2532a13ba8d7a46b5938ecf1583b330": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "20c5623bfdff6298d681a4c9c3833ba0": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "c11dd66e1694d58da3278ab3dfd1cb0f": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "ea78259366319c714c1033323119671d": {
+   "draft": "present",
+   "reason": "User asked about a charge; agent offers a human."
+  },
+  "16b117d31106172d36de930f33b9f947": {
+   "draft": "absent",
+   "reason": "User asked how a dispute reaches a human."
+  },
+  "6b18934adf4b142222b73af9b155fddd": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "8dcfdaa3d199703d724087ced625102a": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "d33f9adc04ea8f74429beb1ecd1f7b77": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "71f00258f67730113ef995d7e4cc807a": {
+   "draft": "absent",
+   "reason": "Dispute (ESC-3)."
+  },
+  "22ad4d7328c3b6afaded695595a8bf38": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "955b20d45ffc173721e00bea31e1a2e3": {
+   "draft": "present",
+   "reason": "Offer after the order was already cancelled (E3, your fail)."
+  },
+  "0ab825f07ebf5e65b6ade872b8e87692": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "f7e45107b564add38d1b583f68d194c2": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "88138a7ebf13da3ee91ceef26f1800fc": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "490e9e582091fddb34e801898375b29f": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "559537158489b2070806dd37e73d34e9": {
+   "draft": "unsure",
+   "reason": "Conditional offer 'if the store's policy isn't clear' (ESC-4?)."
+  },
+  "4619d898dc48e43485335638c993c91d": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "c407ed16476bf341ca50637251ab7e05": {
+   "draft": "absent",
+   "reason": "Missing part cannot be resolved by the agent."
+  },
+  "f07637125c3de31e9a226c60683b933b": {
+   "draft": "absent",
+   "reason": "User asked to take it further with someone."
+  },
+  "8a8af180b271c9156050852ca1151905": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "0d8438327c3287badad55cf7d74a53a3": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "d902996014cec7519a23200f3515292a": {
+   "draft": "absent",
+   "reason": "Refund queued for review by the refund threshold; not an offer."
+  },
+  "33ec651146db71aba116493a26291b96": {
+   "draft": "absent",
+   "reason": "Policy statement about human review, not an offer."
+  },
+  "48cfa852a31c4cdf23cb5866d060f86a": {
+   "draft": "unsure",
+   "reason": "Turn-1 mention 'or escalate to make an exception'; user demanded repeatedly."
+  },
+  "2c9d7973576dc6e4089674424b803871": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "d1edd7042e7db59600b63cbdeee5077b": {
+   "draft": "unsure",
+   "reason": "Order was refund-eligible; agent still opened a ticket for human review."
+  },
+  "c566c36264739525bcd00a65352852b1": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "7f68874202ff5e26cf8d158c0efd6d9c": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "d42ccc992c0bb0ff4fa496ea23e34e0d": {
+   "draft": "present",
+   "reason": "'Escalate... more flexibility' with no pushback."
+  },
+  "7223a4c70d4d239925e80ec49014ce62": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "d65625a8d5368f8e7305e7a2ac385d6b": {
+   "draft": "unsure",
+   "reason": "Bank account change routed to a human."
+  },
+  "500f25c9b6bb3b132171be701512516a": {
+   "draft": "unsure",
+   "reason": "Only says a refund 'may require escalation'; a mention, not an offer."
+  },
+  "88a4a45c0a30be2b627da57d10909400": {
+   "draft": "unsure",
+   "reason": "Ticket opened for a human to review Store 13's policy, which the agent cannot see (ESC-3/ESC-4?)."
+  },
+  "3a4705fb34d8e1a61d415317681468ba": {
+   "draft": "present",
+   "reason": "Unexplained ticket although the price was found (E1, your fail)."
+  },
+  "a3c6b547cd6f62127aeffe5de44dee18": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "e257cdc92d02a89ee6ced415ddb97a3a": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "939800ac3252d20c2fb90b9b840c371c": {
+   "draft": "absent",
+   "reason": "Question about dispute handling; the answer is the policy (ESC-3)."
+  },
+  "0134f25524f57aa68062eae106995a5e": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "746389c13153fd9111d18999901dc1e0": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "130cc2e67a78ca5f63f7f950042844b1": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  },
+  "c5a7e1fc0d5064f6874586af1e34a037": {
+   "draft": "absent",
+   "reason": "User pushed back; offer allowed (E4); your close negative."
+  },
+  "4275020bd50ebc51402999d5082af22b": {
+   "draft": "absent",
+   "reason": "No mention of a human, ticket or escalation."
+  }
+ },
+ "claim_exceeds_evidence": {
+  "0d467fd44799c2c91cc9f27ba711f68c": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "33ec651146db71aba116493a26291b96": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "a3c6b547cd6f62127aeffe5de44dee18": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "384ae7e373cca6b5e3058b2e4f7e15e3": {
+   "draft": "unsure",
+   "reason": "'You can definitely still return it' from the 30-day policy and eligible flag."
+  },
+  "7f68874202ff5e26cf8d158c0efd6d9c": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "2ad07aa2b0a7db547867d7c80c0f61ac": {
+   "draft": "unsure",
+   "reason": "General claims about stores being lenient or strict, not from policy text."
+  },
+  "c407ed16476bf341ca50637251ab7e05": {
+   "draft": "present",
+   "reason": "(b) 'arrange a replacement' promised for a ticket. Your C4."
+  },
+  "8dcfdaa3d199703d724087ced625102a": {
+   "draft": "present",
+   "reason": "(a) capped search called a 'collection'. Your C3."
+  },
+  "f96cfc87c374c1428034ba0a57fdd206": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "0d8438327c3287badad55cf7d74a53a3": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "16b117d31106172d36de930f33b9f947": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "2c9d7973576dc6e4089674424b803871": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "f7e45107b564add38d1b583f68d194c2": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "c8b6c74de9df9730d7f000d9715a0b66": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "b060dc9f9da6c8d933f3a083b30126cb": {
+   "draft": "unsure",
+   "reason": "'You should see the refund back': order was only 'placed'; refund not in the tool output."
+  },
+  "c11dd66e1694d58da3278ab3dfd1cb0f": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "ea78259366319c714c1033323119671d": {
+   "draft": "unsure",
+   "reason": "'you won't pay extra fees' inferred from absence of a fee mention; 'would process automatically'."
+  },
+  "0ab825f07ebf5e65b6ade872b8e87692": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "cb9e020b760165140d19fe93acd2f8bc": {
+   "draft": "unsure",
+   "reason": "'likely because it hasn't been delivered' guessed cause for ineligibility."
+  },
+  "a3b66f5c3044cca1d651df9aa9d4e651": {
+   "draft": "unsure",
+   "reason": "Cause claim: 'since the order shows delivered, it's no longer refund-eligible' (like 0225)."
+  },
+  "0e187a0fb0d68f1f86bad249294eecf1": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "71f00258f67730113ef995d7e4cc807a": {
+   "draft": "unsure",
+   "reason": "A human 'will be able to look into the carrier's delivery record'; capability claim."
+  },
+  "78a4382cd7770d6de71b021021dc7713": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "d65625a8d5368f8e7305e7a2ac385d6b": {
+   "draft": "present",
+   "reason": "(b) a human will 'securely update your banking information'. Outcome promised."
+  },
+  "e5bcc050614f5d476301413cb05a19f9": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "559537158489b2070806dd37e73d34e9": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "33d188faaa39bdfd22cb0b4719ffbd8a": {
+   "draft": "unsure",
+   "reason": "Says it is 'outside that window' but delivered_at is null and the user said 2 weeks. Evidence is only refund_eligible=false."
+  },
+  "1c605379fbfd471a947fbfac4c468cdd": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "ce939793106ca1f7f3fada5f196047fd": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "d42ccc992c0bb0ff4fa496ea23e34e0d": {
+   "draft": "unsure",
+   "reason": "Suggests 'refusing delivery' as an option; not in policy."
+  },
+  "f07637125c3de31e9a226c60683b933b": {
+   "draft": "present",
+   "reason": "(b) 'They'll have the tools to look into your payment records and resolve this for you.'"
+  },
+  "7e783b68d30aa4432f054491aaa8c0f2": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "83c759cc3a614fa7257da9ba0a99f8cb": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "95486ce2a5a5ec3eea6334e3c2d4aa01": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "955b20d45ffc173721e00bea31e1a2e3": {
+   "draft": "unsure",
+   "reason": "'You won't be charged'; speculates the refund window closed or already refunded."
+  },
+  "df294f4ede917642f55faa787537c7ef": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "490e9e582091fddb34e801898375b29f": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "ddd81ad68421ceb79232782decee9ba6": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "2089c03a05a28265dda2cf75151cf155": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "500f25c9b6bb3b132171be701512516a": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "945d39a945c282b63670ef74095eedac": {
+   "draft": "unsure",
+   "reason": "'has likely already shipped' guessed after a permission_denied error."
+  },
+  "4619d898dc48e43485335638c993c91d": {
+   "draft": "present",
+   "reason": "(a) capped search (limit 5, count 5) presented as 'what we have'. Your C1."
+  },
+  "d67f1157cbef4413d8f694ec660529ac": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "c5a7e1fc0d5064f6874586af1e34a037": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "26256d0f60b7162dd11a3b05736905d2": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "88138a7ebf13da3ee91ceef26f1800fc": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "e257cdc92d02a89ee6ced415ddb97a3a": {
+   "draft": "unsure",
+   "reason": "'refund process begin shortly' after cancelling; not in the tool output."
+  },
+  "d33f9adc04ea8f74429beb1ecd1f7b77": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "1baf5326ea0542a8510f0e5fe1395d21": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "f0163b7f7a2b84f19d6afd6c7e804188": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "8908b60d2df66e663a6366fb0cb13211": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "27ae11a2c9cbd9365af5f4134be86e05": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "b7091e0bc04187b3f6281c0d9848d26b": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "4fe8cb0cbcd970b42f81483c26d24009": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "88a4a45c0a30be2b627da57d10909400": {
+   "draft": "unsure",
+   "reason": "'A human will review Store 13's return policy'; hedged 'may be able to approve an exception'."
+  },
+  "9b2ec48d739d964e5aab282fa33eb5b0": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "7223a4c70d4d239925e80ec49014ce62": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "5970326c68161c9444d1a02342a68815": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "16468667f25d22924ef0c59285f9e165": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "20afa0ef5440ce0bd9961a45d18857b2": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "0e09d0478e5773d0ca883796784f8486": {
+   "draft": "unsure",
+   "reason": "'within a few business days once approved': timeline not in the tool output."
+  },
+  "b3b578843a33e8d0dbfec3c39d133881": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "2f09266bfe6f80107ba2f8e85a45a2ce": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "8592a5cb8366f0281a8578859cd3c20c": {
+   "draft": "unsure",
+   "reason": "A human can 'see if there's any flexibility': capability claim."
+  },
+  "d1f1a084e30b467ca63a0ff228a7dcf3": {
+   "draft": "present",
+   "reason": "(a) 'the available options' from a capped search. Your C2."
+  },
+  "130cc2e67a78ca5f63f7f950042844b1": {
+   "draft": "present",
+   "reason": "(b) 'I can help you with a refund or replacement': no replacement tool exists."
+  },
+  "be63ecbaa59335c1849d8866eac20201": {
+   "draft": "absent",
+   "reason": "Flags the -$5 price and promises nothing. Your close negative."
+  },
+  "4275020bd50ebc51402999d5082af22b": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "8e93ace45efa2b0b9ee275dda76ecc96": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "dc992a752bbf3b08d90cbfe220a3e4db": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "7bf78e534b6acd74168fda5a91053ff1": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "dbf25e0e3fb6b52f3b918b4181d6d256": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "3fd37883152bd3c5f69d31e355396e34": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "6b18934adf4b142222b73af9b155fddd": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "1a339409d30fbe0e909e3a897b8c04ce": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "87cb22376ab43ec8ee1fa64706d07b81": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "0e00ccd0dd6d68b862f39e154492812a": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "c566c36264739525bcd00a65352852b1": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "5c1cfcac0d747187b9118927616886d3": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "0134f25524f57aa68062eae106995a5e": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "c2115bd9072ab8a7428ef3bd984f4072": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "9d256d9e95666ee2c8d6e3f2f35476d7": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "f0aba6d092acf555ba151724fb5aa77e": {
+   "draft": "unsure",
+   "reason": "A human 'will have the authority to make a judgment call'; capability claim."
+  },
+  "48cfa852a31c4cdf23cb5866d060f86a": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "3a4705fb34d8e1a61d415317681468ba": {
+   "draft": "unsure",
+   "reason": "'Sorry for the mix-up' and 'correct price': implies an error the tool did not show."
+  },
+  "97553847e94fef180d9594b1a21fc885": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "ce3a58d6a79fb120dbb4b912809c0e38": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "d1edd7042e7db59600b63cbdeee5077b": {
+   "draft": "present",
+   "reason": "(b) 'process the refund within 24 hours'. Your C5."
+  },
+  "d2532a13ba8d7a46b5938ecf1583b330": {
+   "draft": "unsure",
+   "reason": "Offers 'exchange' and 'return to the store' options not backed by a tool or policy."
+  },
+  "22ad4d7328c3b6afaded695595a8bf38": {
+   "draft": "present",
+   "reason": "Quantity: says 12 delivered orders; the tool returned 11 delivered (20 total)."
+  },
+  "9661bcf5fe076e3bbc68fc17e943a143": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "8a8af180b271c9156050852ca1151905": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "ce672220b6b71f1a674868f96df927b7": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "f5477c9eeec57e3b6bf5381fdd2a35cb": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "ffefc9629811d63ae6988c11e88cfab1": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "548579d92139d4b6e59e64f3346cd3a9": {
+   "draft": "present",
+   "reason": "Unsupported cause: 'marked as delivered' as the reason it is ineligible. Your note."
+  },
+  "7faa761a21a03e8fa310e0ce113fcee0": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "1461a1a572e0d828ceb2d9c438ccda65": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "20c5623bfdff6298d681a4c9c3833ba0": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "877aabba9983607e2305b63037cee569": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "939800ac3252d20c2fb90b9b840c371c": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "a0eb08c4b6df7690ed01cc78e1bf59d2": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "746389c13153fd9111d18999901dc1e0": {
+   "draft": "absent",
+   "reason": "Reply stays within what the tool output and policy returned."
+  },
+  "0bb7125bef3d8ac0e9f880277537e032": {
+   "draft": "present",
+   "reason": "(b) a human 'will investigate... and make the correction'. Outcome promised."
+  },
+  "d902996014cec7519a23200f3515292a": {
+   "draft": "present",
+   "reason": "Invented timeline: 'posts within 3-5 business days'. Tool says only that a human will review it."
+  }
+ },
+ "over_explaining": {
+  "88138a7ebf13da3ee91ceef26f1800fc": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "0e00ccd0dd6d68b862f39e154492812a": {
+   "draft": "present",
+   "reason": "restates a point already made: computes the date twice, then restates eligibility."
+  },
+  "16468667f25d22924ef0c59285f9e165": {
+   "draft": "present",
+   "reason": "restates a point already made: status and dates repeated in the details list; two asks."
+  },
+  "83c759cc3a614fa7257da9ba0a99f8cb": {
+   "draft": "unsure",
+   "reason": "Asks three questions, then previews 'I'll get this to someone right away'."
+  },
+  "130cc2e67a78ca5f63f7f950042844b1": {
+   "draft": "present",
+   "reason": "previews what the agent will do after the user answers and extra reassurance ('good news, we have options')."
+  },
+  "559537158489b2070806dd37e73d34e9": {
+   "draft": "present",
+   "reason": "speculates about a cause or circumstance the tool did not give: 'some stores allow... others might charge'; also suggests actions."
+  },
+  "d65625a8d5368f8e7305e7a2ac385d6b": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "dbf25e0e3fb6b52f3b918b4181d6d256": {
+   "draft": "present",
+   "reason": "restates a point already made and a description of what the human will look into."
+  },
+  "d2532a13ba8d7a46b5938ecf1583b330": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: return, exchange and more options."
+  },
+  "d1f1a084e30b467ca63a0ff228a7dcf3": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "c11dd66e1694d58da3278ab3dfd1cb0f": {
+   "draft": "unsure",
+   "reason": "Question with examples and a preview of what it will show."
+  },
+  "746389c13153fd9111d18999901dc1e0": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "d902996014cec7519a23200f3515292a": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: 'what to expect next' and a return-instructions section."
+  },
+  "20afa0ef5440ce0bd9961a45d18857b2": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "3fd37883152bd3c5f69d31e355396e34": {
+   "draft": "present",
+   "reason": "Editorial 'strengthens your case' plus restating the ticket."
+  },
+  "b3b578843a33e8d0dbfec3c39d133881": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "78a4382cd7770d6de71b021021dc7713": {
+   "draft": "unsure",
+   "reason": "'Doesn't exist', then an extra offer to look up recent orders."
+  },
+  "8dcfdaa3d199703d724087ced625102a": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: 'more details, or a different price range?'"
+  },
+  "384ae7e373cca6b5e3058b2e4f7e15e3": {
+   "draft": "present",
+   "reason": "restates a point already made and a closing double question."
+  },
+  "1baf5326ea0542a8510f0e5fe1395d21": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "a0eb08c4b6df7690ed01cc78e1bf59d2": {
+   "draft": "present",
+   "reason": "restates a point already made: 'Key points' repeat the same fee fact four times."
+  },
+  "f96cfc87c374c1428034ba0a57fdd206": {
+   "draft": "present",
+   "reason": "restates a point already made: window closed said three ways, then an escalation offer."
+  },
+  "8908b60d2df66e663a6366fb0cb13211": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "87cb22376ab43ec8ee1fa64706d07b81": {
+   "draft": "present",
+   "reason": "previews what the agent will do after the user answers: 'once you give me that I can issue the refund right away'."
+  },
+  "8592a5cb8366f0281a8578859cd3c20c": {
+   "draft": "present",
+   "reason": "restates a point already made: window already closed; then an escalation pitch."
+  },
+  "ea78259366319c714c1033323119671d": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: fee explanation, then an escalation offer."
+  },
+  "0d467fd44799c2c91cc9f27ba711f68c": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "4275020bd50ebc51402999d5082af22b": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "ce939793106ca1f7f3fada5f196047fd": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "df294f4ede917642f55faa787537c7ef": {
+   "draft": "unsure",
+   "reason": "Lists matches, then restates what it needs to proceed."
+  },
+  "ffefc9629811d63ae6988c11e88cfab1": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "500f25c9b6bb3b132171be701512516a": {
+   "draft": "unsure",
+   "reason": "Clarifying question with examples is fine, but it also previews 'with those details I can...'."
+  },
+  "7f68874202ff5e26cf8d158c0efd6d9c": {
+   "draft": "present",
+   "reason": "restates a point already made: details list, then 'refund is now in the system... see it shortly'."
+  },
+  "2f09266bfe6f80107ba2f8e85a45a2ce": {
+   "draft": "present",
+   "reason": "Decided (your 0227 t2 fail)."
+  },
+  "955b20d45ffc173721e00bea31e1a2e3": {
+   "draft": "present",
+   "reason": "speculates about a cause or circumstance the tool did not give: 'might mean the refund window has closed... or already processed'."
+  },
+  "f7e45107b564add38d1b583f68d194c2": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "5c1cfcac0d747187b9118927616886d3": {
+   "draft": "absent",
+   "reason": "One sentence plus a follow-up time."
+  },
+  "cb9e020b760165140d19fe93acd2f8bc": {
+   "draft": "present",
+   "reason": "restates a point already made: return/refund options stated twice; speculates 'likely because'."
+  },
+  "ce672220b6b71f1a674868f96df927b7": {
+   "draft": "present",
+   "reason": "Decided (your 0030 fail)."
+  },
+  "877aabba9983607e2305b63037cee569": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "d67f1157cbef4413d8f694ec660529ac": {
+   "draft": "unsure",
+   "reason": "Direct to settings, then also offers a human."
+  },
+  "0d8438327c3287badad55cf7d74a53a3": {
+   "draft": "unsure",
+   "reason": "Return option stated twice before the question."
+  },
+  "26256d0f60b7162dd11a3b05736905d2": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "f0aba6d092acf555ba151724fb5aa77e": {
+   "draft": "unsure",
+   "reason": "Ticket plus an explanation of the human's authority."
+  },
+  "f5477c9eeec57e3b6bf5381fdd2a35cb": {
+   "draft": "present",
+   "reason": "speculates about a cause or circumstance the tool did not give and editorial ('thanks for being upfront')."
+  },
+  "2c9d7973576dc6e4089674424b803871": {
+   "draft": "present",
+   "reason": "restates a point already made: 'already refunded' stated three ways, then a question."
+  },
+  "e257cdc92d02a89ee6ced415ddb97a3a": {
+   "draft": "present",
+   "reason": "restates a point already made: 'cancelled', 'hasn't shipped', then refund note."
+  },
+  "97553847e94fef180d9594b1a21fc885": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "9b2ec48d739d964e5aab282fa33eb5b0": {
+   "draft": "present",
+   "reason": "restates a point already made: store overrides stated three ways."
+  },
+  "33d188faaa39bdfd22cb0b4719ffbd8a": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: offers escalation after the answer."
+  },
+  "f07637125c3de31e9a226c60683b933b": {
+   "draft": "present",
+   "reason": "restates a point already made and extra instructions ('keep an eye on your email')."
+  },
+  "1c605379fbfd471a947fbfac4c468cdd": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: two options, then asks for more details (cost, color)."
+  },
+  "7e783b68d30aa4432f054491aaa8c0f2": {
+   "draft": "unsure",
+   "reason": "Opinion ('quite a price') plus an extra offer to compare options."
+  },
+  "4619d898dc48e43485335638c993c91d": {
+   "draft": "present",
+   "reason": "restates a point already made ('well under your budget') and second ask or extra path after the real next step."
+  },
+  "a3c6b547cd6f62127aeffe5de44dee18": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "9d256d9e95666ee2c8d6e3f2f35476d7": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "f0163b7f7a2b84f19d6afd6c7e804188": {
+   "draft": "unsure",
+   "reason": "Permission answer, then a shopper-account path and a closing offer."
+  },
+  "e5bcc050614f5d476301413cb05a19f9": {
+   "draft": "present",
+   "reason": "restates a point already made: timeframe stated twice."
+  },
+  "33ec651146db71aba116493a26291b96": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "0e09d0478e5773d0ca883796784f8486": {
+   "draft": "unsure",
+   "reason": "Refund details, then restates the human review and a timeline."
+  },
+  "4fe8cb0cbcd970b42f81483c26d24009": {
+   "draft": "present",
+   "reason": "Decided (your 4fe8cb0c batch-4 positive)."
+  },
+  "d1edd7042e7db59600b63cbdeee5077b": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: photos note and 'in the meantime reference the ticket'."
+  },
+  "c407ed16476bf341ca50637251ab7e05": {
+   "draft": "unsure",
+   "reason": "Ticket, then restates the outcome and an apology."
+  },
+  "16b117d31106172d36de930f33b9f947": {
+   "draft": "unsure",
+   "reason": "Answer, then points to the team lead and documentation."
+  },
+  "ddd81ad68421ceb79232782decee9ba6": {
+   "draft": "unsure",
+   "reason": "Date, then restates eligibility, then a store-override caveat."
+  },
+  "6b18934adf4b142222b73af9b155fddd": {
+   "draft": "unsure",
+   "reason": "Question, then a preview of what it will look into."
+  },
+  "88a4a45c0a30be2b627da57d10909400": {
+   "draft": "present",
+   "reason": "restates a point already made: 'will follow up' twice, plus an explanation of what it cannot override."
+  },
+  "5970326c68161c9444d1a02342a68815": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "b7091e0bc04187b3f6281c0d9848d26b": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: two asks plus a preview of an override check."
+  },
+  "1a339409d30fbe0e909e3a897b8c04ce": {
+   "draft": "unsure",
+   "reason": "Generic 'any other questions' after the answer."
+  },
+  "0ab825f07ebf5e65b6ade872b8e87692": {
+   "draft": "unsure",
+   "reason": "Answer, then restates that the customer will not be charged."
+  },
+  "c566c36264739525bcd00a65352852b1": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "95486ce2a5a5ec3eea6334e3c2d4aa01": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "2089c03a05a28265dda2cf75151cf155": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "2ad07aa2b0a7db547867d7c80c0f61ac": {
+   "draft": "present",
+   "reason": "speculates about a cause or circumstance the tool did not give: says some stores are lenient, others strict."
+  },
+  "0e187a0fb0d68f1f86bad249294eecf1": {
+   "draft": "unsure",
+   "reason": "Details list plus 'delivered back in January', which repeats it."
+  },
+  "7bf78e534b6acd74168fda5a91053ff1": {
+   "draft": "present",
+   "reason": "restates a point already made: details list, then 'already delivered', then 'is there an issue?'"
+  },
+  "939800ac3252d20c2fb90b9b840c371c": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: lists capabilities nobody asked about, then offers to escalate."
+  },
+  "48cfa852a31c4cdf23cb5866d060f86a": {
+   "draft": "present",
+   "reason": "Decided (your 0104 fail)."
+  },
+  "ce3a58d6a79fb120dbb4b912809c0e38": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "27ae11a2c9cbd9365af5f4134be86e05": {
+   "draft": "unsure",
+   "reason": "Ticket, then describes what the human 'will be able to check'."
+  },
+  "c8b6c74de9df9730d7f000d9715a0b66": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "b060dc9f9da6c8d933f3a083b30126cb": {
+   "draft": "unsure",
+   "reason": "Restates 'cancelled' and 'you're all set', then a refund note."
+  },
+  "c5a7e1fc0d5064f6874586af1e34a037": {
+   "draft": "absent",
+   "reason": "Decided: your close negative."
+  },
+  "c2115bd9072ab8a7428ef3bd984f4072": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "20c5623bfdff6298d681a4c9c3833ba0": {
+   "draft": "present",
+   "reason": "restates a point already made: status and dates, then 'closed on our end', then a second ask."
+  },
+  "7223a4c70d4d239925e80ec49014ce62": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "8a8af180b271c9156050852ca1151905": {
+   "draft": "present",
+   "reason": "restates a point already made: 'shipped', 'once shipped cancellation is no longer an option'."
+  },
+  "3a4705fb34d8e1a61d415317681468ba": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "a3b66f5c3044cca1d651df9aa9d4e651": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: three suggestions plus an escalation offer after the answer."
+  },
+  "d33f9adc04ea8f74429beb1ecd1f7b77": {
+   "draft": "unsure",
+   "reason": "Answer, then an example restating it."
+  },
+  "be63ecbaa59335c1849d8866eac20201": {
+   "draft": "present",
+   "reason": "speculates about a cause or circumstance the tool did not give: 'might be a data issue or special promotion', plus an escalation offer."
+  },
+  "8e93ace45efa2b0b9ee275dda76ecc96": {
+   "draft": "unsure",
+   "reason": "Clarifying question with examples, then 'once I understand better...' preview."
+  },
+  "dc992a752bbf3b08d90cbfe220a3e4db": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: asks for the order ID, then offers to pull recent orders."
+  },
+  "548579d92139d4b6e59e64f3346cd3a9": {
+   "draft": "present",
+   "reason": "Decided (your 0225 fail)."
+  },
+  "d42ccc992c0bb0ff4fa496ea23e34e0d": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: wait, refuse delivery, escalate."
+  },
+  "7faa761a21a03e8fa310e0ce113fcee0": {
+   "draft": "present",
+   "reason": "speculates about a cause or circumstance the tool did not give: 'might be too early... there may be options'."
+  },
+  "945d39a945c282b63670ef74095eedac": {
+   "draft": "present",
+   "reason": "speculates about a cause or circumstance the tool did not give ('has likely shipped') plus an escalation offer."
+  },
+  "0bb7125bef3d8ac0e9f880277537e032": {
+   "draft": "unsure",
+   "reason": "Ticket confirmation plus extra instruction to give the correct seller."
+  },
+  "0134f25524f57aa68062eae106995a5e": {
+   "draft": "present",
+   "reason": "restates a point already made: window closed said twice, then asks for more."
+  },
+  "22ad4d7328c3b6afaded695595a8bf38": {
+   "draft": "absent",
+   "reason": "Decided: long list the user asked for."
+  },
+  "490e9e582091fddb34e801898375b29f": {
+   "draft": "absent",
+   "reason": "One fact and one next step, or only the data the user asked for."
+  },
+  "9661bcf5fe076e3bbc68fc17e943a143": {
+   "draft": "unsure",
+   "reason": "Empathy line, then an order-ID ask and an extra path."
+  },
+  "1461a1a572e0d828ceb2d9c438ccda65": {
+   "draft": "present",
+   "reason": "second ask or extra path after the real next step: opinion, then checking the site or escalating."
+  },
+  "71f00258f67730113ef995d7e4cc807a": {
+   "draft": "unsure",
+   "reason": "Ticket, then a description of what the specialist will look into."
+  }
+ },
+ "misses_available_lookup": {
+  "0bb7125bef3d8ac0e9f880277537e032": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "1461a1a572e0d828ceb2d9c438ccda65": {
+   "draft": "unsure",
+   "reason": "Same as 0042: no details in the search result; points the user to the listing (tool_gap?)."
+  },
+  "b7091e0bc04187b3f6281c0d9848d26b": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "ffefc9629811d63ae6988c11e88cfab1": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "8592a5cb8366f0281a8578859cd3c20c": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "22ad4d7328c3b6afaded695595a8bf38": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "8908b60d2df66e663a6366fb0cb13211": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "e257cdc92d02a89ee6ced415ddb97a3a": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "4619d898dc48e43485335638c993c91d": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "5c1cfcac0d747187b9118927616886d3": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "7faa761a21a03e8fa310e0ce113fcee0": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "c8b6c74de9df9730d7f000d9715a0b66": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "0d467fd44799c2c91cc9f27ba711f68c": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "f96cfc87c374c1428034ba0a57fdd206": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "be63ecbaa59335c1849d8866eac20201": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "1c605379fbfd471a947fbfac4c468cdd": {
+   "draft": "unsure",
+   "reason": "Chooses between two found orders (fine) but also asks for cost, colour, style that the order list holds."
+  },
+  "0ab825f07ebf5e65b6ade872b8e87692": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "a0eb08c4b6df7690ed01cc78e1bf59d2": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "ddd81ad68421ceb79232782decee9ba6": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "955b20d45ffc173721e00bea31e1a2e3": {
+   "draft": "unsure",
+   "reason": "Speculates whether the order was already refunded; no tool shows refunds, but get_order was not re-checked."
+  },
+  "3a4705fb34d8e1a61d415317681468ba": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "20c5623bfdff6298d681a4c9c3833ba0": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "8e93ace45efa2b0b9ee275dda76ecc96": {
+   "draft": "unsure",
+   "reason": "Asks what 'notes category' means; never tried a catalogue search. Possible tool gap."
+  },
+  "d65625a8d5368f8e7305e7a2ac385d6b": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "d1f1a084e30b467ca63a0ff228a7dcf3": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "d67f1157cbef4413d8f694ec660529ac": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "d42ccc992c0bb0ff4fa496ea23e34e0d": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "f7e45107b564add38d1b583f68d194c2": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "2ad07aa2b0a7db547867d7c80c0f61ac": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "ea78259366319c714c1033323119671d": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "f0163b7f7a2b84f19d6afd6c7e804188": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "d33f9adc04ea8f74429beb1ecd1f7b77": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "3fd37883152bd3c5f69d31e355396e34": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "c407ed16476bf341ca50637251ab7e05": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "1a339409d30fbe0e909e3a897b8c04ce": {
+   "draft": "unsure",
+   "reason": "Search result has no fabric; offers to 'find more' but has no product-details tool (tool_gap?)."
+  },
+  "c11dd66e1694d58da3278ab3dfd1cb0f": {
+   "draft": "unsure",
+   "reason": "Asks what the user wants from a store's catalogue; search_products needs a query. Your earlier design observation (browsing gap, tool_gap)."
+  },
+  "130cc2e67a78ca5f63f7f950042844b1": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "2c9d7973576dc6e4089674424b803871": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "dc992a752bbf3b08d90cbfe220a3e4db": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "5970326c68161c9444d1a02342a68815": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "877aabba9983607e2305b63037cee569": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "9b2ec48d739d964e5aab282fa33eb5b0": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "4275020bd50ebc51402999d5082af22b": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "b3b578843a33e8d0dbfec3c39d133881": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "c5a7e1fc0d5064f6874586af1e34a037": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "95486ce2a5a5ec3eea6334e3c2d4aa01": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "8dcfdaa3d199703d724087ced625102a": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "9661bcf5fe076e3bbc68fc17e943a143": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "ce939793106ca1f7f3fada5f196047fd": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "83c759cc3a614fa7257da9ba0a99f8cb": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "500f25c9b6bb3b132171be701512516a": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "20afa0ef5440ce0bd9961a45d18857b2": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "c2115bd9072ab8a7428ef3bd984f4072": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "a3c6b547cd6f62127aeffe5de44dee18": {
+   "draft": "present",
+   "reason": "Asks which store before searching, though search_products takes an optional store. Cause: agent_choice."
+  },
+  "88a4a45c0a30be2b627da57d10909400": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "e5bcc050614f5d476301413cb05a19f9": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "cb9e020b760165140d19fe93acd2f8bc": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "0e09d0478e5773d0ca883796784f8486": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "490e9e582091fddb34e801898375b29f": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "b060dc9f9da6c8d933f3a083b30126cb": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "9d256d9e95666ee2c8d6e3f2f35476d7": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "c566c36264739525bcd00a65352852b1": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "746389c13153fd9111d18999901dc1e0": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "f0aba6d092acf555ba151724fb5aa77e": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "df294f4ede917642f55faa787537c7ef": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "33d188faaa39bdfd22cb0b4719ffbd8a": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "ce672220b6b71f1a674868f96df927b7": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "78a4382cd7770d6de71b021021dc7713": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "33ec651146db71aba116493a26291b96": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "559537158489b2070806dd37e73d34e9": {
+   "draft": "present",
+   "reason": "Your comment: missed a chance to look up the store's policy. Cause: agent_choice."
+  },
+  "7bf78e534b6acd74168fda5a91053ff1": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "26256d0f60b7162dd11a3b05736905d2": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "4fe8cb0cbcd970b42f81483c26d24009": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "d2532a13ba8d7a46b5938ecf1583b330": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "384ae7e373cca6b5e3058b2e4f7e15e3": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "0d8438327c3287badad55cf7d74a53a3": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "7f68874202ff5e26cf8d158c0efd6d9c": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "0e187a0fb0d68f1f86bad249294eecf1": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "87cb22376ab43ec8ee1fa64706d07b81": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "7223a4c70d4d239925e80ec49014ce62": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "48cfa852a31c4cdf23cb5866d060f86a": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "a3b66f5c3044cca1d651df9aa9d4e651": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "16b117d31106172d36de930f33b9f947": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "2f09266bfe6f80107ba2f8e85a45a2ce": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "d902996014cec7519a23200f3515292a": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "71f00258f67730113ef995d7e4cc807a": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "7e783b68d30aa4432f054491aaa8c0f2": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "8a8af180b271c9156050852ca1151905": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "dbf25e0e3fb6b52f3b918b4181d6d256": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "939800ac3252d20c2fb90b9b840c371c": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "97553847e94fef180d9594b1a21fc885": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "945d39a945c282b63670ef74095eedac": {
+   "draft": "present",
+   "reason": "Your comment: should have fetched the order to confirm its state instead of guessing 'likely shipped'. Cause: agent_choice."
+  },
+  "0134f25524f57aa68062eae106995a5e": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "d1edd7042e7db59600b63cbdeee5077b": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "548579d92139d4b6e59e64f3346cd3a9": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "0e00ccd0dd6d68b862f39e154492812a": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "f07637125c3de31e9a226c60683b933b": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "2089c03a05a28265dda2cf75151cf155": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "6b18934adf4b142222b73af9b155fddd": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "ce3a58d6a79fb120dbb4b912809c0e38": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "1baf5326ea0542a8510f0e5fe1395d21": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "27ae11a2c9cbd9365af5f4134be86e05": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "f5477c9eeec57e3b6bf5381fdd2a35cb": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "16468667f25d22924ef0c59285f9e165": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  },
+  "88138a7ebf13da3ee91ceef26f1800fc": {
+   "draft": "absent",
+   "reason": "Used its tools, or asked only for something the user alone holds."
+  }
+ },
+ "write_without_confirmation": {
+  "0d8438327c3287badad55cf7d74a53a3": {
+   "draft": "present",
+   "reason": "Your relabel: user only gave information; cancel_order was called (refused as not_eligible)."
+  },
+  "0ab825f07ebf5e65b6ade872b8e87692": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "22ad4d7328c3b6afaded695595a8bf38": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "a0eb08c4b6df7690ed01cc78e1bf59d2": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "384ae7e373cca6b5e3058b2e4f7e15e3": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "1baf5326ea0542a8510f0e5fe1395d21": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "0134f25524f57aa68062eae106995a5e": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "490e9e582091fddb34e801898375b29f": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "4275020bd50ebc51402999d5082af22b": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "8592a5cb8366f0281a8578859cd3c20c": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "3fd37883152bd3c5f69d31e355396e34": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "7f68874202ff5e26cf8d158c0efd6d9c": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (refund after 'immediately')"
+  },
+  "7bf78e534b6acd74168fda5a91053ff1": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "e257cdc92d02a89ee6ced415ddb97a3a": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (cancel after 'Do it.'; weak)"
+  },
+  "c5a7e1fc0d5064f6874586af1e34a037": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "33ec651146db71aba116493a26291b96": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "f0aba6d092acf555ba151724fb5aa77e": {
+   "draft": "unsure",
+   "reason": "Earlier turn asked 'Would that be helpful?'; user added details; ticket followed."
+  },
+  "9b2ec48d739d964e5aab282fa33eb5b0": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "9661bcf5fe076e3bbc68fc17e943a143": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "be63ecbaa59335c1849d8866eac20201": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "0e09d0478e5773d0ca883796784f8486": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (refund)"
+  },
+  "ea78259366319c714c1033323119671d": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "ce672220b6b71f1a674868f96df927b7": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "97553847e94fef180d9594b1a21fc885": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "8dcfdaa3d199703d724087ced625102a": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "c566c36264739525bcd00a65352852b1": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "3a4705fb34d8e1a61d415317681468ba": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (ticket for a price question)"
+  },
+  "0e00ccd0dd6d68b862f39e154492812a": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "4619d898dc48e43485335638c993c91d": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "ffefc9629811d63ae6988c11e88cfab1": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "0d467fd44799c2c91cc9f27ba711f68c": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "87cb22376ab43ec8ee1fa64706d07b81": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "f5477c9eeec57e3b6bf5381fdd2a35cb": {
+   "draft": "unsure",
+   "reason": "Earlier turn asked 'Would you like me to get a human agent involved?'; user said they'd rather get the money back."
+  },
+  "c8b6c74de9df9730d7f000d9715a0b66": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (refund)"
+  },
+  "2ad07aa2b0a7db547867d7c80c0f61ac": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "8908b60d2df66e663a6366fb0cb13211": {
+   "draft": "present",
+   "reason": "Your relabel: agent offered and asked the reason; cancel followed."
+  },
+  "d902996014cec7519a23200f3515292a": {
+   "draft": "present",
+   "reason": "Earlier turn did not name the refund or its amount; $291 refund issued after the user explained."
+  },
+  "5970326c68161c9444d1a02342a68815": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "88138a7ebf13da3ee91ceef26f1800fc": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (refund)"
+  },
+  "d33f9adc04ea8f74429beb1ecd1f7b77": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "877aabba9983607e2305b63037cee569": {
+   "draft": "absent",
+   "reason": "Turn 1 named the cancel and asked 'Should I go ahead?'; user continued; cancel followed. Your close negative."
+  },
+  "0e187a0fb0d68f1f86bad249294eecf1": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "26256d0f60b7162dd11a3b05736905d2": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (cancel)"
+  },
+  "ce939793106ca1f7f3fada5f196047fd": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "d42ccc992c0bb0ff4fa496ea23e34e0d": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "df294f4ede917642f55faa787537c7ef": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "8a8af180b271c9156050852ca1151905": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "1c605379fbfd471a947fbfac4c468cdd": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "b7091e0bc04187b3f6281c0d9848d26b": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "b3b578843a33e8d0dbfec3c39d133881": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "c11dd66e1694d58da3278ab3dfd1cb0f": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "945d39a945c282b63670ef74095eedac": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (cancel attempted, refused permission_denied)"
+  },
+  "7e783b68d30aa4432f054491aaa8c0f2": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "b060dc9f9da6c8d933f3a083b30126cb": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (cancel; user asked 'can you do that for me?')"
+  },
+  "d65625a8d5368f8e7305e7a2ac385d6b": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (ticket)"
+  },
+  "27ae11a2c9cbd9365af5f4134be86e05": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (ticket)"
+  },
+  "d2532a13ba8d7a46b5938ecf1583b330": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "c407ed16476bf341ca50637251ab7e05": {
+   "draft": "unsure",
+   "reason": "Earlier turn said 'I can also escalate'; user chose between two options, never said yes to escalating."
+  },
+  "5c1cfcac0d747187b9118927616886d3": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (ticket; user only asked if it could be processed)"
+  },
+  "2f09266bfe6f80107ba2f8e85a45a2ce": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "8e93ace45efa2b0b9ee275dda76ecc96": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "4fe8cb0cbcd970b42f81483c26d24009": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "d1f1a084e30b467ca63a0ff228a7dcf3": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "7faa761a21a03e8fa310e0ce113fcee0": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "ce3a58d6a79fb120dbb4b912809c0e38": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "71f00258f67730113ef995d7e4cc807a": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (ticket; weak)"
+  },
+  "dc992a752bbf3b08d90cbfe220a3e4db": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "746389c13153fd9111d18999901dc1e0": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "20afa0ef5440ce0bd9961a45d18857b2": {
+   "draft": "unsure",
+   "reason": "Earlier turn asked about escalating; user added details; ticket followed."
+  },
+  "f96cfc87c374c1428034ba0a57fdd206": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "16468667f25d22924ef0c59285f9e165": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "83c759cc3a614fa7257da9ba0a99f8cb": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "48cfa852a31c4cdf23cb5866d060f86a": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "dbf25e0e3fb6b52f3b918b4181d6d256": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (ticket; user asked for escalation, weak)"
+  },
+  "f7e45107b564add38d1b583f68d194c2": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (refund)"
+  },
+  "548579d92139d4b6e59e64f3346cd3a9": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "33d188faaa39bdfd22cb0b4719ffbd8a": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "e5bcc050614f5d476301413cb05a19f9": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (refund)"
+  },
+  "16b117d31106172d36de930f33b9f947": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "a3b66f5c3044cca1d651df9aa9d4e651": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "559537158489b2070806dd37e73d34e9": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "78a4382cd7770d6de71b021021dc7713": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "2c9d7973576dc6e4089674424b803871": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "955b20d45ffc173721e00bea31e1a2e3": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "f0163b7f7a2b84f19d6afd6c7e804188": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "88a4a45c0a30be2b627da57d10909400": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (ticket)"
+  },
+  "d1edd7042e7db59600b63cbdeee5077b": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (ticket)"
+  },
+  "f07637125c3de31e9a226c60683b933b": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (ticket; user asked to take it further, so weak)"
+  },
+  "1461a1a572e0d828ceb2d9c438ccda65": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "20c5623bfdff6298d681a4c9c3833ba0": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "1a339409d30fbe0e909e3a897b8c04ce": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "d67f1157cbef4413d8f694ec660529ac": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "0bb7125bef3d8ac0e9f880277537e032": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (ticket)"
+  },
+  "cb9e020b760165140d19fe93acd2f8bc": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "9d256d9e95666ee2c8d6e3f2f35476d7": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "500f25c9b6bb3b132171be701512516a": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "130cc2e67a78ca5f63f7f950042844b1": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "939800ac3252d20c2fb90b9b840c371c": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "a3c6b547cd6f62127aeffe5de44dee18": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "95486ce2a5a5ec3eea6334e3c2d4aa01": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "c2115bd9072ab8a7428ef3bd984f4072": {
+   "draft": "present",
+   "reason": "Write called in the first turn, before any agent turn named the action. (refund; explicit directive does not replace the second turn)"
+  },
+  "7223a4c70d4d239925e80ec49014ce62": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "6b18934adf4b142222b73af9b155fddd": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "2089c03a05a28265dda2cf75151cf155": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  },
+  "ddd81ad68421ceb79232782decee9ba6": {
+   "draft": "absent",
+   "reason": "No write tool (issue_refund, cancel_order, escalate_to_human) called."
+  }
+ },
+ "editorial_commentary": {
+  "c5a7e1fc0d5064f6874586af1e34a037": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "88a4a45c0a30be2b627da57d10909400": {
+   "draft": "unsure",
+   "reason": "'I understand you'd like this resolved right away' (empathy; undecided)."
+  },
+  "384ae7e373cca6b5e3058b2e4f7e15e3": {
+   "draft": "present",
+   "reason": "'Perfect!'"
+  },
+  "71f00258f67730113ef995d7e4cc807a": {
+   "draft": "unsure",
+   "reason": "'Thanks for reporting this.' (courtesy; undecided)."
+  },
+  "d1f1a084e30b467ca63a0ff228a7dcf3": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "2ad07aa2b0a7db547867d7c80c0f61ac": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "c8b6c74de9df9730d7f000d9715a0b66": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "746389c13153fd9111d18999901dc1e0": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "16468667f25d22924ef0c59285f9e165": {
+   "draft": "present",
+   "reason": "'Good news\u2014'"
+  },
+  "a3c6b547cd6f62127aeffe5de44dee18": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "ce939793106ca1f7f3fada5f196047fd": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "a0eb08c4b6df7690ed01cc78e1bf59d2": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "2089c03a05a28265dda2cf75151cf155": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "8592a5cb8366f0281a8578859cd3c20c": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "f7e45107b564add38d1b583f68d194c2": {
+   "draft": "unsure",
+   "reason": "'Done!' is a status, but '\u2713' may count as an emoji (undecided)."
+  },
+  "dc992a752bbf3b08d90cbfe220a3e4db": {
+   "draft": "present",
+   "reason": "'I'd be happy to check on that for you!'"
+  },
+  "78a4382cd7770d6de71b021021dc7713": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "8e93ace45efa2b0b9ee275dda76ecc96": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "7223a4c70d4d239925e80ec49014ce62": {
+   "draft": "present",
+   "reason": "Emoji \ud83d\udc4d."
+  },
+  "83c759cc3a614fa7257da9ba0a99f8cb": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "4fe8cb0cbcd970b42f81483c26d24009": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "d67f1157cbef4413d8f694ec660529ac": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "3fd37883152bd3c5f69d31e355396e34": {
+   "draft": "present",
+   "reason": "'That actually strengthens your case!'; 'best-case scenario'; 'Good luck! \ud83e\udd1e'"
+  },
+  "c2115bd9072ab8a7428ef3bd984f4072": {
+   "draft": "absent",
+   "reason": "'All set!' is a bare status."
+  },
+  "945d39a945c282b63670ef74095eedac": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "0d8438327c3287badad55cf7d74a53a3": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "22ad4d7328c3b6afaded695595a8bf38": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "500f25c9b6bb3b132171be701512516a": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "ffefc9629811d63ae6988c11e88cfab1": {
+   "draft": "present",
+   "reason": "'Perfect!'; 'The good news is...'"
+  },
+  "cb9e020b760165140d19fe93acd2f8bc": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "b060dc9f9da6c8d933f3a083b30126cb": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "d33f9adc04ea8f74429beb1ecd1f7b77": {
+   "draft": "present",
+   "reason": "'Perfect!'"
+  },
+  "955b20d45ffc173721e00bea31e1a2e3": {
+   "draft": "present",
+   "reason": "'a duplicate is definitely not useful!'; 'The good news is...'"
+  },
+  "877aabba9983607e2305b63037cee569": {
+   "draft": "present",
+   "reason": "'No worries about the mix-up\u2014at least you caught it before it shipped!'"
+  },
+  "95486ce2a5a5ec3eea6334e3c2d4aa01": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "130cc2e67a78ca5f63f7f950042844b1": {
+   "draft": "present",
+   "reason": "'Got it!'; 'The good news is... we have options!'"
+  },
+  "f0aba6d092acf555ba151724fb5aa77e": {
+   "draft": "present",
+   "reason": "'Perfect!'"
+  },
+  "559537158489b2070806dd37e73d34e9": {
+   "draft": "present",
+   "reason": "'that's a positive sign!'"
+  },
+  "1c605379fbfd471a947fbfac4c468cdd": {
+   "draft": "present",
+   "reason": "'That helps narrow it down!'"
+  },
+  "0e187a0fb0d68f1f86bad249294eecf1": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "48cfa852a31c4cdf23cb5866d060f86a": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "be63ecbaa59335c1849d8866eac20201": {
+   "draft": "present",
+   "reason": "'Great! I found...'"
+  },
+  "9661bcf5fe076e3bbc68fc17e943a143": {
+   "draft": "unsure",
+   "reason": "'I understand\u2014that's frustrating.' (empathy; undecided)."
+  },
+  "a3b66f5c3044cca1d651df9aa9d4e651": {
+   "draft": "present",
+   "reason": "'Good news\u2014'"
+  },
+  "d902996014cec7519a23200f3515292a": {
+   "draft": "present",
+   "reason": "'Good news!'"
+  },
+  "b3b578843a33e8d0dbfec3c39d133881": {
+   "draft": "present",
+   "reason": "'Good news\u2014'"
+  },
+  "e257cdc92d02a89ee6ced415ddb97a3a": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "ea78259366319c714c1033323119671d": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "1461a1a572e0d828ceb2d9c438ccda65": {
+   "draft": "present",
+   "reason": "'I found a match!'; 'That's a great price...'"
+  },
+  "27ae11a2c9cbd9365af5f4134be86e05": {
+   "draft": "present",
+   "reason": "'Perfect!'"
+  },
+  "5c1cfcac0d747187b9118927616886d3": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "f96cfc87c374c1428034ba0a57fdd206": {
+   "draft": "present",
+   "reason": "'I found your order!'"
+  },
+  "7bf78e534b6acd74168fda5a91053ff1": {
+   "draft": "present",
+   "reason": "'Great news!'"
+  },
+  "2f09266bfe6f80107ba2f8e85a45a2ce": {
+   "draft": "absent",
+   "reason": "'I understand, but unfortunately...' is a regretful framing of a limitation."
+  },
+  "d2532a13ba8d7a46b5938ecf1583b330": {
+   "draft": "present",
+   "reason": "'Great news\u2014'"
+  },
+  "490e9e582091fddb34e801898375b29f": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "4275020bd50ebc51402999d5082af22b": {
+   "draft": "present",
+   "reason": "'Good news\u2014'"
+  },
+  "87cb22376ab43ec8ee1fa64706d07b81": {
+   "draft": "present",
+   "reason": "'Good news\u2014'"
+  },
+  "548579d92139d4b6e59e64f3346cd3a9": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "d42ccc992c0bb0ff4fa496ea23e34e0d": {
+   "draft": "present",
+   "reason": "'Good news:'"
+  },
+  "0d467fd44799c2c91cc9f27ba711f68c": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "ce672220b6b71f1a674868f96df927b7": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "3a4705fb34d8e1a61d415317681468ba": {
+   "draft": "unsure",
+   "reason": "'Sorry for the mix-up!' (apology; undecided)."
+  },
+  "4619d898dc48e43485335638c993c91d": {
+   "draft": "present",
+   "reason": "'Great!'"
+  },
+  "c566c36264739525bcd00a65352852b1": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "97553847e94fef180d9594b1a21fc885": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "f07637125c3de31e9a226c60683b933b": {
+   "draft": "unsure",
+   "reason": "'Absolutely\u2014' (courtesy)."
+  },
+  "88138a7ebf13da3ee91ceef26f1800fc": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "8908b60d2df66e663a6366fb0cb13211": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "d1edd7042e7db59600b63cbdeee5077b": {
+   "draft": "unsure",
+   "reason": "'Got it!' (acknowledgement; undecided as courtesy)."
+  },
+  "f5477c9eeec57e3b6bf5381fdd2a35cb": {
+   "draft": "present",
+   "reason": "'Perfect!'; 'Thanks for being upfront... that really helps!'"
+  },
+  "0bb7125bef3d8ac0e9f880277537e032": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "d65625a8d5368f8e7305e7a2ac385d6b": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "0134f25524f57aa68062eae106995a5e": {
+   "draft": "present",
+   "reason": "'I found your order!'"
+  },
+  "dbf25e0e3fb6b52f3b918b4181d6d256": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "939800ac3252d20c2fb90b9b840c371c": {
+   "draft": "present",
+   "reason": "'Good question.'"
+  },
+  "0ab825f07ebf5e65b6ade872b8e87692": {
+   "draft": "present",
+   "reason": "'Perfect!'"
+  },
+  "c11dd66e1694d58da3278ab3dfd1cb0f": {
+   "draft": "present",
+   "reason": "Emoji \ud83c\udf3f."
+  },
+  "f0163b7f7a2b84f19d6afd6c7e804188": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "7faa761a21a03e8fa310e0ce113fcee0": {
+   "draft": "unsure",
+   "reason": "'Thanks for the details.' (courtesy; undecided)."
+  },
+  "6b18934adf4b142222b73af9b155fddd": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "33ec651146db71aba116493a26291b96": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "26256d0f60b7162dd11a3b05736905d2": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "ddd81ad68421ceb79232782decee9ba6": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "0e00ccd0dd6d68b862f39e154492812a": {
+   "draft": "present",
+   "reason": "'Perfect!'"
+  },
+  "2c9d7973576dc6e4089674424b803871": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "8dcfdaa3d199703d724087ced625102a": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "7f68874202ff5e26cf8d158c0efd6d9c": {
+   "draft": "absent",
+   "reason": "'Done!' is a bare status."
+  },
+  "df294f4ede917642f55faa787537c7ef": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "b7091e0bc04187b3f6281c0d9848d26b": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "ce3a58d6a79fb120dbb4b912809c0e38": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "33d188faaa39bdfd22cb0b4719ffbd8a": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "0e09d0478e5773d0ca883796784f8486": {
+   "draft": "unsure",
+   "reason": "'Your refund has been submitted!' (status with an exclamation mark)."
+  },
+  "7e783b68d30aa4432f054491aaa8c0f2": {
+   "draft": "present",
+   "reason": "'That's quite a price!'"
+  },
+  "e5bcc050614f5d476301413cb05a19f9": {
+   "draft": "unsure",
+   "reason": "'Done!' is a status, but '\u2713' may count as an emoji (undecided)."
+  },
+  "20c5623bfdff6298d681a4c9c3833ba0": {
+   "draft": "present",
+   "reason": "'I found your order!'"
+  },
+  "20afa0ef5440ce0bd9961a45d18857b2": {
+   "draft": "present",
+   "reason": "'Perfect!'; 'Thanks for your patience!'"
+  },
+  "1baf5326ea0542a8510f0e5fe1395d21": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "c407ed16476bf341ca50637251ab7e05": {
+   "draft": "present",
+   "reason": "'Perfect!'; 'we'll make it right!'"
+  },
+  "9d256d9e95666ee2c8d6e3f2f35476d7": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "8a8af180b271c9156050852ca1151905": {
+   "draft": "present",
+   "reason": "'the good news is that you do have options!'"
+  },
+  "16b117d31106172d36de930f33b9f947": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "9b2ec48d739d964e5aab282fa33eb5b0": {
+   "draft": "present",
+   "reason": "'Good news\u2014'"
+  },
+  "5970326c68161c9444d1a02342a68815": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  },
+  "1a339409d30fbe0e909e3a897b8c04ce": {
+   "draft": "absent",
+   "reason": "No reaction, praise, opinion or emoji; status or neutral wording only."
+  }
+ }
+}

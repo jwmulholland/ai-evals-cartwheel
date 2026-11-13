@@ -1,1 +1,748 @@
-{"modes": []}
+{
+  "updated": "2026-11-11",
+  "stage": "final taxonomy v1 after batch 4 convergence check; user rules from test cases",
+  "modes": [
+    {
+      "name": "editorial_commentary",
+      "status": "final",
+      "definition": "The reply reacts to the outcome, the price or amount, the user's situation, or the agent's own progress with praise, celebration, enthusiasm or opinion (for example \"Perfect!\", \"Good news\u2014\", \"That's quite a price!\", \"I found your order!\"), or uses an emoji. Not a failure: a bare status (\"Done\", \"All set\") or a regretful framing of a refusal or limitation (\"Unfortunately, it isn't eligible\").",
+      "example_trace_ids": [
+        "0134f25524f57aa68062eae106995a5e",
+        "0ab825f07ebf5e65b6ade872b8e87692",
+        "0e00ccd0dd6d68b862f39e154492812a",
+        "130cc2e67a78ca5f63f7f950042844b1",
+        "1461a1a572e0d828ceb2d9c438ccda65",
+        "16468667f25d22924ef0c59285f9e165",
+        "1c605379fbfd471a947fbfac4c468cdd",
+        "20afa0ef5440ce0bd9961a45d18857b2",
+        "20c5623bfdff6298d681a4c9c3833ba0",
+        "27ae11a2c9cbd9365af5f4134be86e05",
+        "2f09266bfe6f80107ba2f8e85a45a2ce",
+        "384ae7e373cca6b5e3058b2e4f7e15e3",
+        "3a4705fb34d8e1a61d415317681468ba",
+        "3fd37883152bd3c5f69d31e355396e34",
+        "4275020bd50ebc51402999d5082af22b",
+        "4619d898dc48e43485335638c993c91d",
+        "559537158489b2070806dd37e73d34e9",
+        "7bf78e534b6acd74168fda5a91053ff1",
+        "7e783b68d30aa4432f054491aaa8c0f2",
+        "8592a5cb8366f0281a8578859cd3c20c",
+        "87cb22376ab43ec8ee1fa64706d07b81",
+        "8a8af180b271c9156050852ca1151905",
+        "939800ac3252d20c2fb90b9b840c371c",
+        "955b20d45ffc173721e00bea31e1a2e3",
+        "9661bcf5fe076e3bbc68fc17e943a143",
+        "9b2ec48d739d964e5aab282fa33eb5b0",
+        "a3b66f5c3044cca1d651df9aa9d4e651",
+        "b3b578843a33e8d0dbfec3c39d133881",
+        "be63ecbaa59335c1849d8866eac20201",
+        "c407ed16476bf341ca50637251ab7e05",
+        "c8b6c74de9df9730d7f000d9715a0b66",
+        "d2532a13ba8d7a46b5938ecf1583b330",
+        "d33f9adc04ea8f74429beb1ecd1f7b77",
+        "d42ccc992c0bb0ff4fa496ea23e34e0d",
+        "d902996014cec7519a23200f3515292a",
+        "ea78259366319c714c1033323119671d",
+        "f0aba6d092acf555ba151724fb5aa77e",
+        "f5477c9eeec57e3b6bf5381fdd2a35cb",
+        "f96cfc87c374c1428034ba0a57fdd206",
+        "ffefc9629811d63ae6988c11e88cfab1"
+      ],
+      "note_ids": [
+        "a-mw9ssrovtvk2o",
+        "a-mw9tld3a43i35",
+        "a-mw9tnal2wcw3h",
+        "a-mw9tzjqa4k2p8",
+        "a-mw9u1klapajbb",
+        "a-mw9u2auuke820",
+        "a-mw9u4kmizc3ah",
+        "a-mw9u749xx8mb8",
+        "a-mw9uc0uimal72",
+        "a-mw9ukdgffdam5",
+        "a-mw9ummywi9ts9",
+        "a-mw9ur9ry6r1jd",
+        "a-mw9waumm8gu32",
+        "a-mw9xghoowscf5",
+        "a-mwas1c1o63wpj",
+        "a-mwas4rov3i7rj",
+        "a-mwas6mtp7v49x",
+        "a-mwasca3w1b7o9",
+        "a-mwasdinwdi8sx",
+        "a-mwasfps0kskiy",
+        "a-mwasgo6smu2oh",
+        "a-mwasjcfzzwstu",
+        "a-mwasm4aog51lg"
+      ],
+      "example_quotes": [
+        "The good news is your order is eligible for a refund, so we have options!",
+        "Good news\u2014",
+        "Perfect!"
+      ],
+      "evaluator_guess": "LLM judge",
+      "spec": {
+        "requirement": "RESP-4",
+        "status": "revision pending, reviewer to write: state the result; no praise, celebration, enthusiasm or comment on prices or the user's situation; bare status words and regret when refusing are allowed"
+      },
+      "boundary": null,
+      "close_negative_trace_ids": [
+        "548579d92139d4b6e59e64f3346cd3a9",
+        "0d8438327c3287badad55cf7d74a53a3",
+        "1a339409d30fbe0e909e3a897b8c04ce",
+        "c566c36264739525bcd00a65352852b1",
+        "f7e45107b564add38d1b583f68d194c2",
+        "ddd81ad68421ceb79232782decee9ba6",
+        "ce939793106ca1f7f3fada5f196047fd",
+        "cb9e020b760165140d19fe93acd2f8bc"
+      ],
+      "rule_history": [
+        {
+          "revised": "2026-11-11T14:17:07+00:00",
+          "from": "drafted by the assistant: any exclamation mark, emoji, or valence phrase including \"Unfortunately\"",
+          "to": "reaction versus status, set by the reviewer's answers to four test sentences: \"Unfortunately, order 1981 has already shipped\u2026\" pass; \"Done! Your refund \u2026 approved\" pass; \"I found your order!\" fail; \"\u2026$38.25. \ud83d\udc4d\" fail",
+          "why": "the reviewer's own labels showed \"Unfortunately\" passed five times and was flagged once, \"Done!\" and \"All set!\" passed, and the same phrases (\"Perfect!\", \"Good news\", \"I found your order!\") were both flagged and passed; the draft's assumptions about \"!\", \"Unfortunately\" and emoji were not supported"
+        },
+        {
+          "when": "2026-11-11",
+          "change": "cb9e020b (support-0227 t1) marked no_failure by user after the rule was developed: moved from positives to close negatives."
+        }
+      ],
+      "close_negative_notes": {
+        "548579d9": "\"unfortunately\" framing a refusal: passes",
+        "0d843832": "\"Unfortunately\" framing a refusal: passes",
+        "1a339409": "\"Unfortunately\" framing a limitation: passes",
+        "c566c362": "\"Unfortunately, no.\": passes",
+        "f7e45107": "\"Done!\" is a status, not a reaction: passes (it also has a check-mark symbol; whether that counts as an emoji is undecided)"
+      },
+      "undecided": [
+        "whether a check-mark symbol counts as an emoji",
+        "courtesy phrases such as \"Thanks for reporting this\" or \"I'm sorry to hear that\"; decide when a real case appears in Part E"
+      ],
+      "final_note": "Tone and phrasing ('I'd like to', 'happy to', exclamations) stay here for now; split to agent_voice only if it grows.",
+      "taxonomy_version": "v1",
+      "part_e": {
+        "fail": 40,
+        "pass": 65
+      }
+    },
+    {
+      "name": "misses_available_lookup",
+      "status": "final",
+      "definition": "The reply asks the user for information, or answers without it, when the platform already holds that information and the agent could look it up with its tools, and the user's question depends on it (for example asking for an order ID it could find, or giving a generic policy answer when the user asked for a date that depends on their order). Not a failure: asking which of several options the agent already found the user means, or asking for details only the user has (such as the nature of a complaint).",
+      "example_trace_ids": [
+        "2ad07aa2b0a7db547867d7c80c0f61ac",
+        "500f25c9b6bb3b132171be701512516a",
+        "559537158489b2070806dd37e73d34e9",
+        "78a4382cd7770d6de71b021021dc7713",
+        "7faa761a21a03e8fa310e0ce113fcee0",
+        "939800ac3252d20c2fb90b9b840c371c",
+        "945d39a945c282b63670ef74095eedac",
+        "9661bcf5fe076e3bbc68fc17e943a143",
+        "97553847e94fef180d9594b1a21fc885",
+        "b7091e0bc04187b3f6281c0d9848d26b",
+        "ce3a58d6a79fb120dbb4b912809c0e38",
+        "ce672220b6b71f1a674868f96df927b7",
+        "dc992a752bbf3b08d90cbfe220a3e4db",
+        "ddd81ad68421ceb79232782decee9ba6"
+      ],
+      "note_ids": [
+        "a-mw9sonezen8c6",
+        "a-mw9tshoj8j35e",
+        "a-mw9u9zwslba0f",
+        "a-mw9wlvi869p8p",
+        "a-mw9x2wxdtys46",
+        "a-mw9xctuhsi7ss",
+        "a-mwas2jw9k0gv7",
+        "a-mwas7ftybivkw",
+        "a-mwasku2cg0a6i",
+        "a-mw9wgn61adfhf"
+      ],
+      "example_quotes": [
+        "Do you have that?",
+        "If Order #335 hasn't been delivered yet",
+        "Do you have an **order ID** I can include?"
+      ],
+      "evaluator_guess": "LLM judge",
+      "spec": {
+        "requirement": "AUTH-1 / TOOL",
+        "status": "spec decision needed: RESP-3 allows asking for missing information, so a new requirement would say to look up orders and context first, and to answer questions that depend on an order from the order, not from the general policy"
+      },
+      "boundary": "0057 (answered generally instead of fetching the specific date) is kept out; it is a separate note, not a mode, for now",
+      "close_negative_trace_ids": [
+        "6b18934adf4b142222b73af9b155fddd",
+        "83c759cc3a614fa7257da9ba0a99f8cb",
+        "2089c03a05a28265dda2cf75151cf155",
+        "20c5623bfdff6298d681a4c9c3833ba0"
+      ],
+      "close_negative_notes": {
+        "6b18934a": "two orders found, the agent asks which one the user means: passes. The reviewer's improvement idea (an extra call per order to check return eligibility) is not a failure.",
+        "83c759cc": "asks for complaint details only the user has before escalating",
+        "2089c03a": "asks for a summary and context only the user has before escalating",
+        "20c5623b": "asks after doing the lookup"
+      },
+      "boundary_examples": [
+        {
+          "trace_id": "500f25c9b6bb3b132171be701512516a",
+          "why": "support user says the store does not match the item; no tool looks up a product by id, so the agent asks. Passes under today's tools, but the reviewer notes the gap should still show in metrics (see open_question)."
+        }
+      ],
+      "open_question": {
+        "raised": "2026-11-11T14:47:16+00:00",
+        "question": "Should the mode be defined by what the platform holds, with a separate cause tag (agent_choice or tool_gap), instead of by what the agent's tools can do today?",
+        "argument": "Reviewer: whether a miss comes from a tool gap seems incidental; the metrics should show performance before and after adding the missing tool. A definition tied to the current toolset cannot show that improvement, because adding the tool turns a pass into a failure only if the agent still asks.",
+        "affects": [
+          "500f25c9 (support-0003) would become a failure with cause tool_gap",
+          "939800ac (support-0144, support asks which dispute; no tool lists disputes) is already a positive on the reviewer's note, which conflicts with the tool-based reading"
+        ],
+        "status": "unresolved; label by the current definition for now"
+      },
+      "name_review": "Resolved 2026-11-11: user chose 'misses_available_lookup' because 'skips' implies something is there; 'misses' also covers the less tangible opportunity.",
+      "rule_history": [
+        {
+          "revised": "2026-11-11T14:47:16+00:00",
+          "from": "drafted by the assistant: asks the user for information that it could get from its tools or earlier tool results (tight; 0057 kept out)",
+          "to": "reviewer's six answers: 1 fail, 2 fail, 3 pass (extra eligibility call is an idea, not a failure), 4 pass for now (tool gap, see open_question), 5 fail, 6 fail (a deadline question depends on the order, so the agent should look it up)",
+          "why": "answer 6 widens the mode beyond asking: a generic answer that skips a lookup the question depends on is the same failure; answer 4 exposes a design choice about tool gaps"
+        },
+        {
+          "when": "2026-11-11",
+          "change": "0003 (500f25c9) is a positive: user tagged it in the UI (annotation mode 'asks_for_retrievable_info', the pre-rename name). Cause tag: tool_gap."
+        }
+      ],
+      "previous_name": "asks_for_retrievable_info",
+      "cause_tag": {
+        "values": [
+          "agent_choice",
+          "tool_gap"
+        ],
+        "note": "Label by user-visible behavior vs what the platform holds. Cause tag separates agent choice from a missing tool so before/after a tool fix is measurable."
+      },
+      "part_e_attention": [
+        "support-0003 (500f25c9): no product-to-store lookup; by the platform-holds definition it is a fail with cause tool_gap. User passed it earlier; relabel in Part E."
+      ],
+      "final_note": "See cause_tag.",
+      "cause_tag_by_trace": {
+        "500f25c9b6bb3b132171be701512516a": "tool_gap (no product-to-store lookup)"
+      },
+      "taxonomy_version": "v1",
+      "part_e": {
+        "fail": 14,
+        "pass": 91
+      }
+    },
+    {
+      "name": "escalation_handling",
+      "status": "final",
+      "definition": "FAIL when the agent offers, suggests or opens escalation to a human on its own initiative although no escalation is warranted yet: the user has not asked for a human, and has not pushed back on an answer the agent already gave clearly (policy or lookup settles the case), or the escalation is opened with no stated reason. PASS when the user asked for a human, or on a later turn the user demands more action or clarity after a clear answer and the agent then offers escalation, or the agent truly cannot resolve the request from the help center and order record (ESC-3).",
+      "example_trace_ids": [
+        "1461a1a572e0d828ceb2d9c438ccda65",
+        "27ae11a2c9cbd9365af5f4134be86e05",
+        "2f09266bfe6f80107ba2f8e85a45a2ce",
+        "33d188faaa39bdfd22cb0b4719ffbd8a",
+        "3a4705fb34d8e1a61d415317681468ba",
+        "48cfa852a31c4cdf23cb5866d060f86a",
+        "4fe8cb0cbcd970b42f81483c26d24009",
+        "500f25c9b6bb3b132171be701512516a",
+        "548579d92139d4b6e59e64f3346cd3a9",
+        "559537158489b2070806dd37e73d34e9",
+        "5c1cfcac0d747187b9118927616886d3",
+        "7faa761a21a03e8fa310e0ce113fcee0",
+        "8592a5cb8366f0281a8578859cd3c20c",
+        "88a4a45c0a30be2b627da57d10909400",
+        "945d39a945c282b63670ef74095eedac",
+        "955b20d45ffc173721e00bea31e1a2e3",
+        "a3b66f5c3044cca1d651df9aa9d4e651",
+        "d1edd7042e7db59600b63cbdeee5077b",
+        "d42ccc992c0bb0ff4fa496ea23e34e0d",
+        "d65625a8d5368f8e7305e7a2ac385d6b",
+        "ea78259366319c714c1033323119671d",
+        "f0aba6d092acf555ba151724fb5aa77e",
+        "f96cfc87c374c1428034ba0a57fdd206"
+      ],
+      "note_ids": [
+        "a-mw9tg7x8rk12r",
+        "a-mw9uqet0ekli4",
+        "a-mw9uz0pzoev67",
+        "a-mwarxid35f3a2"
+      ],
+      "example_quotes": [
+        "I've opened a ticket for our team (ticket #156) to get you the correct price and description for the Rustic Pitcher. Someone will follow up with you within 24 hours. Sorry for the mix-up!",
+        " I'd like to escalate this to our human support team. Given that the item is in perfect condition with tags still on, they may be able to work with you\u2014but I don't have the authority to override the policy on my own.\n\nWould you like me to get a human agent involved to see if there's anything they can do?",
+        "This is worth escalating to a human agent, though\u2014they can check the specific store's policy, assess the condition of your item, and see if there's any flexibility given your circumstances. Want me to send this up?"
+      ],
+      "evaluator_guess": "LLM judge",
+      "spec": {
+        "requirement": "ESC-3 / ESC-4",
+        "status": "may split into message wording versus when to escalate"
+      },
+      "boundary": "Concerns WHEN the agent offers or opens escalation. Opening a ticket without asking the user belongs to write_without_confirmation. Phrasing of an acceptable offer ('I'd like to', 'happy to') and length belong elsewhere (editorial_commentary / over_explaining).",
+      "rule_history": [
+        {
+          "when": "2026-11-11",
+          "change": "Rewritten after test cases E1-E6. Narrowed from 'wording and appropriateness of an escalation message' to WHEN escalation is offered. Dropped the 'pads the reason' clause and the human-sounding phrasing ('I'd like to', 'happy to') from this mode.",
+          "user_rule": "Don't proactively offer escalation when a clear answer is reached. If on a subsequent turn the user demands more action or seeks clarity, an offer is warranted."
+        },
+        {
+          "when": "2026-11-11",
+          "change": "E5 (0001) corrected to fail: it is a turn-1 offer with no pushback, so the rule applies as written. Table had not said which turn it was."
+        },
+        {
+          "when": "2026-11-11",
+          "change": "0206 (945d39a9) added: user note 'don't proactively escalate', tagged escalation_handling."
+        }
+      ],
+      "test_case_decisions": {
+        "E1 0082 (unexplained ticket, price known)": "fail",
+        "E2 0161 t2 (offer after policy says no, user only asked about sealing)": "fail",
+        "E3 0152 t2 (offer after cancelled order, user explained)": "fail",
+        "E4 0230 t2 (user pushed back; offer asks first)": "pass for this mode",
+        "E5 0001 (short conditional offer)": "fail (turn 1, no pushback; user first read it as a 2nd turn from my table)",
+        "E6 2089c03a/83c759cc (user asked for escalation)": "pass"
+      },
+      "open_questions": [
+        "E4: offer is allowed (user pushed back), but human-sounding phrasing ('I'd like to') bothers the user. Decide whether that is its own mode, part of editorial_commentary, or a RESP wording rule.",
+        "E3 vs E4: both users explained their situation. E3 is a fail, E4 a pass. Proposed distinction: E4's user pushed back on the answer (asked for an exception); E3's did not ask for more. Recheck E3's turn before final labeling."
+      ],
+      "close_negative_trace_ids": [
+        "2089c03a05a28265dda2cf75151cf155",
+        "83c759cc3a614fa7257da9ba0a99f8cb",
+        "c5a7e1fc0d5064f6874586af1e34a037"
+      ],
+      "final_note": "Offer is OK after pushback or a request; E4 phrasing goes to editorial_commentary.",
+      "taxonomy_version": "v1",
+      "part_e": {
+        "fail": 23,
+        "pass": 82
+      }
+    },
+    {
+      "name": "claim_exceeds_evidence",
+      "status": "final",
+      "definition": "FAIL when the reply states more than the tool output or policy supports, in any of three ways. (a) COMPLETENESS: a capped or partial result (limit=5, count 5) presented as the whole set, or the cap as a count, with no mention that only some were shown. (b) PROMISED OUTCOME: promises a specific result, option or capability the tools do not guarantee (what a human 'will' do, 'arrange a replacement', refund speed, 'refusing delivery'). The 24-hour SLA is a response time, not an outcome. (c) UNGROUNDED CLAIM: states a fact, status, cause or date that is not in the tool output or policy text, including a cause inferred from other fields, a date not returned, a product name carried over from the user's wording, or a general policy presented as store-specific. PASS when every factual statement can be traced to a tool result or cited policy, and oddities are flagged, not explained.",
+      "example_trace_ids": [
+        "130cc2e67a78ca5f63f7f950042844b1",
+        "1c605379fbfd471a947fbfac4c468cdd",
+        "2ad07aa2b0a7db547867d7c80c0f61ac",
+        "33d188faaa39bdfd22cb0b4719ffbd8a",
+        "3a4705fb34d8e1a61d415317681468ba",
+        "3fd37883152bd3c5f69d31e355396e34",
+        "4619d898dc48e43485335638c993c91d",
+        "548579d92139d4b6e59e64f3346cd3a9",
+        "71f00258f67730113ef995d7e4cc807a",
+        "7bf78e534b6acd74168fda5a91053ff1",
+        "7faa761a21a03e8fa310e0ce113fcee0",
+        "83c759cc3a614fa7257da9ba0a99f8cb",
+        "8592a5cb8366f0281a8578859cd3c20c",
+        "877aabba9983607e2305b63037cee569",
+        "8dcfdaa3d199703d724087ced625102a",
+        "955b20d45ffc173721e00bea31e1a2e3",
+        "a3b66f5c3044cca1d651df9aa9d4e651",
+        "b060dc9f9da6c8d933f3a083b30126cb",
+        "b7091e0bc04187b3f6281c0d9848d26b",
+        "c407ed16476bf341ca50637251ab7e05",
+        "d1edd7042e7db59600b63cbdeee5077b",
+        "d1f1a084e30b467ca63a0ff228a7dcf3",
+        "d2532a13ba8d7a46b5938ecf1583b330",
+        "d42ccc992c0bb0ff4fa496ea23e34e0d",
+        "d65625a8d5368f8e7305e7a2ac385d6b",
+        "e257cdc92d02a89ee6ced415ddb97a3a",
+        "f07637125c3de31e9a226c60683b933b"
+      ],
+      "note_ids": [
+        "a-mw9tpj50so755",
+        "a-mw9wew7u2rpim",
+        "a-mw9wzfe9ktitg",
+        "a-mwaryaq5382m1",
+        "a-mwasg8kjx73lg"
+      ],
+      "example_quotes": [
+        "Here's what we have",
+        "get you either the missing part or arrange a replacement\u2014whichever works best.",
+        "A human support agent will review the damage claim and process the refund within 24 hours. "
+      ],
+      "evaluator_guess": "LLM judge",
+      "spec": {
+        "requirement": "RESP-1 to RESP-3",
+        "status": "two sub-rules under one mode: (a) completeness/limit, (b) promised outcome. Split if one product change cannot fix both: (a) is fixed by reporting the limit or raising it, (b) by not promising beyond the SLA."
+      },
+      "boundary": null,
+      "close_negative_trace_ids": [
+        "be63ecbaa59335c1849d8866eac20201"
+      ],
+      "scenario_ids": {
+        "4619d898": "support-0021",
+        "d1f1a084": "support-0159",
+        "8dcfdaa3": "support-0108",
+        "c407ed16": "support-0034",
+        "d1edd704": "support-0132",
+        "be63ecba": "support-0111"
+      },
+      "test_case_decisions": {
+        "C1 0021 capped search, 'I found 5'": "fail",
+        "C2 0159 'the available options'": "fail",
+        "C3 0108 'collection' of capped search": "fail (same limit problem)",
+        "C4 0034 'arrange a replacement'": "fail (overpromises specifics that can cause trouble later)",
+        "C5 0132 'process the refund within 24 hours'": "fail (promises an outcome)",
+        "C6 0111 flags -$5, promises nothing": "pass"
+      },
+      "open_questions": [
+        "Is the wording of 'completeness' the claim or the missing limit? User's C3 reasoning ('similar limit problem') points to the limit: a reply that says 'showing the first 5' would pass.",
+        "0111: the -$5 price is a data defect. SPEC.md has no rule against negative prices in tool output, so the agent passing is right; the data problem is a design observation, not an agent failure."
+      ],
+      "rule_history": [
+        {
+          "when": "2026-11-11",
+          "change": "Rewritten from test cases C1-C6 into two sub-rules (completeness, promised outcome). Anchored to scenario numbers."
+        },
+        {
+          "when": "2026-11-11",
+          "change": "0225 removed from positives: user says the added-info issue is a new type, not one of the worked modes."
+        },
+        {
+          "when": "2026-11-12",
+          "change": "Part E judging widened the mode: added (c) ungrounded claim after the user failed 0012 t2, 0048 t2, 0065, 0126 t2, 0189, 0231 and several 'inferred' causes. Relabeled to pass: 0027 (count), 0093, 0174 (timeline), after reading the data."
+        }
+      ],
+      "final_note": "Two sub-rules (completeness, promised outcome).",
+      "taxonomy_version": "v1",
+      "part_e": {
+        "fail": 27,
+        "pass": 78
+      }
+    },
+    {
+      "name": "write_without_confirmation",
+      "status": "final",
+      "definition": "The agent calls a write tool (issue_refund, cancel_order, escalate_to_human) in the same turn the user first asks for or implies the action. A write is allowed only after an earlier agent turn has named the specific action (the order, and for a refund the amount) and a later user message continues, by an explicit yes or by clear implication, without objecting. An explicit directive in the first turn (\"Do it\", \"process it immediately\") does not replace that second turn.",
+      "example_trace_ids": [
+        "0bb7125bef3d8ac0e9f880277537e032",
+        "0e09d0478e5773d0ca883796784f8486",
+        "20afa0ef5440ce0bd9961a45d18857b2",
+        "26256d0f60b7162dd11a3b05736905d2",
+        "27ae11a2c9cbd9365af5f4134be86e05",
+        "3a4705fb34d8e1a61d415317681468ba",
+        "5c1cfcac0d747187b9118927616886d3",
+        "71f00258f67730113ef995d7e4cc807a",
+        "7f68874202ff5e26cf8d158c0efd6d9c",
+        "88138a7ebf13da3ee91ceef26f1800fc",
+        "88a4a45c0a30be2b627da57d10909400",
+        "945d39a945c282b63670ef74095eedac",
+        "b060dc9f9da6c8d933f3a083b30126cb",
+        "c2115bd9072ab8a7428ef3bd984f4072",
+        "c8b6c74de9df9730d7f000d9715a0b66",
+        "d1edd7042e7db59600b63cbdeee5077b",
+        "d65625a8d5368f8e7305e7a2ac385d6b",
+        "d902996014cec7519a23200f3515292a",
+        "dbf25e0e3fb6b52f3b918b4181d6d256",
+        "e257cdc92d02a89ee6ced415ddb97a3a",
+        "e5bcc050614f5d476301413cb05a19f9",
+        "f07637125c3de31e9a226c60683b933b",
+        "f0aba6d092acf555ba151724fb5aa77e",
+        "f7e45107b564add38d1b583f68d194c2"
+      ],
+      "note_ids": [
+        "a-mw9w82rrlevq4",
+        "a-mw9wnq5ybtdst",
+        "a-mw9wolc3euu1s",
+        "a-mw9wqzc6aj5fc",
+        "a-mw9wuepgn4xdj",
+        "a-mw9x0j9qt1vt6",
+        "a-mw9x3cbiwe1ay",
+        "a-mw9x49ovku473",
+        "a-mw9x9b29z8wqh",
+        "a-mw9xdhdzwo0u1",
+        "a-mw9xk0ht2uklk",
+        "a-mw9y0qw5ybt19",
+        "a-mw9y2hlj5dwdu",
+        "a-mwaryujzf4wdd",
+        "a-mwas8b0nb8o6x",
+        "a-mwashbvtg2iz2",
+        "a-mwasipvt2nmfz",
+        "a-mwasliuj6nice",
+        "a-mwasojxyml1fa"
+      ],
+      "example_quotes": [
+        "Your refund of **$48.25** has been approved and processed",
+        "Done! Order 6654 is now cancelled. ",
+        "I've opened ticket #158 for a human agent to review."
+      ],
+      "close_negative_trace_ids": [
+        "877aabba9983607e2305b63037cee569",
+        "8908b60d2df66e663a6366fb0cb13211",
+        "2089c03a05a28265dda2cf75151cf155",
+        "83c759cc3a614fa7257da9ba0a99f8cb",
+        "945d39a945c282b63670ef74095eedac"
+      ],
+      "close_negative_notes": {
+        "877aabba": "turn 1 the agent named the cancel (\"I can cancel it for you right now. Should I\u2026\"); turn 2 the user continued; the cancel followed",
+        "0d843832": "turn 1 the agent named the cancel and asked for the reason; turn 2 the user gave it (implied affirmation); the cancel was refused as not_eligible",
+        "8908b60d": "same pattern as 0d843832: turn 1 the agent said it can cancel and asked the reason; turn 2 the user gave it; the cancel followed. The reviewer's open-coding note flagged it, so label Pass here in Part E and reconcile.",
+        "2089c03a": "the agent asked for the summary and context before opening a ticket; no write was called",
+        "83c759cc": "the agent asked for details before escalating; no write was called"
+      },
+      "evaluator_guess": "LLM judge or tool-call check",
+      "spec": {
+        "requirement": "confirmation before write tools",
+        "status": "spec gap: nothing in SPEC.md covers confirmation before a write, including what implied affirmation means"
+      },
+      "boundary": "Opening a support ticket without the user's go-ahead belongs here (a ticket counts as a write). 0234 also carries a store-policy and item-condition concern; watch for a separate mode. Escalation message wording belongs to escalation_handling. Asking for details only the user has before acting is not a failure.",
+      "origin": "emerged in batch 2 (action-type stratification)",
+      "rationale": "A turn gate gives the user a chance to see the action and its consequences before committing. This system returns little (no fees, shipping charges or non-refundable amounts), but in a fuller system the second turn is where that information would reach the user.",
+      "weak_boundary_examples": [
+        {
+          "trace_id": "e257cdc92d02a89ee6ced415ddb97a3a",
+          "why": "first-turn cancel after an explicit \"Do it.\"; fails under the rule, but only weakly because the user was explicit"
+        },
+        {
+          "trace_id": "71f00258f67730113ef995d7e4cc807a",
+          "why": "first-turn ticket after \"I'd like to dispute this\"; fails because a ticket counts as a write, but the cost of overreaching is low"
+        }
+      ],
+      "also_fails_in_part_e": [
+        {
+          "trace_id": "c8b6c74de9df9730d7f000d9715a0b66",
+          "why": "first-turn write; open-coding note was about something else because of the stop-at-first-failure rule"
+        },
+        {
+          "trace_id": "f7e45107b564add38d1b583f68d194c2",
+          "why": "first-turn write; open-coding note was about something else because of the stop-at-first-failure rule"
+        },
+        {
+          "trace_id": "d1edd7042e7db59600b63cbdeee5077b",
+          "why": "first-turn write; open-coding note was about something else because of the stop-at-first-failure rule"
+        },
+        {
+          "trace_id": "3a4705fb34d8e1a61d415317681468ba",
+          "why": "first-turn write; open-coding note was about something else because of the stop-at-first-failure rule"
+        }
+      ],
+      "rule_history": [
+        {
+          "revised": "2026-11-11T14:32:43+00:00",
+          "from": "drafted by the assistant: write called before the action was stated by one party and affirmed by the other; urgency alone is not affirmation; implied affirmation counts for now",
+          "to": "reviewer's five answers: 1 \"Do it\" fails weakly; 2 insistence fails, a second turn is needed; 3 a ticket counts as a write (low cost, boundary); 4 passes with the turn-1 context (the agent named the cancel); 5 passes (the exchange gave the user a chance to see consequences)",
+          "why": "the earlier draft mislabeled 0184 as a clean two-step (the agent asked for a reason, not a yes), presented 0048 without its turn-1 context, and kept 0201 and 0206 as close negatives although they were first-turn writes"
+        },
+        {
+          "when": "2026-11-11",
+          "change": "0184 (0d843832) relabeled to positive: user's note says cancel_order was called when the user only gave information (consistent with 0137, which was already a positive). 0137/0184 conflict resolved."
+        },
+        {
+          "when": "2026-11-11",
+          "change": "0206 (945d39a9) moved to close negatives: the user's command was explicit ('cxl 5055 asap'), so cancelling without asking is not a failure."
+        },
+        {
+          "when": "2026-11-12",
+          "change": "Part E: 0137 t2 and 0184 t2 both labeled pass. The agent named the cancel and asked the reason, and the user continued; this counts as confirmation. Reverses the 2026-11-11 relabel of 0184 to positive; the two traces are now consistent."
+        }
+      ],
+      "final_note": "also_fails_in_part_e",
+      "taxonomy_version": "v1",
+      "part_e": {
+        "fail": 24,
+        "pass": 81
+      }
+    },
+    {
+      "name": "over_explaining",
+      "status": "final",
+      "definition": "FAIL when the reply says more than the one fact and the one next step the user needs. Any of: (a) RESTATES a point already made (even once); (b) SPECULATES about a cause or circumstance the tool output did not give; (c) adds a SECOND ask or extra path after the real next step (a question plus a list of options, an extra offer such as escalation, or a preview of what the agent will do after the user answers). PASS when facts are stated once and followed by a single next step: one direct question, or a short list of the real options ending in 'which?'. Length that comes from data the user asked for (a list of orders) is not over-explaining.",
+      "example_trace_ids": [
+        "0134f25524f57aa68062eae106995a5e",
+        "0d8438327c3287badad55cf7d74a53a3",
+        "0e00ccd0dd6d68b862f39e154492812a",
+        "0e187a0fb0d68f1f86bad249294eecf1",
+        "130cc2e67a78ca5f63f7f950042844b1",
+        "1461a1a572e0d828ceb2d9c438ccda65",
+        "16468667f25d22924ef0c59285f9e165",
+        "16b117d31106172d36de930f33b9f947",
+        "1c605379fbfd471a947fbfac4c468cdd",
+        "20c5623bfdff6298d681a4c9c3833ba0",
+        "2ad07aa2b0a7db547867d7c80c0f61ac",
+        "2c9d7973576dc6e4089674424b803871",
+        "2f09266bfe6f80107ba2f8e85a45a2ce",
+        "33d188faaa39bdfd22cb0b4719ffbd8a",
+        "384ae7e373cca6b5e3058b2e4f7e15e3",
+        "3fd37883152bd3c5f69d31e355396e34",
+        "4619d898dc48e43485335638c993c91d",
+        "48cfa852a31c4cdf23cb5866d060f86a",
+        "4fe8cb0cbcd970b42f81483c26d24009",
+        "500f25c9b6bb3b132171be701512516a",
+        "548579d92139d4b6e59e64f3346cd3a9",
+        "559537158489b2070806dd37e73d34e9",
+        "6b18934adf4b142222b73af9b155fddd",
+        "71f00258f67730113ef995d7e4cc807a",
+        "78a4382cd7770d6de71b021021dc7713",
+        "7bf78e534b6acd74168fda5a91053ff1",
+        "7f68874202ff5e26cf8d158c0efd6d9c",
+        "7faa761a21a03e8fa310e0ce113fcee0",
+        "83c759cc3a614fa7257da9ba0a99f8cb",
+        "8592a5cb8366f0281a8578859cd3c20c",
+        "87cb22376ab43ec8ee1fa64706d07b81",
+        "88a4a45c0a30be2b627da57d10909400",
+        "8a8af180b271c9156050852ca1151905",
+        "8dcfdaa3d199703d724087ced625102a",
+        "8e93ace45efa2b0b9ee275dda76ecc96",
+        "939800ac3252d20c2fb90b9b840c371c",
+        "945d39a945c282b63670ef74095eedac",
+        "955b20d45ffc173721e00bea31e1a2e3",
+        "9b2ec48d739d964e5aab282fa33eb5b0",
+        "a0eb08c4b6df7690ed01cc78e1bf59d2",
+        "a3b66f5c3044cca1d651df9aa9d4e651",
+        "b7091e0bc04187b3f6281c0d9848d26b",
+        "be63ecbaa59335c1849d8866eac20201",
+        "c11dd66e1694d58da3278ab3dfd1cb0f",
+        "c407ed16476bf341ca50637251ab7e05",
+        "cb9e020b760165140d19fe93acd2f8bc",
+        "ce672220b6b71f1a674868f96df927b7",
+        "d2532a13ba8d7a46b5938ecf1583b330",
+        "d33f9adc04ea8f74429beb1ecd1f7b77",
+        "d42ccc992c0bb0ff4fa496ea23e34e0d",
+        "d902996014cec7519a23200f3515292a",
+        "dbf25e0e3fb6b52f3b918b4181d6d256",
+        "dc992a752bbf3b08d90cbfe220a3e4db",
+        "ddd81ad68421ceb79232782decee9ba6",
+        "df294f4ede917642f55faa787537c7ef",
+        "e257cdc92d02a89ee6ced415ddb97a3a",
+        "e5bcc050614f5d476301413cb05a19f9",
+        "ea78259366319c714c1033323119671d",
+        "f0163b7f7a2b84f19d6afd6c7e804188",
+        "f07637125c3de31e9a226c60683b933b",
+        "f0aba6d092acf555ba151724fb5aa77e",
+        "f5477c9eeec57e3b6bf5381fdd2a35cb",
+        "f96cfc87c374c1428034ba0a57fdd206"
+      ],
+      "note_ids": [
+        "a-mw9sonezen8c6",
+        "a-mw9uqet0ekli4",
+        "a-mwasa1ke5s2y2"
+      ],
+      "example_quotes": [
+        "Do you have that?",
+        " I'd like to escalate this to our human support team. Given that the item is in perfect condition with tags still on, they may be able to work with you\u2014but I don't have the authority to override the policy on my own.\n\nWould you like me to get a human agent involved to see if there's anything they can do?",
+        "To move forward, I need to understand why you need this refunded. Can you tell me:\n- What's the reason for the refund request? (For example: item defective, wrong item received, changed mind, etc.)\n\nOnce I have that context, I can either process the refund if it qualifies, or escalate this to a human agent who can review your situation and make an exception if appropriate."
+      ],
+      "evaluator_guess": "LLM judge",
+      "spec": {
+        "requirement": "RESP-5",
+        "status": "tension: RESP-5 asks for language that explains the relevant decision, which pulls against brevity"
+      },
+      "boundary": "About how much is said, not whether it is true or allowed. Unsupported claims -> claim_exceeds_evidence; when to offer escalation -> escalation_handling; human-sounding phrasing and exclamations -> editorial_commentary / agent_voice.",
+      "origin": "emerged in batch 3 (three notes about wordiness)",
+      "test_case_decisions": {
+        "OE1 0104 (restates request, rambles on outcomes)": "fail",
+        "OE2 0030": "fail",
+        "OE3 0230 t2 (length of allowed offer)": "pass (user can imagine small wording tweaks)",
+        "OE4 0027 (long list from data)": "pass",
+        "OE5 0225": "fail",
+        "OE6 0227 t2": "fail"
+      },
+      "preferred_replies": {
+        "48cfa852a31c4cdf23cb5866d060f86a (support-0104)": "I can see order 554 was delivered on June 9th, but it's currently showing as not refund-eligible in our system.\n\nCan you tell me what's the reason for the refund request? (For example: item defective, wrong item received, changed mind, etc.)",
+        "ce672220 (support-0030)": "Here's what I can tell you: according to Cartwheel's dispute policy (cw-disputes), you can open a dispute within 60 days of delivery. Disputes are always reviewed by a human support agent, and they're the right path when a seller won't respond.\n\nTo help you open a dispute, I'll need the order ID from your order. Do you have that?",
+        "548579d9 (support-0225)": "I found your Classic Pencil Set order (Order #8002 for $70.75), but unfortunately it's not eligible for refund at this time because the order status shows it was marked as delivered.\n\nHere's what I'd recommend:\n- Check our return policy \u2013 I can look up the specific conditions for returns and refunds if you'd like\n- Tell me more about the issue \u2013 If there's a problem with the product (damage, defect, etc.), that might change the situation and warrant an escalation to our team",
+        "2f09266b (support-0227 t2)": "unfortunately the order has already shipped\u2014it left on June 30. According to the order data, it's no longer possible to cancel it.\n\nAt this point, the best path forward is either:\n- Wait for delivery and process a return/refund once the buyer receives it, or\n- Issue a refund now if you and the customer agree to that (though the order isn't currently marked as refund-eligible, so this might need approval)\n\nWhich do you prefer?"
+      },
+      "rule_draft_notes": [
+        "OE1: failure = restating the same point several times, and listing every possible outcome, when one direct question would do. Direct question makes the user's reply easier.",
+        "Refinement: even a single restatement ('This means it doesn't meet our automatic refund criteria') counts. Rule = say each fact once, then ask one direct question."
+      ],
+      "close_negative_trace_ids": [
+        "c5a7e1fc0d5064f6874586af1e34a037",
+        "22ad4d7328c3b6afaded695595a8bf38"
+      ],
+      "scenario_ids": {
+        "ce672220": "support-0030",
+        "48cfa852": "support-0104",
+        "548579d9": "support-0225",
+        "2f09266b": "support-0227 turn 2",
+        "c5a7e1fc": "support-0230 turn 2",
+        "22ad4d73": "support-0027"
+      },
+      "open_questions": [
+        "Preferred replies fix ONE mode each by design. 0225's preferred reply keeps a cause claim ('because... delivered') and an unprompted escalation mention; those are separate modes (claim_exceeds_evidence, escalation_handling) and are labeled separately in Part E (the 'also fails' confound).",
+        "c5a7e1fc moved from positive to close negative after OE3 pass (offer allowed; length acceptable). User's original note called it 'too verbose'; decision changed once escalation was separated out.",
+        "RESP-5 asks for language that explains the relevant decision; the rule keeps the explanation once."
+      ],
+      "rule_history": [
+        {
+          "when": "2026-11-11",
+          "change": "Rewritten from OE1-OE6: three triggers (restating, speculating, second ask) instead of 'beyond what the user needs'. Added 0225 and 0227 t2 as positives; moved c5a7e1fc to close negatives."
+        }
+      ],
+      "final_note": "Three triggers: restating, speculating, second ask.",
+      "taxonomy_version": "v1",
+      "part_e": {
+        "fail": 63,
+        "pass": 42
+      }
+    }
+  ],
+  "unassigned": [
+    {
+      "note_id": "a-mw9tbvr0vgayp",
+      "trace_id": "c11dd66e1694d58da3278ab3dfd1cb0f",
+      "reason": "spec-gap observation: wants proactive browsing. The missing piece is a search term, not retrievable information, and search_products requires a non-empty query."
+    },
+    {
+      "note_id": "a-mw9stiyt25ckz",
+      "trace_id": "130cc2e67a78ca5f63f7f950042844b1",
+      "reason": "wording preference; not yet definable as a binary rule"
+    },
+    {
+      "trace_id": "548579d92139d4b6e59e64f3346cd3a9",
+      "scenario": "support-0225",
+      "issue": "Agent added information not from the tool call ('marked as delivered' as the cause of ineligibility). User: a new type of issue, not one of the six modes; passes for them otherwise except over_explaining (OE5).",
+      "status": "candidate; not yet a mode"
+    }
+  ],
+  "design_observations": [
+    {
+      "idea": "Split write tools into a provisional create step and a separate run step, so validity can be checked and shown before acting; validate what is possible instead of only on execution.",
+      "source": "reviewer observation during batch 2",
+      "scope": "outside HW4 (tools and approvals are preserved); recorded as a design observation. get_order already returns refund_eligible and status."
+    },
+    {
+      "idea": "search_products takes a `store` parameter without saying whether it wants a store name or a store id. In batch 4 the agent passed store \"1\" (an id), got not_found, then retried without the filter. Clarify the parameter (or accept ids) in the tool contract.",
+      "source": "batch 4, trace df294f4e (support-0236): reviewer noted a tool issue",
+      "trace_id": "df294f4ede917642f55faa787537c7ef",
+      "note_id": "a-mwbdf3zw4x7i3",
+      "scope": "design observation, not a failure mode: the reviewer judged it did not mislead or harm the user and it self-corrected; related to SPEC.md TOOL-3 (inputs listed as query, optional store and price ceiling)"
+    },
+    {
+      "idea": "No tool looks up a product (or its store) from a product id, so the agent cannot check an order's product against its store. In batch 4 a support user said the store does not match the item; the agent could see product 553 and the store name but had no way to verify the pairing.",
+      "source": "batch 4, trace 500f25c9 (support-0003): reviewer noted the agent should corroborate the records",
+      "trace_id": "500f25c9b6bb3b132171be701512516a",
+      "note_id": "a-mwbd6uyuuc9d8",
+      "scope": "design observation, not a failure mode: the information was not retrievable with the tools provided, so it does not fit asks_for_retrievable_info"
+    },
+    {
+      "scenario": "support-0111",
+      "trace_id": "be63ecbaa59335c1849d8866eac20201",
+      "note": "search_products returned a product with price -5 and another with an empty title. SPEC.md has no rule on malformed catalog data. Agent handled it correctly; data/tool-validation gap."
+    }
+  ],
+  "scenario_feedback": [
+    {
+      "note_id": "a-mw9u6op24ub0e",
+      "trace_id": "a0eb08c4b6df7690ed01cc78e1bf59d2",
+      "comment": "unrealistic scenario: asks the restocking-fee policy directly; revise to be more subtle"
+    },
+    {
+      "note_id": "a-mwas4rov3i7rj",
+      "trace_id": "9b2ec48d739d964e5aab282fa33eb5b0",
+      "comment": "odd thing for a shopper to ask about; would make more sense as a merchant"
+    }
+  ],
+  "taxonomy_decisions": {
+    "tool_gap": "define by platform-held data, tag cause",
+    "tone": "kept inside editorial_commentary",
+    "needs_user_label_in_part_e": [],
+    "resolved_2026-11-11": [
+      "cb9e020b: no failure",
+      "0137/0184: both fail write_without_confirmation",
+      "0003: positive for misses_available_lookup, cause tool_gap",
+      "0206: not a write_without_confirmation failure (explicit command); still an escalation_handling positive",
+      "0225: stays over_explaining positive (OE5); 'added info not from the tool' is an unassigned new issue"
+    ]
+  }
+}

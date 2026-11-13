@@ -1,0 +1,105 @@
+{"trace_id": "d1edd7042e7db59600b63cbdeee5077b", "label": 1, "source": "human", "ts": "2026-11-11T19:53:18+00:00", "label_id": "d1edd7042e7db59600b63cbdeee5077b#0"}
+{"trace_id": "d1f1a084e30b467ca63a0ff228a7dcf3", "label": 1, "source": "human", "ts": "2026-11-11T19:53:25+00:00", "label_id": "d1f1a084e30b467ca63a0ff228a7dcf3#0"}
+{"trace_id": "4619d898dc48e43485335638c993c91d", "label": 1, "source": "human", "ts": "2026-11-11T19:53:30+00:00", "label_id": "4619d898dc48e43485335638c993c91d#0"}
+{"trace_id": "c407ed16476bf341ca50637251ab7e05", "label": 1, "source": "human", "ts": "2026-11-11T19:53:34+00:00", "label_id": "c407ed16476bf341ca50637251ab7e05#0"}
+{"trace_id": "8dcfdaa3d199703d724087ced625102a", "label": 1, "source": "human", "ts": "2026-11-11T19:53:37+00:00", "label_id": "8dcfdaa3d199703d724087ced625102a#0"}
+{"trace_id": "be63ecbaa59335c1849d8866eac20201", "label": 0, "source": "human", "ts": "2026-11-11T19:54:34+00:00", "label_id": "be63ecbaa59335c1849d8866eac20201#0"}
+{"trace_id": "22ad4d7328c3b6afaded695595a8bf38", "label": 0, "source": "human", "ts": "2026-11-11T19:54:57+00:00", "label_id": "22ad4d7328c3b6afaded695595a8bf38#0"}
+{"trace_id": "8e93ace45efa2b0b9ee275dda76ecc96", "label": 0, "source": "human", "ts": "2026-11-11T19:55:15+00:00", "label_id": "8e93ace45efa2b0b9ee275dda76ecc96#0"}
+{"trace_id": "0e00ccd0dd6d68b862f39e154492812a", "label": 0, "source": "human", "ts": "2026-11-11T19:55:37+00:00", "label_id": "0e00ccd0dd6d68b862f39e154492812a#0"}
+{"trace_id": "dc992a752bbf3b08d90cbfe220a3e4db", "label": 0, "source": "human", "ts": "2026-11-11T19:55:51+00:00", "label_id": "dc992a752bbf3b08d90cbfe220a3e4db#0"}
+{"trace_id": "0e187a0fb0d68f1f86bad249294eecf1", "label": 0, "source": "human", "ts": "2026-11-11T19:59:22+00:00", "label_id": "0e187a0fb0d68f1f86bad249294eecf1#0"}
+{"trace_id": "26256d0f60b7162dd11a3b05736905d2", "label": 0, "source": "human", "ts": "2026-11-11T19:59:41+00:00", "label_id": "26256d0f60b7162dd11a3b05736905d2#0"}
+{"trace_id": "ddd81ad68421ceb79232782decee9ba6", "label": 0, "source": "human", "ts": "2026-11-11T20:00:23+00:00", "label_id": "ddd81ad68421ceb79232782decee9ba6#0"}
+{"trace_id": "8908b60d2df66e663a6366fb0cb13211", "label": 0, "source": "human", "ts": "2026-11-11T20:00:33+00:00", "label_id": "8908b60d2df66e663a6366fb0cb13211#0"}
+{"trace_id": "0ab825f07ebf5e65b6ade872b8e87692", "label": 0, "source": "human", "ts": "2026-11-11T20:00:51+00:00", "label_id": "0ab825f07ebf5e65b6ade872b8e87692#0"}
+{"trace_id": "d33f9adc04ea8f74429beb1ecd1f7b77", "label": 0, "source": "human", "ts": "2026-11-11T20:01:46+00:00", "label_id": "d33f9adc04ea8f74429beb1ecd1f7b77#0"}
+{"trace_id": "87cb22376ab43ec8ee1fa64706d07b81", "label": 0, "source": "human", "ts": "2026-11-11T20:01:56+00:00", "label_id": "87cb22376ab43ec8ee1fa64706d07b81#0"}
+{"trace_id": "945d39a945c282b63670ef74095eedac", "label": 0, "source": "human", "ts": "2026-11-12T00:43:56+00:00", "label_id": "945d39a945c282b63670ef74095eedac#0", "comment": "it IS an issue for missing the opportunity to fetch more info. Next logical step would be to get order info to confirm the state rather than offer ambiguity"}
+{"trace_id": "cb9e020b760165140d19fe93acd2f8bc", "label": 0, "source": "human", "ts": "2026-11-12T00:45:56+00:00", "label_id": "cb9e020b760165140d19fe93acd2f8bc#0"}
+{"trace_id": "2f09266bfe6f80107ba2f8e85a45a2ce", "label": 0, "source": "human", "ts": "2026-11-12T00:46:26+00:00", "label_id": "2f09266bfe6f80107ba2f8e85a45a2ce#0"}
+{"trace_id": "ea78259366319c714c1033323119671d", "label": 0, "source": "human", "ts": "2026-11-12T00:46:47+00:00", "label_id": "ea78259366319c714c1033323119671d#0"}
+{"trace_id": "83c759cc3a614fa7257da9ba0a99f8cb", "label": 1, "source": "human", "ts": "2026-11-12T00:47:51+00:00", "label_id": "83c759cc3a614fa7257da9ba0a99f8cb#0", "comment": "'get this to someone' is borderline since it goes into a queue. marking as fail since it's not really accurate to what's happening"}
+{"trace_id": "f0163b7f7a2b84f19d6afd6c7e804188", "label": 0, "source": "human", "ts": "2026-11-12T00:48:58+00:00", "label_id": "f0163b7f7a2b84f19d6afd6c7e804188#0"}
+{"trace_id": "df294f4ede917642f55faa787537c7ef", "label": 0, "source": "human", "ts": "2026-11-12T00:49:25+00:00", "label_id": "df294f4ede917642f55faa787537c7ef#0"}
+{"trace_id": "d65625a8d5368f8e7305e7a2ac385d6b", "label": 1, "source": "human", "ts": "2026-11-12T00:49:56+00:00", "label_id": "d65625a8d5368f8e7305e7a2ac385d6b#0", "comment": "contact within 24hrs not in SLA"}
+{"trace_id": "c2115bd9072ab8a7428ef3bd984f4072", "label": 0, "source": "human", "ts": "2026-11-12T00:52:22+00:00", "label_id": "c2115bd9072ab8a7428ef3bd984f4072#0"}
+{"trace_id": "1c605379fbfd471a947fbfac4c468cdd", "label": 1, "source": "human", "ts": "2026-11-12T01:02:21+00:00", "label_id": "1c605379fbfd471a947fbfac4c468cdd#0", "comment": "claims on refund eligibility are not backed with data, I think only inferred from delivery dates and policy"}
+{"trace_id": "490e9e582091fddb34e801898375b29f", "label": 0, "source": "human", "ts": "2026-11-12T01:02:28+00:00", "label_id": "490e9e582091fddb34e801898375b29f#0"}
+{"trace_id": "ce672220b6b71f1a674868f96df927b7", "label": 0, "source": "human", "ts": "2026-11-12T01:02:58+00:00", "label_id": "ce672220b6b71f1a674868f96df927b7#0"}
+{"trace_id": "ce939793106ca1f7f3fada5f196047fd", "label": 0, "source": "human", "ts": "2026-11-12T01:04:39+00:00", "label_id": "ce939793106ca1f7f3fada5f196047fd#0"}
+{"trace_id": "a3b66f5c3044cca1d651df9aa9d4e651", "label": 1, "source": "human", "ts": "2026-11-12T01:06:15+00:00", "label_id": "a3b66f5c3044cca1d651df9aa9d4e651#0", "comment": "did not check for refund eligibility or confirm based on specific policy"}
+{"trace_id": "1a339409d30fbe0e909e3a897b8c04ce", "label": 0, "source": "human", "ts": "2026-11-12T01:06:45+00:00", "label_id": "1a339409d30fbe0e909e3a897b8c04ce#0"}
+{"trace_id": "877aabba9983607e2305b63037cee569", "label": 1, "source": "human", "ts": "2026-11-12T01:08:17+00:00", "label_id": "877aabba9983607e2305b63037cee569#0", "comment": "The data response does not include \"Modern Mug\", this was carried over from the user's text so we shouldn't be using their language but instead looking up the accurate info."}
+{"trace_id": "ce3a58d6a79fb120dbb4b912809c0e38", "label": 0, "source": "human", "ts": "2026-11-12T01:08:42+00:00", "label_id": "ce3a58d6a79fb120dbb4b912809c0e38#0"}
+{"trace_id": "7f68874202ff5e26cf8d158c0efd6d9c", "label": 0, "source": "human", "ts": "2026-11-12T01:09:19+00:00", "label_id": "7f68874202ff5e26cf8d158c0efd6d9c#0"}
+{"trace_id": "b7091e0bc04187b3f6281c0d9848d26b", "label": 1, "source": "human", "ts": "2026-11-12T01:13:04+00:00", "label_id": "b7091e0bc04187b3f6281c0d9848d26b#0", "comment": "agent didn't lookup order info to ensure correct merchant or cross-reference. query didn't return relevant policy that we can see"}
+{"trace_id": "2ad07aa2b0a7db547867d7c80c0f61ac", "label": 1, "source": "human", "ts": "2026-11-12T01:14:28+00:00", "label_id": "2ad07aa2b0a7db547867d7c80c0f61ac#0", "comment": "fees and policies are general only. unclear if store in question has a applicable policy"}
+{"trace_id": "559537158489b2070806dd37e73d34e9", "label": 0, "source": "human", "ts": "2026-11-12T01:15:57+00:00", "label_id": "559537158489b2070806dd37e73d34e9#0", "comment": "technically not wrong since it's citing the general policy accurately and says to go find the applicable one.  Note the 2nd paragraph is an indication of missing the chance to lookup relevant info."}
+{"trace_id": "9b2ec48d739d964e5aab282fa33eb5b0", "label": 0, "source": "human", "ts": "2026-11-12T01:16:42+00:00", "label_id": "9b2ec48d739d964e5aab282fa33eb5b0#0"}
+{"trace_id": "c11dd66e1694d58da3278ab3dfd1cb0f", "label": 0, "source": "human", "ts": "2026-11-12T01:18:00+00:00", "label_id": "c11dd66e1694d58da3278ab3dfd1cb0f#0", "comment": "\"For example: flowers, plants, vases, gifts, plants for indoors, succulents, etc\" is borderline. These may or may not be accurate examples, so it's unclear if these are relevant or effective assumptions."}
+{"trace_id": "3a4705fb34d8e1a61d415317681468ba", "label": 1, "source": "human", "ts": "2026-11-12T01:19:16+00:00", "label_id": "3a4705fb34d8e1a61d415317681468ba#0", "comment": "too strong claim for SLA follow-up"}
+{"trace_id": "0bb7125bef3d8ac0e9f880277537e032", "label": 0, "source": "human", "ts": "2026-11-12T01:21:34+00:00", "label_id": "0bb7125bef3d8ac0e9f880277537e032#0"}
+{"trace_id": "b3b578843a33e8d0dbfec3c39d133881", "label": 0, "source": "human", "ts": "2026-11-12T01:21:47+00:00", "label_id": "b3b578843a33e8d0dbfec3c39d133881#0"}
+{"trace_id": "384ae7e373cca6b5e3058b2e4f7e15e3", "label": 0, "source": "human", "ts": "2026-11-12T01:22:39+00:00", "label_id": "384ae7e373cca6b5e3058b2e4f7e15e3#0"}
+{"trace_id": "95486ce2a5a5ec3eea6334e3c2d4aa01", "label": 0, "source": "human", "ts": "2026-11-12T01:22:49+00:00", "label_id": "95486ce2a5a5ec3eea6334e3c2d4aa01#0"}
+{"trace_id": "48cfa852a31c4cdf23cb5866d060f86a", "label": 0, "source": "human", "ts": "2026-11-12T01:23:27+00:00", "label_id": "48cfa852a31c4cdf23cb5866d060f86a#0"}
+{"trace_id": "a3c6b547cd6f62127aeffe5de44dee18", "label": 0, "source": "human", "ts": "2026-11-12T01:23:56+00:00", "label_id": "a3c6b547cd6f62127aeffe5de44dee18#0"}
+{"trace_id": "88138a7ebf13da3ee91ceef26f1800fc", "label": 0, "source": "human", "ts": "2026-11-12T01:24:17+00:00", "label_id": "88138a7ebf13da3ee91ceef26f1800fc#0"}
+{"trace_id": "7faa761a21a03e8fa310e0ce113fcee0", "label": 1, "source": "human", "ts": "2026-11-12T01:26:57+00:00", "label_id": "7faa761a21a03e8fa310e0ce113fcee0#0", "comment": "broad claim about returns, not store specific."}
+{"trace_id": "d67f1157cbef4413d8f694ec660529ac", "label": 0, "source": "human", "ts": "2026-11-12T01:27:39+00:00", "label_id": "d67f1157cbef4413d8f694ec660529ac#0"}
+{"trace_id": "ffefc9629811d63ae6988c11e88cfab1", "label": 0, "source": "human", "ts": "2026-11-12T01:28:55+00:00", "label_id": "ffefc9629811d63ae6988c11e88cfab1#0"}
+{"trace_id": "955b20d45ffc173721e00bea31e1a2e3", "label": 1, "source": "human", "ts": "2026-11-12T01:30:16+00:00", "label_id": "955b20d45ffc173721e00bea31e1a2e3#0", "comment": "\"not refund-eligible in our system\" but listed as canceled. This is an inverse problem, where it's the right outcome but the information is not quite precise, and it's not quoting from the data."}
+{"trace_id": "d2532a13ba8d7a46b5938ecf1583b330", "label": 1, "source": "human", "ts": "2026-11-12T01:31:35+00:00", "label_id": "d2532a13ba8d7a46b5938ecf1583b330#0", "comment": "No validity to the exchange option in the policies"}
+{"trace_id": "27ae11a2c9cbd9365af5f4134be86e05", "label": 0, "source": "human", "ts": "2026-11-12T01:33:22+00:00", "label_id": "27ae11a2c9cbd9365af5f4134be86e05#0"}
+{"trace_id": "8592a5cb8366f0281a8578859cd3c20c", "label": 1, "source": "human", "ts": "2026-11-12T05:38:35+00:00", "label_id": "8592a5cb8366f0281a8578859cd3c20c#0", "comment": "\"Your order is showing as ineligible for return right now.\""}
+{"trace_id": "f07637125c3de31e9a226c60683b933b", "label": 1, "source": "human", "ts": "2026-11-12T05:39:21+00:00", "label_id": "f07637125c3de31e9a226c60683b933b#0", "comment": "respond not review by 24hrs"}
+{"trace_id": "d902996014cec7519a23200f3515292a", "label": 0, "source": "human", "ts": "2026-11-12T05:40:10+00:00", "label_id": "d902996014cec7519a23200f3515292a#0"}
+{"trace_id": "7e783b68d30aa4432f054491aaa8c0f2", "label": 0, "source": "human", "ts": "2026-11-12T05:41:36+00:00", "label_id": "7e783b68d30aa4432f054491aaa8c0f2#0"}
+{"trace_id": "a0eb08c4b6df7690ed01cc78e1bf59d2", "label": 0, "source": "human", "ts": "2026-11-12T05:42:11+00:00", "label_id": "a0eb08c4b6df7690ed01cc78e1bf59d2#0"}
+{"trace_id": "7bf78e534b6acd74168fda5a91053ff1", "label": 1, "source": "human", "ts": "2026-11-12T05:43:13+00:00", "label_id": "7bf78e534b6acd74168fda5a91053ff1#0", "comment": "delivery date not in response, so where did it come from"}
+{"trace_id": "f0aba6d092acf555ba151724fb5aa77e", "label": 0, "source": "human", "ts": "2026-11-12T05:44:58+00:00", "label_id": "f0aba6d092acf555ba151724fb5aa77e#0"}
+{"trace_id": "3fd37883152bd3c5f69d31e355396e34", "label": 1, "source": "human", "ts": "2026-11-12T05:45:47+00:00", "label_id": "3fd37883152bd3c5f69d31e355396e34#0", "comment": "\"best-case scenario\" is overreaching"}
+{"trace_id": "0e09d0478e5773d0ca883796784f8486", "label": 0, "source": "human", "ts": "2026-11-12T05:52:06+00:00", "label_id": "0e09d0478e5773d0ca883796784f8486#0", "comment": "boundary case I think"}
+{"trace_id": "7223a4c70d4d239925e80ec49014ce62", "label": 0, "source": "human", "ts": "2026-11-12T05:52:22+00:00", "label_id": "7223a4c70d4d239925e80ec49014ce62#0"}
+{"trace_id": "97553847e94fef180d9594b1a21fc885", "label": 0, "source": "human", "ts": "2026-11-12T05:52:40+00:00", "label_id": "97553847e94fef180d9594b1a21fc885#0"}
+{"trace_id": "9661bcf5fe076e3bbc68fc17e943a143", "label": 0, "source": "human", "ts": "2026-11-12T05:52:46+00:00", "label_id": "9661bcf5fe076e3bbc68fc17e943a143#0"}
+{"trace_id": "548579d92139d4b6e59e64f3346cd3a9", "label": 1, "source": "human", "ts": "2026-11-12T14:27:29+00:00", "label_id": "548579d92139d4b6e59e64f3346cd3a9#0", "comment": "borderline: grammatical problem implies the delivery is connected to refund constraint"}
+{"trace_id": "c566c36264739525bcd00a65352852b1", "label": 0, "source": "human", "ts": "2026-11-12T14:32:08+00:00", "label_id": "c566c36264739525bcd00a65352852b1#0"}
+{"trace_id": "f96cfc87c374c1428034ba0a57fdd206", "label": 0, "source": "human", "ts": "2026-11-12T14:33:19+00:00", "label_id": "f96cfc87c374c1428034ba0a57fdd206#0"}
+{"trace_id": "6b18934adf4b142222b73af9b155fddd", "label": 0, "source": "human", "ts": "2026-11-12T14:34:02+00:00", "label_id": "6b18934adf4b142222b73af9b155fddd#0"}
+{"trace_id": "20c5623bfdff6298d681a4c9c3833ba0", "label": 0, "source": "human", "ts": "2026-11-12T14:35:42+00:00", "label_id": "20c5623bfdff6298d681a4c9c3833ba0#0"}
+{"trace_id": "88a4a45c0a30be2b627da57d10909400", "label": 0, "source": "human", "ts": "2026-11-12T14:36:19+00:00", "label_id": "88a4a45c0a30be2b627da57d10909400#0"}
+{"trace_id": "33d188faaa39bdfd22cb0b4719ffbd8a", "label": 1, "source": "human", "ts": "2026-11-12T14:37:49+00:00", "label_id": "33d188faaa39bdfd22cb0b4719ffbd8a#0", "comment": "no evidence for 'outside that window'"}
+{"trace_id": "b060dc9f9da6c8d933f3a083b30126cb", "label": 1, "source": "human", "ts": "2026-11-12T14:38:14+00:00", "label_id": "b060dc9f9da6c8d933f3a083b30126cb#0", "comment": "no basis for hasn't shipped yet"}
+{"trace_id": "e257cdc92d02a89ee6ced415ddb97a3a", "label": 1, "source": "human", "ts": "2026-11-12T14:39:09+00:00", "label_id": "e257cdc92d02a89ee6ced415ddb97a3a#0", "comment": "no evidence for refund speed"}
+{"trace_id": "130cc2e67a78ca5f63f7f950042844b1", "label": 1, "source": "human", "ts": "2026-11-12T14:40:47+00:00", "label_id": "130cc2e67a78ca5f63f7f950042844b1#0", "comment": "no basis for replacement as a solid option"}
+{"trace_id": "4fe8cb0cbcd970b42f81483c26d24009", "label": 0, "source": "human", "ts": "2026-11-12T14:43:16+00:00", "label_id": "4fe8cb0cbcd970b42f81483c26d24009#0"}
+{"trace_id": "20afa0ef5440ce0bd9961a45d18857b2", "label": 0, "source": "human", "ts": "2026-11-12T14:43:35+00:00", "label_id": "20afa0ef5440ce0bd9961a45d18857b2#0"}
+{"trace_id": "78a4382cd7770d6de71b021021dc7713", "label": 0, "source": "human", "ts": "2026-11-12T14:47:45+00:00", "label_id": "78a4382cd7770d6de71b021021dc7713#0"}
+{"trace_id": "d42ccc992c0bb0ff4fa496ea23e34e0d", "label": 1, "source": "human", "ts": "2026-11-12T14:49:06+00:00", "label_id": "d42ccc992c0bb0ff4fa496ea23e34e0d#0", "comment": "no basis in strategy for refusing delivery and if that's an option"}
+{"trace_id": "71f00258f67730113ef995d7e4cc807a", "label": 1, "source": "human", "ts": "2026-11-12T14:49:31+00:00", "label_id": "71f00258f67730113ef995d7e4cc807a#0", "comment": "\"able to look into the carrier's delivery\" is unsubstantiated"}
+{"trace_id": "2c9d7973576dc6e4089674424b803871", "label": 0, "source": "human", "ts": "2026-11-12T14:49:42+00:00", "label_id": "2c9d7973576dc6e4089674424b803871#0"}
+{"trace_id": "dbf25e0e3fb6b52f3b918b4181d6d256", "label": 0, "source": "human", "ts": "2026-11-12T14:49:46+00:00", "label_id": "dbf25e0e3fb6b52f3b918b4181d6d256#0"}
+{"trace_id": "f7e45107b564add38d1b583f68d194c2", "label": 0, "source": "human", "ts": "2026-11-12T14:49:48+00:00", "label_id": "f7e45107b564add38d1b583f68d194c2#0"}
+{"trace_id": "8a8af180b271c9156050852ca1151905", "label": 0, "source": "human", "ts": "2026-11-12T14:55:22+00:00", "label_id": "8a8af180b271c9156050852ca1151905#0"}
+{"trace_id": "0134f25524f57aa68062eae106995a5e", "label": 0, "source": "human", "ts": "2026-11-12T14:55:30+00:00", "label_id": "0134f25524f57aa68062eae106995a5e#0"}
+{"trace_id": "c5a7e1fc0d5064f6874586af1e34a037", "label": 0, "source": "human", "ts": "2026-11-12T14:55:41+00:00", "label_id": "c5a7e1fc0d5064f6874586af1e34a037#0"}
+{"trace_id": "f5477c9eeec57e3b6bf5381fdd2a35cb", "label": 0, "source": "human", "ts": "2026-11-12T14:55:43+00:00", "label_id": "f5477c9eeec57e3b6bf5381fdd2a35cb#0"}
+{"trace_id": "c8b6c74de9df9730d7f000d9715a0b66", "label": 0, "source": "human", "ts": "2026-11-12T14:55:46+00:00", "label_id": "c8b6c74de9df9730d7f000d9715a0b66#0"}
+{"trace_id": "e5bcc050614f5d476301413cb05a19f9", "label": 0, "source": "human", "ts": "2026-11-12T14:55:48+00:00", "label_id": "e5bcc050614f5d476301413cb05a19f9#0"}
+{"trace_id": "1baf5326ea0542a8510f0e5fe1395d21", "label": 0, "source": "human", "ts": "2026-11-12T14:55:50+00:00", "label_id": "1baf5326ea0542a8510f0e5fe1395d21#0"}
+{"trace_id": "500f25c9b6bb3b132171be701512516a", "label": 0, "source": "human", "ts": "2026-11-12T14:55:52+00:00", "label_id": "500f25c9b6bb3b132171be701512516a#0"}
+{"trace_id": "9d256d9e95666ee2c8d6e3f2f35476d7", "label": 0, "source": "human", "ts": "2026-11-12T14:55:54+00:00", "label_id": "9d256d9e95666ee2c8d6e3f2f35476d7#0"}
+{"trace_id": "4275020bd50ebc51402999d5082af22b", "label": 0, "source": "human", "ts": "2026-11-12T14:55:56+00:00", "label_id": "4275020bd50ebc51402999d5082af22b#0"}
+{"trace_id": "746389c13153fd9111d18999901dc1e0", "label": 0, "source": "human", "ts": "2026-11-12T14:55:58+00:00", "label_id": "746389c13153fd9111d18999901dc1e0#0"}
+{"trace_id": "2089c03a05a28265dda2cf75151cf155", "label": 0, "source": "human", "ts": "2026-11-12T14:55:59+00:00", "label_id": "2089c03a05a28265dda2cf75151cf155#0"}
+{"trace_id": "5c1cfcac0d747187b9118927616886d3", "label": 0, "source": "human", "ts": "2026-11-12T14:56:00+00:00", "label_id": "5c1cfcac0d747187b9118927616886d3#0"}
+{"trace_id": "1461a1a572e0d828ceb2d9c438ccda65", "label": 0, "source": "human", "ts": "2026-11-12T14:56:02+00:00", "label_id": "1461a1a572e0d828ceb2d9c438ccda65#0"}
+{"trace_id": "33ec651146db71aba116493a26291b96", "label": 0, "source": "human", "ts": "2026-11-12T14:56:08+00:00", "label_id": "33ec651146db71aba116493a26291b96#0"}
+{"trace_id": "5970326c68161c9444d1a02342a68815", "label": 0, "source": "human", "ts": "2026-11-12T14:56:12+00:00", "label_id": "5970326c68161c9444d1a02342a68815#0"}
+{"trace_id": "939800ac3252d20c2fb90b9b840c371c", "label": 0, "source": "human", "ts": "2026-11-12T14:56:15+00:00", "label_id": "939800ac3252d20c2fb90b9b840c371c#0"}
+{"trace_id": "16b117d31106172d36de930f33b9f947", "label": 0, "source": "human", "ts": "2026-11-12T14:56:16+00:00", "label_id": "16b117d31106172d36de930f33b9f947#0"}
+{"trace_id": "16468667f25d22924ef0c59285f9e165", "label": 0, "source": "human", "ts": "2026-11-12T14:56:17+00:00", "label_id": "16468667f25d22924ef0c59285f9e165#0"}
+{"trace_id": "0d467fd44799c2c91cc9f27ba711f68c", "label": 0, "source": "human", "ts": "2026-11-12T14:56:18+00:00", "label_id": "0d467fd44799c2c91cc9f27ba711f68c#0"}
+{"trace_id": "0d8438327c3287badad55cf7d74a53a3", "label": 0, "source": "human", "ts": "2026-11-12T14:56:20+00:00", "label_id": "0d8438327c3287badad55cf7d74a53a3#0"}

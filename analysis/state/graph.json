@@ -1,0 +1,2310 @@
+{
+  "method": "PCA (2 components) of standardized trace features, small seeded jitter",
+  "nodes": [
+    {
+      "trace_id": "c22cc72a17830ce8e42bc38a0fa029ec",
+      "scenario_id": "support-0250",
+      "x": 0.4427,
+      "y": -0.2097,
+      "cluster": 1
+    },
+    {
+      "trace_id": "16cff5237772ee8f10b6ec17a078ea85",
+      "scenario_id": "support-0249",
+      "x": 0.5261,
+      "y": -0.2848,
+      "cluster": 1
+    },
+    {
+      "trace_id": "3552c3a6169d50b86b19f12bfd451eb9",
+      "scenario_id": "support-0248",
+      "x": 0.3452,
+      "y": -0.2382,
+      "cluster": 4
+    },
+    {
+      "trace_id": "8385653d05356ab70ab12a606b2eedec",
+      "scenario_id": "support-0247",
+      "x": -3.5606,
+      "y": 2.9333,
+      "cluster": 0
+    },
+    {
+      "trace_id": "427aeb636da7a85ade8e5658e4fd6860",
+      "scenario_id": "support-0247",
+      "x": 0.2077,
+      "y": -0.1837,
+      "cluster": 4
+    },
+    {
+      "trace_id": "71f00258f67730113ef995d7e4cc807a",
+      "scenario_id": "support-0246",
+      "x": -1.0917,
+      "y": -0.9797,
+      "cluster": 2
+    },
+    {
+      "trace_id": "7ccbec23bef231105ebbf6c7c966588f",
+      "scenario_id": "support-0245",
+      "x": -0.0327,
+      "y": -0.119,
+      "cluster": 7
+    },
+    {
+      "trace_id": "d65625a8d5368f8e7305e7a2ac385d6b",
+      "scenario_id": "support-0244",
+      "x": 0.5926,
+      "y": -0.2379,
+      "cluster": 1
+    },
+    {
+      "trace_id": "cfc53fcd6f51dfeb7e24b544a3625a7d",
+      "scenario_id": "support-0243",
+      "x": 0.2869,
+      "y": -0.2102,
+      "cluster": 4
+    },
+    {
+      "trace_id": "22b4b9152bbc23fc023ba59346e691bf",
+      "scenario_id": "support-0243",
+      "x": -0.5296,
+      "y": -0.5711,
+      "cluster": 4
+    },
+    {
+      "trace_id": "853f0c22bfbd2efd016adcf90b5d9a7e",
+      "scenario_id": "support-0242",
+      "x": -1.6419,
+      "y": -0.8701,
+      "cluster": 2
+    },
+    {
+      "trace_id": "0c7953e34a28a899835ef88b3d32564c",
+      "scenario_id": "support-0241",
+      "x": 0.2031,
+      "y": -0.1557,
+      "cluster": 4
+    },
+    {
+      "trace_id": "fb39bc9c9bbb895a51b985a7517b497a",
+      "scenario_id": "support-0240",
+      "x": -1.8414,
+      "y": -0.7867,
+      "cluster": 2
+    },
+    {
+      "trace_id": "983874777096303adc56900b8c484e41",
+      "scenario_id": "support-0239",
+      "x": 0.0965,
+      "y": -0.1716,
+      "cluster": 4
+    },
+    {
+      "trace_id": "1baf5326ea0542a8510f0e5fe1395d21",
+      "scenario_id": "support-0238",
+      "x": 0.5956,
+      "y": -0.2623,
+      "cluster": 1
+    },
+    {
+      "trace_id": "ea81fed9421d0d26adbc94219aa2b539",
+      "scenario_id": "support-0237",
+      "x": 1.9279,
+      "y": 0.5338,
+      "cluster": 6
+    },
+    {
+      "trace_id": "df294f4ede917642f55faa787537c7ef",
+      "scenario_id": "support-0236",
+      "x": -0.4512,
+      "y": -0.564,
+      "cluster": 4
+    },
+    {
+      "trace_id": "f0163b7f7a2b84f19d6afd6c7e804188",
+      "scenario_id": "support-0235",
+      "x": 0.5304,
+      "y": -0.2672,
+      "cluster": 1
+    },
+    {
+      "trace_id": "e5bcc050614f5d476301413cb05a19f9",
+      "scenario_id": "support-0234",
+      "x": -2.7156,
+      "y": -1.7166,
+      "cluster": 2
+    },
+    {
+      "trace_id": "c8b6c74de9df9730d7f000d9715a0b66",
+      "scenario_id": "support-0233",
+      "x": -1.0062,
+      "y": -1.0359,
+      "cluster": 2
+    },
+    {
+      "trace_id": "e0e04ba15ba61c5332d687ce80a3248d",
+      "scenario_id": "support-0232",
+      "x": 0.0354,
+      "y": -0.099,
+      "cluster": 7
+    },
+    {
+      "trace_id": "59762f61caf01cd05802d88430e92b31",
+      "scenario_id": "support-0232",
+      "x": -2.6457,
+      "y": -1.117,
+      "cluster": 2
+    },
+    {
+      "trace_id": "83c759cc3a614fa7257da9ba0a99f8cb",
+      "scenario_id": "support-0231",
+      "x": 1.9905,
+      "y": 0.5064,
+      "cluster": 6
+    },
+    {
+      "trace_id": "f5477c9eeec57e3b6bf5381fdd2a35cb",
+      "scenario_id": "support-0230",
+      "x": 0.2958,
+      "y": -0.164,
+      "cluster": 4
+    },
+    {
+      "trace_id": "c5a7e1fc0d5064f6874586af1e34a037",
+      "scenario_id": "support-0230",
+      "x": -1.6349,
+      "y": -0.1026,
+      "cluster": 3
+    },
+    {
+      "trace_id": "0134f25524f57aa68062eae106995a5e",
+      "scenario_id": "support-0230",
+      "x": 0.1937,
+      "y": -0.1881,
+      "cluster": 4
+    },
+    {
+      "trace_id": "7eef59989ddcc1ac62a2d6e0128fee3a",
+      "scenario_id": "support-0229",
+      "x": 1.705,
+      "y": 0.6596,
+      "cluster": 6
+    },
+    {
+      "trace_id": "d42ccc992c0bb0ff4fa496ea23e34e0d",
+      "scenario_id": "support-0229",
+      "x": -1.6697,
+      "y": -0.1398,
+      "cluster": 3
+    },
+    {
+      "trace_id": "8a8af180b271c9156050852ca1151905",
+      "scenario_id": "support-0229",
+      "x": 0.187,
+      "y": -0.1212,
+      "cluster": 4
+    },
+    {
+      "trace_id": "f7e45107b564add38d1b583f68d194c2",
+      "scenario_id": "support-0228",
+      "x": -2.5397,
+      "y": -1.8131,
+      "cluster": 2
+    },
+    {
+      "trace_id": "ea78259366319c714c1033323119671d",
+      "scenario_id": "support-0227",
+      "x": -3.3207,
+      "y": 2.7929,
+      "cluster": 0
+    },
+    {
+      "trace_id": "2f09266bfe6f80107ba2f8e85a45a2ce",
+      "scenario_id": "support-0227",
+      "x": 1.794,
+      "y": 0.5638,
+      "cluster": 6
+    },
+    {
+      "trace_id": "cb9e020b760165140d19fe93acd2f8bc",
+      "scenario_id": "support-0227",
+      "x": 0.2307,
+      "y": -0.1744,
+      "cluster": 4
+    },
+    {
+      "trace_id": "dbf25e0e3fb6b52f3b918b4181d6d256",
+      "scenario_id": "support-0226",
+      "x": -1.1697,
+      "y": -0.9206,
+      "cluster": 2
+    },
+    {
+      "trace_id": "548579d92139d4b6e59e64f3346cd3a9",
+      "scenario_id": "support-0225",
+      "x": 0.1178,
+      "y": -0.1741,
+      "cluster": 4
+    },
+    {
+      "trace_id": "f99cfe047b3402238af413ee9b44c65d",
+      "scenario_id": "support-0224",
+      "x": 0.0418,
+      "y": -0.1769,
+      "cluster": 7
+    },
+    {
+      "trace_id": "628f93a3344725467272d529b665ddc2",
+      "scenario_id": "support-0224",
+      "x": 0.0465,
+      "y": -0.1154,
+      "cluster": 7
+    },
+    {
+      "trace_id": "2c9d7973576dc6e4089674424b803871",
+      "scenario_id": "support-0223",
+      "x": 0.459,
+      "y": -0.1841,
+      "cluster": 4
+    },
+    {
+      "trace_id": "cc5bb94d75304c3b15a4bb125ae3f15d",
+      "scenario_id": "support-0222",
+      "x": 0.4749,
+      "y": -0.2496,
+      "cluster": 1
+    },
+    {
+      "trace_id": "b9566c439b869878618b50d43c80f746",
+      "scenario_id": "support-0221",
+      "x": 0.2854,
+      "y": -0.1177,
+      "cluster": 4
+    },
+    {
+      "trace_id": "78a4382cd7770d6de71b021021dc7713",
+      "scenario_id": "support-0220",
+      "x": 0.5086,
+      "y": -0.258,
+      "cluster": 1
+    },
+    {
+      "trace_id": "2d6e472997144b3273d31e80adc03362",
+      "scenario_id": "support-0219",
+      "x": 2.0107,
+      "y": 0.5458,
+      "cluster": 6
+    },
+    {
+      "trace_id": "20afa0ef5440ce0bd9961a45d18857b2",
+      "scenario_id": "support-0219",
+      "x": 0.2686,
+      "y": -0.2177,
+      "cluster": 4
+    },
+    {
+      "trace_id": "4fe8cb0cbcd970b42f81483c26d24009",
+      "scenario_id": "support-0219",
+      "x": -3.3411,
+      "y": -0.9209,
+      "cluster": 3
+    },
+    {
+      "trace_id": "9661bcf5fe076e3bbc68fc17e943a143",
+      "scenario_id": "support-0218",
+      "x": 2.1452,
+      "y": 0.5471,
+      "cluster": 6
+    },
+    {
+      "trace_id": "97553847e94fef180d9594b1a21fc885",
+      "scenario_id": "support-0218",
+      "x": 2.0032,
+      "y": 0.5752,
+      "cluster": 6
+    },
+    {
+      "trace_id": "a270252037f77d2613ac1d84adc6d20b",
+      "scenario_id": "support-0217",
+      "x": 0.5575,
+      "y": -0.217,
+      "cluster": 1
+    },
+    {
+      "trace_id": "0dc17f84a2477fbb7d14fc5ccd806e21",
+      "scenario_id": "support-0216",
+      "x": 0.5935,
+      "y": -0.2424,
+      "cluster": 1
+    },
+    {
+      "trace_id": "7223a4c70d4d239925e80ec49014ce62",
+      "scenario_id": "support-0215",
+      "x": 0.5799,
+      "y": -0.2628,
+      "cluster": 1
+    },
+    {
+      "trace_id": "160adc200c4399366d2654b99cf61f07",
+      "scenario_id": "support-0214",
+      "x": -3.1131,
+      "y": 2.6474,
+      "cluster": 0
+    },
+    {
+      "trace_id": "9f293f5b1cf7de2c741c028ad6462892",
+      "scenario_id": "support-0213",
+      "x": 0.4305,
+      "y": -0.2576,
+      "cluster": 1
+    },
+    {
+      "trace_id": "0e09d0478e5773d0ca883796784f8486",
+      "scenario_id": "support-0212",
+      "x": -2.6095,
+      "y": -1.6908,
+      "cluster": 2
+    },
+    {
+      "trace_id": "3a47659050816ab972c43864a2274c93",
+      "scenario_id": "support-0211",
+      "x": -0.176,
+      "y": -0.0759,
+      "cluster": 7
+    },
+    {
+      "trace_id": "1eedc46351ad1e986645013a909f40a9",
+      "scenario_id": "support-0210",
+      "x": 0.3414,
+      "y": -0.17,
+      "cluster": 4
+    },
+    {
+      "trace_id": "7cf9d7086ade9a4adc781dc35853c0ea",
+      "scenario_id": "support-0209",
+      "x": 0.4432,
+      "y": -0.2321,
+      "cluster": 1
+    },
+    {
+      "trace_id": "3074f7002cb017e72e242f1547557fc1",
+      "scenario_id": "support-0208",
+      "x": 0.0289,
+      "y": -0.072,
+      "cluster": 7
+    },
+    {
+      "trace_id": "593c62ad13ac6cd093dbb138f92cc37f",
+      "scenario_id": "support-0207",
+      "x": -0.2003,
+      "y": -0.6086,
+      "cluster": 1
+    },
+    {
+      "trace_id": "945d39a945c282b63670ef74095eedac",
+      "scenario_id": "support-0206",
+      "x": -2.5645,
+      "y": 2.5468,
+      "cluster": 0
+    },
+    {
+      "trace_id": "283c565e991b59cd210b614cc19157a3",
+      "scenario_id": "support-0205",
+      "x": 0.0792,
+      "y": -0.1469,
+      "cluster": 7
+    },
+    {
+      "trace_id": "20c5623bfdff6298d681a4c9c3833ba0",
+      "scenario_id": "support-0204",
+      "x": 0.3456,
+      "y": -0.1743,
+      "cluster": 4
+    },
+    {
+      "trace_id": "ab03b374a9489b5d3d4c5f31364c89ff",
+      "scenario_id": "support-0203",
+      "x": 0.484,
+      "y": -0.2563,
+      "cluster": 1
+    },
+    {
+      "trace_id": "a54dc42b9200fe00f5c05b21fbaf4458",
+      "scenario_id": "support-0202",
+      "x": 0.4757,
+      "y": -0.3126,
+      "cluster": 1
+    },
+    {
+      "trace_id": "e257cdc92d02a89ee6ced415ddb97a3a",
+      "scenario_id": "support-0201",
+      "x": -0.9828,
+      "y": -1.0301,
+      "cluster": 2
+    },
+    {
+      "trace_id": "d5c7a912ca8f42a86a76aa135181b774",
+      "scenario_id": "support-0200",
+      "x": 0.2782,
+      "y": -0.1646,
+      "cluster": 4
+    },
+    {
+      "trace_id": "6b18934adf4b142222b73af9b155fddd",
+      "scenario_id": "support-0199",
+      "x": 0.2142,
+      "y": -0.1451,
+      "cluster": 4
+    },
+    {
+      "trace_id": "730e796530b2c5f067b24a6661fec888",
+      "scenario_id": "support-0198",
+      "x": 2.0383,
+      "y": 0.5598,
+      "cluster": 6
+    },
+    {
+      "trace_id": "737b0f3edfa813383c2267a1fb7af44a",
+      "scenario_id": "support-0198",
+      "x": 2.0396,
+      "y": 0.4782,
+      "cluster": 6
+    },
+    {
+      "trace_id": "1260a4bc35e9531dc33790addd5b66db",
+      "scenario_id": "support-0197",
+      "x": 0.0508,
+      "y": -0.0351,
+      "cluster": 7
+    },
+    {
+      "trace_id": "3fd37883152bd3c5f69d31e355396e34",
+      "scenario_id": "support-0196",
+      "x": 1.9222,
+      "y": 0.5606,
+      "cluster": 6
+    },
+    {
+      "trace_id": "f0aba6d092acf555ba151724fb5aa77e",
+      "scenario_id": "support-0196",
+      "x": 0.357,
+      "y": -0.2375,
+      "cluster": 4
+    },
+    {
+      "trace_id": "641c1cd306f50a4c925ad2cfe6e362c0",
+      "scenario_id": "support-0196",
+      "x": -4.8992,
+      "y": 2.035,
+      "cluster": 0
+    },
+    {
+      "trace_id": "e9a5dfdbf5aa5a483d534b03b56ba0b0",
+      "scenario_id": "support-0195",
+      "x": -1.1796,
+      "y": 0.2191,
+      "cluster": 3
+    },
+    {
+      "trace_id": "3010d1b2b0e92a4b46e23c5d3a22026c",
+      "scenario_id": "support-0194",
+      "x": 0.4478,
+      "y": -0.2816,
+      "cluster": 1
+    },
+    {
+      "trace_id": "24558fc78525fff0484dfdc68c235065",
+      "scenario_id": "support-0193",
+      "x": 0.5836,
+      "y": -0.2542,
+      "cluster": 1
+    },
+    {
+      "trace_id": "11fd53a7bf3667b48906e643efd5575e",
+      "scenario_id": "support-0192",
+      "x": 0.4435,
+      "y": -0.2101,
+      "cluster": 4
+    },
+    {
+      "trace_id": "d949597416c431da64fd8b7079318140",
+      "scenario_id": "support-0191",
+      "x": -0.1629,
+      "y": -0.0662,
+      "cluster": 7
+    },
+    {
+      "trace_id": "fbfbfba802bb9c90afaf604a04212043",
+      "scenario_id": "support-0190",
+      "x": 0.492,
+      "y": -0.2422,
+      "cluster": 1
+    },
+    {
+      "trace_id": "7bf78e534b6acd74168fda5a91053ff1",
+      "scenario_id": "support-0189",
+      "x": 0.4126,
+      "y": -0.2292,
+      "cluster": 1
+    },
+    {
+      "trace_id": "0006ca5bbdf99f53ddbdcf874a20f77b",
+      "scenario_id": "support-0188",
+      "x": 0.2025,
+      "y": -0.1999,
+      "cluster": 4
+    },
+    {
+      "trace_id": "93dbbc5fddc0c441fc46a79171662d32",
+      "scenario_id": "support-0187",
+      "x": 0.4975,
+      "y": -0.2452,
+      "cluster": 1
+    },
+    {
+      "trace_id": "9e0e63524d1f3e0acfbf00d5c305a087",
+      "scenario_id": "support-0186",
+      "x": 0.3627,
+      "y": -0.1971,
+      "cluster": 4
+    },
+    {
+      "trace_id": "5ddb785d7d9ccc1dad23b5239152e186",
+      "scenario_id": "support-0185",
+      "x": 0.5254,
+      "y": -0.2875,
+      "cluster": 1
+    },
+    {
+      "trace_id": "0d8438327c3287badad55cf7d74a53a3",
+      "scenario_id": "support-0184",
+      "x": 0.4532,
+      "y": -0.2524,
+      "cluster": 1
+    },
+    {
+      "trace_id": "0d467fd44799c2c91cc9f27ba711f68c",
+      "scenario_id": "support-0184",
+      "x": 2.0735,
+      "y": 0.5371,
+      "cluster": 6
+    },
+    {
+      "trace_id": "a0eb08c4b6df7690ed01cc78e1bf59d2",
+      "scenario_id": "support-0183",
+      "x": -3.3184,
+      "y": 2.811,
+      "cluster": 0
+    },
+    {
+      "trace_id": "eaa821b6a387924f5f2ef7642d08f7d3",
+      "scenario_id": "support-0182",
+      "x": 0.4617,
+      "y": -0.2178,
+      "cluster": 1
+    },
+    {
+      "trace_id": "7e783b68d30aa4432f054491aaa8c0f2",
+      "scenario_id": "support-0181",
+      "x": 0.5344,
+      "y": -0.2604,
+      "cluster": 1
+    },
+    {
+      "trace_id": "1aadf34a3824a1e634395357c5b1ec92",
+      "scenario_id": "support-0180",
+      "x": 0.3002,
+      "y": -0.2416,
+      "cluster": 4
+    },
+    {
+      "trace_id": "61ded11782d761de37158edc380b90b6",
+      "scenario_id": "support-0179",
+      "x": -2.608,
+      "y": -1.7876,
+      "cluster": 2
+    },
+    {
+      "trace_id": "5b9d7476ae46e86c49150e59d2140fab",
+      "scenario_id": "support-0178",
+      "x": 0.4959,
+      "y": -0.2351,
+      "cluster": 1
+    },
+    {
+      "trace_id": "912f65952cd47c86d7e3d01af5877219",
+      "scenario_id": "support-0177",
+      "x": -4.3825,
+      "y": 2.5339,
+      "cluster": 0
+    },
+    {
+      "trace_id": "beaf5482b9b435a837c4ad69d717578a",
+      "scenario_id": "support-0177",
+      "x": -7.3752,
+      "y": 1.6426,
+      "cluster": 0
+    },
+    {
+      "trace_id": "a7d3e4d7482e469a766e86b74268e21f",
+      "scenario_id": "support-0176",
+      "x": -0.0506,
+      "y": -0.0787,
+      "cluster": 7
+    },
+    {
+      "trace_id": "f0893fe40be261d76f3ffdf68255ec1f",
+      "scenario_id": "support-0175",
+      "x": 0.7541,
+      "y": -0.2715,
+      "cluster": 1
+    },
+    {
+      "trace_id": "d902996014cec7519a23200f3515292a",
+      "scenario_id": "support-0174",
+      "x": 0.2276,
+      "y": -0.177,
+      "cluster": 4
+    },
+    {
+      "trace_id": "d06b046c9cce21872a655fefff7a829b",
+      "scenario_id": "support-0174",
+      "x": -2.0741,
+      "y": -1.2506,
+      "cluster": 2
+    },
+    {
+      "trace_id": "f07637125c3de31e9a226c60683b933b",
+      "scenario_id": "support-0173",
+      "x": -1.1519,
+      "y": -0.9764,
+      "cluster": 2
+    },
+    {
+      "trace_id": "dac9c80599eaab7be53f49efbe9ef694",
+      "scenario_id": "support-0172",
+      "x": 0.7212,
+      "y": -0.2653,
+      "cluster": 1
+    },
+    {
+      "trace_id": "cce735672f4e7281746057dfb90bc77f",
+      "scenario_id": "support-0171",
+      "x": 0.5552,
+      "y": -0.2079,
+      "cluster": 1
+    },
+    {
+      "trace_id": "c9992579d979b3349cf1b87fcada6f04",
+      "scenario_id": "support-0170",
+      "x": 2.0464,
+      "y": 0.5914,
+      "cluster": 6
+    },
+    {
+      "trace_id": "5f757d1248b27ab6f8929127f63fdd22",
+      "scenario_id": "support-0169",
+      "x": -0.2768,
+      "y": -0.5512,
+      "cluster": 4
+    },
+    {
+      "trace_id": "fd14a09a0067ef18f1e22899b3444bcf",
+      "scenario_id": "support-0168",
+      "x": 1.9786,
+      "y": 0.5966,
+      "cluster": 6
+    },
+    {
+      "trace_id": "f5bd013075185facb03c9a7c789e66c5",
+      "scenario_id": "support-0167",
+      "x": 0.4876,
+      "y": -0.1534,
+      "cluster": 4
+    },
+    {
+      "trace_id": "21d1df1b0caa5730c0bb29ee4e80a1fd",
+      "scenario_id": "support-0166",
+      "x": -1.9275,
+      "y": -0.8368,
+      "cluster": 2
+    },
+    {
+      "trace_id": "87cb22376ab43ec8ee1fa64706d07b81",
+      "scenario_id": "support-0165",
+      "x": 0.532,
+      "y": -0.2788,
+      "cluster": 1
+    },
+    {
+      "trace_id": "4e10f77effcab7e4bc647f77ac1bab5d",
+      "scenario_id": "support-0164",
+      "x": -2.6921,
+      "y": -1.725,
+      "cluster": 2
+    },
+    {
+      "trace_id": "a9aa6d34b3d4be0ef7bf457b85abbd0a",
+      "scenario_id": "support-0163",
+      "x": -1.5013,
+      "y": -0.3176,
+      "cluster": 3
+    },
+    {
+      "trace_id": "34bd800af3184b328b53d83fe8daf6cb",
+      "scenario_id": "support-0163",
+      "x": -3.5488,
+      "y": 2.8804,
+      "cluster": 0
+    },
+    {
+      "trace_id": "92014fbe3dd6a1d84b75c78d08957b25",
+      "scenario_id": "support-0162",
+      "x": 0.3611,
+      "y": -0.1992,
+      "cluster": 4
+    },
+    {
+      "trace_id": "8592a5cb8366f0281a8578859cd3c20c",
+      "scenario_id": "support-0161",
+      "x": -1.3297,
+      "y": 3.3833,
+      "cluster": 0
+    },
+    {
+      "trace_id": "f96cfc87c374c1428034ba0a57fdd206",
+      "scenario_id": "support-0161",
+      "x": -1.9564,
+      "y": -0.7883,
+      "cluster": 2
+    },
+    {
+      "trace_id": "27ae11a2c9cbd9365af5f4134be86e05",
+      "scenario_id": "support-0160",
+      "x": -4.6016,
+      "y": -1.7598,
+      "cluster": 2
+    },
+    {
+      "trace_id": "8f0e96306e2c4b6f2242235c4c8e6321",
+      "scenario_id": "support-0159",
+      "x": 2.1868,
+      "y": 0.5108,
+      "cluster": 6
+    },
+    {
+      "trace_id": "d1f1a084e30b467ca63a0ff228a7dcf3",
+      "scenario_id": "support-0159",
+      "x": 0.4107,
+      "y": -0.2502,
+      "cluster": 1
+    },
+    {
+      "trace_id": "72dc228fd5dbaeb57ca7404d8078e47e",
+      "scenario_id": "support-0158",
+      "x": 1.8962,
+      "y": 0.5328,
+      "cluster": 6
+    },
+    {
+      "trace_id": "487baca7fbf55d48ed8afbad3d6c9cd7",
+      "scenario_id": "support-0157",
+      "x": 0.1635,
+      "y": -0.1693,
+      "cluster": 4
+    },
+    {
+      "trace_id": "bbf4dc989bf8546962e19d9d0f65840f",
+      "scenario_id": "support-0156",
+      "x": -1.5653,
+      "y": -0.8438,
+      "cluster": 2
+    },
+    {
+      "trace_id": "c566c36264739525bcd00a65352852b1",
+      "scenario_id": "support-0155",
+      "x": 0.6257,
+      "y": -0.3071,
+      "cluster": 1
+    },
+    {
+      "trace_id": "9d16106ea3d447e77bae5ff0dd8b853c",
+      "scenario_id": "support-0154",
+      "x": -1.5403,
+      "y": -0.8621,
+      "cluster": 2
+    },
+    {
+      "trace_id": "7c1f887c75f8771faa6b646579b3ef6b",
+      "scenario_id": "support-0153",
+      "x": 0.2231,
+      "y": -0.2158,
+      "cluster": 4
+    },
+    {
+      "trace_id": "3e115d870d15592bd22b6ffaa7b5357b",
+      "scenario_id": "support-0153",
+      "x": -4.6967,
+      "y": 2.6754,
+      "cluster": 0
+    },
+    {
+      "trace_id": "d2532a13ba8d7a46b5938ecf1583b330",
+      "scenario_id": "support-0153",
+      "x": -1.5036,
+      "y": -0.8773,
+      "cluster": 2
+    },
+    {
+      "trace_id": "acc9b8ba351aa507690a3e7a3260fb5b",
+      "scenario_id": "support-0152",
+      "x": 1.8792,
+      "y": 0.6277,
+      "cluster": 6
+    },
+    {
+      "trace_id": "955b20d45ffc173721e00bea31e1a2e3",
+      "scenario_id": "support-0152",
+      "x": 1.7578,
+      "y": 0.532,
+      "cluster": 6
+    },
+    {
+      "trace_id": "58eaa3fb0f7d766576fe4fe838aa2689",
+      "scenario_id": "support-0152",
+      "x": 0.3395,
+      "y": -0.2784,
+      "cluster": 4
+    },
+    {
+      "trace_id": "7e4af914d694185e3766f752c235c324",
+      "scenario_id": "support-0151",
+      "x": 0.5203,
+      "y": -0.3034,
+      "cluster": 1
+    },
+    {
+      "trace_id": "841fcea0fe266f25356741f4a55fb2ce",
+      "scenario_id": "support-0151",
+      "x": 0.6584,
+      "y": -0.2671,
+      "cluster": 1
+    },
+    {
+      "trace_id": "16468667f25d22924ef0c59285f9e165",
+      "scenario_id": "support-0150",
+      "x": 0.3807,
+      "y": -0.2549,
+      "cluster": 1
+    },
+    {
+      "trace_id": "cde1b65ec1b86acabc8a65a1c001bf37",
+      "scenario_id": "support-0149",
+      "x": 1.8719,
+      "y": 0.6065,
+      "cluster": 6
+    },
+    {
+      "trace_id": "c360f39a6acf9e44d2632e14559fda11",
+      "scenario_id": "support-0148",
+      "x": 0.3426,
+      "y": -0.194,
+      "cluster": 4
+    },
+    {
+      "trace_id": "4f9730169fcdedaf56c1e7054a2c819d",
+      "scenario_id": "support-0147",
+      "x": 0.2592,
+      "y": -0.1355,
+      "cluster": 4
+    },
+    {
+      "trace_id": "bfa5dec5fa1b19431c7b20819c80b72e",
+      "scenario_id": "support-0146",
+      "x": 1.9998,
+      "y": 0.5648,
+      "cluster": 6
+    },
+    {
+      "trace_id": "2a07df95c3c486cbb4ea00f587853580",
+      "scenario_id": "support-0146",
+      "x": 2.004,
+      "y": 0.5568,
+      "cluster": 6
+    },
+    {
+      "trace_id": "776ffe175a4f2ef7bae2c158e40faf30",
+      "scenario_id": "support-0145",
+      "x": -0.1814,
+      "y": -0.0039,
+      "cluster": 7
+    },
+    {
+      "trace_id": "ce3454e4c5cb95eb44a9cfd3913d2247",
+      "scenario_id": "support-0145",
+      "x": -0.1973,
+      "y": -0.0553,
+      "cluster": 7
+    },
+    {
+      "trace_id": "16b117d31106172d36de930f33b9f947",
+      "scenario_id": "support-0144",
+      "x": 1.8037,
+      "y": 0.5538,
+      "cluster": 6
+    },
+    {
+      "trace_id": "939800ac3252d20c2fb90b9b840c371c",
+      "scenario_id": "support-0144",
+      "x": 1.8993,
+      "y": 0.6575,
+      "cluster": 6
+    },
+    {
+      "trace_id": "a582496adf2ca1d2c90b9d886f4bffcb",
+      "scenario_id": "support-0143",
+      "x": -1.6057,
+      "y": -0.8243,
+      "cluster": 2
+    },
+    {
+      "trace_id": "3a6a29452770606af10fa02fb54da118",
+      "scenario_id": "support-0142",
+      "x": 1.9967,
+      "y": 0.4505,
+      "cluster": 6
+    },
+    {
+      "trace_id": "d5e518e861f034f657177aef95cc69ea",
+      "scenario_id": "support-0141",
+      "x": -0.7785,
+      "y": 0.1349,
+      "cluster": 3
+    },
+    {
+      "trace_id": "288b04171b44a84281bc4ba975c0b47d",
+      "scenario_id": "support-0140",
+      "x": -1.0458,
+      "y": 0.1703,
+      "cluster": 3
+    },
+    {
+      "trace_id": "a7a24dd6881461179995ff532ef37dbd",
+      "scenario_id": "support-0139",
+      "x": 1.8385,
+      "y": 0.5865,
+      "cluster": 6
+    },
+    {
+      "trace_id": "d33f9adc04ea8f74429beb1ecd1f7b77",
+      "scenario_id": "support-0139",
+      "x": -0.0688,
+      "y": -0.0453,
+      "cluster": 7
+    },
+    {
+      "trace_id": "0244ce857705909a76bb5f7c91e78bfd",
+      "scenario_id": "support-0138",
+      "x": 0.4991,
+      "y": -0.177,
+      "cluster": 1
+    },
+    {
+      "trace_id": "505fb06fb33fab29101827322913debd",
+      "scenario_id": "support-0138",
+      "x": 1.9782,
+      "y": 0.534,
+      "cluster": 6
+    },
+    {
+      "trace_id": "ffefc9629811d63ae6988c11e88cfab1",
+      "scenario_id": "support-0138",
+      "x": -2.6568,
+      "y": -0.5017,
+      "cluster": 3
+    },
+    {
+      "trace_id": "0ab825f07ebf5e65b6ade872b8e87692",
+      "scenario_id": "support-0137",
+      "x": 0.0205,
+      "y": -0.0506,
+      "cluster": 7
+    },
+    {
+      "trace_id": "8908b60d2df66e663a6366fb0cb13211",
+      "scenario_id": "support-0137",
+      "x": 0.6998,
+      "y": -0.2844,
+      "cluster": 1
+    },
+    {
+      "trace_id": "ca0ef97ce6fbd3436168ef1c3cb93d13",
+      "scenario_id": "support-0137",
+      "x": 0.5306,
+      "y": -0.2548,
+      "cluster": 1
+    },
+    {
+      "trace_id": "5259e061e1db638814775eed9411fce4",
+      "scenario_id": "support-0136",
+      "x": 1.9658,
+      "y": 0.5594,
+      "cluster": 6
+    },
+    {
+      "trace_id": "d67f1157cbef4413d8f694ec660529ac",
+      "scenario_id": "support-0135",
+      "x": 2.0835,
+      "y": 0.5652,
+      "cluster": 6
+    },
+    {
+      "trace_id": "771166140635c0936f7fe15f8e4ec575",
+      "scenario_id": "support-0134",
+      "x": 2.0811,
+      "y": 0.5022,
+      "cluster": 6
+    },
+    {
+      "trace_id": "88a7a619bffe32bfea18da46ee3ba2ba",
+      "scenario_id": "support-0134",
+      "x": 2.0921,
+      "y": 0.5795,
+      "cluster": 6
+    },
+    {
+      "trace_id": "ddd81ad68421ceb79232782decee9ba6",
+      "scenario_id": "support-0133",
+      "x": -1.6613,
+      "y": -0.825,
+      "cluster": 2
+    },
+    {
+      "trace_id": "d1edd7042e7db59600b63cbdeee5077b",
+      "scenario_id": "support-0132",
+      "x": -1.1402,
+      "y": -1.0339,
+      "cluster": 2
+    },
+    {
+      "trace_id": "3c80aac583671ad3c3bf742a7a3688cc",
+      "scenario_id": "support-0131",
+      "x": -1.1139,
+      "y": -0.959,
+      "cluster": 2
+    },
+    {
+      "trace_id": "12ac4825e8bb7c4c4757097a90c0aefa",
+      "scenario_id": "support-0130",
+      "x": 2.0791,
+      "y": 0.5129,
+      "cluster": 6
+    },
+    {
+      "trace_id": "b060dc9f9da6c8d933f3a083b30126cb",
+      "scenario_id": "support-0130",
+      "x": -0.9313,
+      "y": -1.0446,
+      "cluster": 2
+    },
+    {
+      "trace_id": "9fbda68815b599fc1f65ab1039161083",
+      "scenario_id": "support-0129",
+      "x": 0.4545,
+      "y": -0.2531,
+      "cluster": 1
+    },
+    {
+      "trace_id": "340766151becb714217c14ca313d0429",
+      "scenario_id": "support-0128",
+      "x": 1.8416,
+      "y": 0.6213,
+      "cluster": 6
+    },
+    {
+      "trace_id": "eeb7227c45262509fe7c2d586148b8ec",
+      "scenario_id": "support-0128",
+      "x": 1.7581,
+      "y": 0.6343,
+      "cluster": 6
+    },
+    {
+      "trace_id": "d4d1d1976674f82f288122c661d1911a",
+      "scenario_id": "support-0128",
+      "x": -0.2026,
+      "y": -0.0282,
+      "cluster": 7
+    },
+    {
+      "trace_id": "5970326c68161c9444d1a02342a68815",
+      "scenario_id": "support-0127",
+      "x": 1.9688,
+      "y": 0.5594,
+      "cluster": 6
+    },
+    {
+      "trace_id": "33ec651146db71aba116493a26291b96",
+      "scenario_id": "support-0127",
+      "x": 0.0498,
+      "y": -0.1468,
+      "cluster": 7
+    },
+    {
+      "trace_id": "1f19cd9fdfca2d90a30da66a125aa155",
+      "scenario_id": "support-0126",
+      "x": 1.6751,
+      "y": 0.7304,
+      "cluster": 6
+    },
+    {
+      "trace_id": "7faa761a21a03e8fa310e0ce113fcee0",
+      "scenario_id": "support-0126",
+      "x": -1.7064,
+      "y": -0.1654,
+      "cluster": 3
+    },
+    {
+      "trace_id": "d08b7856e379cdc5c1e6f3220e526e6b",
+      "scenario_id": "support-0126",
+      "x": 0.0345,
+      "y": -0.1021,
+      "cluster": 7
+    },
+    {
+      "trace_id": "e98bf7ca81b586bda1dbad336a719fb3",
+      "scenario_id": "support-0125",
+      "x": 2.0109,
+      "y": 0.4877,
+      "cluster": 6
+    },
+    {
+      "trace_id": "22167d0c5fd4820c540e80465345ef80",
+      "scenario_id": "support-0125",
+      "x": 2.0063,
+      "y": 0.5266,
+      "cluster": 6
+    },
+    {
+      "trace_id": "88138a7ebf13da3ee91ceef26f1800fc",
+      "scenario_id": "support-0124",
+      "x": -2.5426,
+      "y": -1.7284,
+      "cluster": 2
+    },
+    {
+      "trace_id": "2810f72e153aa78991cc90a0ab15e769",
+      "scenario_id": "support-0123",
+      "x": 0.6041,
+      "y": -0.2436,
+      "cluster": 1
+    },
+    {
+      "trace_id": "2195e8555337cd077e5010da77219a55",
+      "scenario_id": "support-0122",
+      "x": -1.5883,
+      "y": -0.8399,
+      "cluster": 2
+    },
+    {
+      "trace_id": "1fbfe67f8cbb0c34279984f12c78b751",
+      "scenario_id": "support-0121",
+      "x": 0.4794,
+      "y": -0.2934,
+      "cluster": 1
+    },
+    {
+      "trace_id": "98f932dc75ea254789bf7375e7418a1e",
+      "scenario_id": "support-0120",
+      "x": 0.4557,
+      "y": -0.1658,
+      "cluster": 1
+    },
+    {
+      "trace_id": "718de5ec481c2bfe02a1feeb5bbf3c81",
+      "scenario_id": "support-0119",
+      "x": -5.0483,
+      "y": 2.0609,
+      "cluster": 0
+    },
+    {
+      "trace_id": "e12042e6f0ed6b9c399aeef4d2587938",
+      "scenario_id": "support-0118",
+      "x": 0.586,
+      "y": -0.2936,
+      "cluster": 1
+    },
+    {
+      "trace_id": "0567e3c2f48a93cb2cab1084c72926c1",
+      "scenario_id": "support-0118",
+      "x": 2.1216,
+      "y": 0.5094,
+      "cluster": 6
+    },
+    {
+      "trace_id": "1461a1a572e0d828ceb2d9c438ccda65",
+      "scenario_id": "support-0117",
+      "x": 0.3871,
+      "y": -0.191,
+      "cluster": 4
+    },
+    {
+      "trace_id": "5c1cfcac0d747187b9118927616886d3",
+      "scenario_id": "support-0116",
+      "x": -1.025,
+      "y": -1.0242,
+      "cluster": 2
+    },
+    {
+      "trace_id": "26256d0f60b7162dd11a3b05736905d2",
+      "scenario_id": "support-0115",
+      "x": 0.7115,
+      "y": -0.301,
+      "cluster": 1
+    },
+    {
+      "trace_id": "00a9dd531edf5a3f7f29ad8869c5ffdb",
+      "scenario_id": "support-0114",
+      "x": 0.6819,
+      "y": -0.2107,
+      "cluster": 1
+    },
+    {
+      "trace_id": "376927f7dac060c8d05d6810414d9a18",
+      "scenario_id": "support-0113",
+      "x": -1.605,
+      "y": -0.8408,
+      "cluster": 2
+    },
+    {
+      "trace_id": "e28ac90f7fdd4086505ade31fda3c66a",
+      "scenario_id": "support-0112",
+      "x": 1.9594,
+      "y": 0.5574,
+      "cluster": 6
+    },
+    {
+      "trace_id": "33dda06bca0f233d72686e117ddb5d36",
+      "scenario_id": "support-0112",
+      "x": -0.7607,
+      "y": 0.0502,
+      "cluster": 7
+    },
+    {
+      "trace_id": "be63ecbaa59335c1849d8866eac20201",
+      "scenario_id": "support-0111",
+      "x": -0.51,
+      "y": -0.4649,
+      "cluster": 4
+    },
+    {
+      "trace_id": "4b8016ba09aa5dd7dcc359f9701ec25d",
+      "scenario_id": "support-0110",
+      "x": 0.1383,
+      "y": -0.203,
+      "cluster": 4
+    },
+    {
+      "trace_id": "e143df1b0f85484470515728b7e53bd0",
+      "scenario_id": "support-0109",
+      "x": 0.4883,
+      "y": -0.2664,
+      "cluster": 1
+    },
+    {
+      "trace_id": "8dcfdaa3d199703d724087ced625102a",
+      "scenario_id": "support-0108",
+      "x": 0.3284,
+      "y": -0.0906,
+      "cluster": 4
+    },
+    {
+      "trace_id": "a3c6b547cd6f62127aeffe5de44dee18",
+      "scenario_id": "support-0107",
+      "x": 0.4929,
+      "y": -0.2649,
+      "cluster": 1
+    },
+    {
+      "trace_id": "932c430216d787fdd29113c2595ac5fe",
+      "scenario_id": "support-0106",
+      "x": -1.1677,
+      "y": 0.232,
+      "cluster": 3
+    },
+    {
+      "trace_id": "df4cb4511222e380f4c2c66cb4497cca",
+      "scenario_id": "support-0105",
+      "x": -0.0554,
+      "y": -0.1245,
+      "cluster": 7
+    },
+    {
+      "trace_id": "54095b244afce1ba94f12ccd1cf84736",
+      "scenario_id": "support-0105",
+      "x": 0.5078,
+      "y": -0.2853,
+      "cluster": 1
+    },
+    {
+      "trace_id": "48cfa852a31c4cdf23cb5866d060f86a",
+      "scenario_id": "support-0104",
+      "x": 0.3059,
+      "y": -0.1263,
+      "cluster": 4
+    },
+    {
+      "trace_id": "78d0b524e43cf703092d109293b9f7eb",
+      "scenario_id": "support-0103",
+      "x": 1.9418,
+      "y": 0.5603,
+      "cluster": 6
+    },
+    {
+      "trace_id": "107725f1f486070bc05e2499fa9c35e8",
+      "scenario_id": "support-0102",
+      "x": 1.7566,
+      "y": 0.6214,
+      "cluster": 6
+    },
+    {
+      "trace_id": "4d1536a811e4745afc18d1804c8cb675",
+      "scenario_id": "support-0102",
+      "x": 1.66,
+      "y": 0.6307,
+      "cluster": 6
+    },
+    {
+      "trace_id": "c2e15f5d11dc6d96d6c69e467453f0c3",
+      "scenario_id": "support-0102",
+      "x": -2.0583,
+      "y": -0.7907,
+      "cluster": 2
+    },
+    {
+      "trace_id": "95486ce2a5a5ec3eea6334e3c2d4aa01",
+      "scenario_id": "support-0101",
+      "x": 0.6784,
+      "y": -0.2888,
+      "cluster": 1
+    },
+    {
+      "trace_id": "28d8b177cbe87fc5a1e33e8af6250245",
+      "scenario_id": "support-0101",
+      "x": 0.6515,
+      "y": -0.2399,
+      "cluster": 1
+    },
+    {
+      "trace_id": "325d5c0b8534cbcf37552ef95819c6c7",
+      "scenario_id": "support-0100",
+      "x": 1.9575,
+      "y": 0.5105,
+      "cluster": 6
+    },
+    {
+      "trace_id": "91c172d8398a5664ca0c9dbb2747c616",
+      "scenario_id": "support-0100",
+      "x": -0.1093,
+      "y": -0.043,
+      "cluster": 7
+    },
+    {
+      "trace_id": "8945b1baeab27c053cb7a929a88cc791",
+      "scenario_id": "support-0099",
+      "x": -1.4048,
+      "y": 3.5126,
+      "cluster": 0
+    },
+    {
+      "trace_id": "384ae7e373cca6b5e3058b2e4f7e15e3",
+      "scenario_id": "support-0099",
+      "x": -1.7638,
+      "y": -0.8498,
+      "cluster": 2
+    },
+    {
+      "trace_id": "2089c03a05a28265dda2cf75151cf155",
+      "scenario_id": "support-0098",
+      "x": 1.9594,
+      "y": 0.5829,
+      "cluster": 6
+    },
+    {
+      "trace_id": "b3b578843a33e8d0dbfec3c39d133881",
+      "scenario_id": "support-0097",
+      "x": -0.0826,
+      "y": -0.139,
+      "cluster": 7
+    },
+    {
+      "trace_id": "06fbf64167e422110c2adf9bfb141661",
+      "scenario_id": "support-0096",
+      "x": 0.3833,
+      "y": -0.1647,
+      "cluster": 4
+    },
+    {
+      "trace_id": "879d44089c1fd252279e2045db0dc89f",
+      "scenario_id": "support-0096",
+      "x": 0.2774,
+      "y": -0.1731,
+      "cluster": 4
+    },
+    {
+      "trace_id": "7fc7c8474876b842c7c79b8db1f5f075",
+      "scenario_id": "support-0095",
+      "x": 0.6235,
+      "y": -0.3229,
+      "cluster": 1
+    },
+    {
+      "trace_id": "83a11e13f60763010ceedb4eb367f17e",
+      "scenario_id": "support-0094",
+      "x": 0.529,
+      "y": -0.2243,
+      "cluster": 1
+    },
+    {
+      "trace_id": "0bb7125bef3d8ac0e9f880277537e032",
+      "scenario_id": "support-0093",
+      "x": -1.229,
+      "y": -0.967,
+      "cluster": 2
+    },
+    {
+      "trace_id": "f49bb2da7fe595be2623ac14b4b13428",
+      "scenario_id": "support-0092",
+      "x": 0.2755,
+      "y": -0.2378,
+      "cluster": 4
+    },
+    {
+      "trace_id": "4ffb4e521396ca589c8f87873e9fad0a",
+      "scenario_id": "support-0091",
+      "x": 0.5671,
+      "y": -0.223,
+      "cluster": 1
+    },
+    {
+      "trace_id": "0e187a0fb0d68f1f86bad249294eecf1",
+      "scenario_id": "support-0090",
+      "x": 0.4908,
+      "y": -0.2074,
+      "cluster": 1
+    },
+    {
+      "trace_id": "f6a8293ce1ebbef9710f12080cc1f932",
+      "scenario_id": "support-0090",
+      "x": 0.5053,
+      "y": -0.2777,
+      "cluster": 1
+    },
+    {
+      "trace_id": "746389c13153fd9111d18999901dc1e0",
+      "scenario_id": "support-0089",
+      "x": 0.6077,
+      "y": -0.294,
+      "cluster": 1
+    },
+    {
+      "trace_id": "70a506a85999d34dcfc9bd7b627bf85a",
+      "scenario_id": "support-0088",
+      "x": 0.5238,
+      "y": -0.2673,
+      "cluster": 1
+    },
+    {
+      "trace_id": "5054fbbfcc0f31795dd46bc7588590a1",
+      "scenario_id": "support-0088",
+      "x": 0.4776,
+      "y": -0.2536,
+      "cluster": 1
+    },
+    {
+      "trace_id": "ff6a1f9a23d38169917934b0fb0811a1",
+      "scenario_id": "support-0087",
+      "x": 0.5074,
+      "y": -0.3041,
+      "cluster": 1
+    },
+    {
+      "trace_id": "11f6b0a6fa4cf62935ea115b9dbc1500",
+      "scenario_id": "support-0086",
+      "x": 0.5427,
+      "y": -0.2161,
+      "cluster": 1
+    },
+    {
+      "trace_id": "b7ee3de6002e0e651ab1cdc2b49c06e3",
+      "scenario_id": "support-0085",
+      "x": 0.6799,
+      "y": -0.3085,
+      "cluster": 1
+    },
+    {
+      "trace_id": "08ea3fb91a96b87d0fc1c573c1b01e06",
+      "scenario_id": "support-0084",
+      "x": 1.9366,
+      "y": 0.5215,
+      "cluster": 6
+    },
+    {
+      "trace_id": "6f452f1165b50abce4ebe5e8738af4ef",
+      "scenario_id": "support-0083",
+      "x": -1.6701,
+      "y": -0.8418,
+      "cluster": 2
+    },
+    {
+      "trace_id": "3a4705fb34d8e1a61d415317681468ba",
+      "scenario_id": "support-0082",
+      "x": -0.9758,
+      "y": -1.0472,
+      "cluster": 2
+    },
+    {
+      "trace_id": "8895a169645b2872301cbcfb1db2efce",
+      "scenario_id": "support-0081",
+      "x": 0.4997,
+      "y": -0.2428,
+      "cluster": 1
+    },
+    {
+      "trace_id": "3bd30da5548d9785f52d2cc5d58ad598",
+      "scenario_id": "support-0080",
+      "x": 2.0118,
+      "y": 0.561,
+      "cluster": 6
+    },
+    {
+      "trace_id": "d28c31d6029c3cd7b71ab8150c564861",
+      "scenario_id": "support-0080",
+      "x": 0.3912,
+      "y": -0.1843,
+      "cluster": 4
+    },
+    {
+      "trace_id": "a9a65239b0959785c613fa2eaba06e01",
+      "scenario_id": "support-0079",
+      "x": 2.1231,
+      "y": 0.4698,
+      "cluster": 6
+    },
+    {
+      "trace_id": "073c3bda9f7063d0d9fca2ef66c55fdf",
+      "scenario_id": "support-0079",
+      "x": -0.9076,
+      "y": -1.0524,
+      "cluster": 2
+    },
+    {
+      "trace_id": "14a471c4d8f2d425ebbac8dc293b0bec",
+      "scenario_id": "support-0078",
+      "x": 0.5754,
+      "y": -0.2854,
+      "cluster": 1
+    },
+    {
+      "trace_id": "3ab29c5896f79a63b594c8c4a934e02f",
+      "scenario_id": "support-0077",
+      "x": 0.4109,
+      "y": -0.2817,
+      "cluster": 4
+    },
+    {
+      "trace_id": "c8d8d9827d6a4a0b985a7950f67a2dd1",
+      "scenario_id": "support-0076",
+      "x": -0.0487,
+      "y": -0.114,
+      "cluster": 7
+    },
+    {
+      "trace_id": "dc992a752bbf3b08d90cbfe220a3e4db",
+      "scenario_id": "support-0075",
+      "x": 2.0074,
+      "y": 0.5241,
+      "cluster": 6
+    },
+    {
+      "trace_id": "c11dd66e1694d58da3278ab3dfd1cb0f",
+      "scenario_id": "support-0074",
+      "x": 2.0106,
+      "y": 0.4985,
+      "cluster": 6
+    },
+    {
+      "trace_id": "9b2ec48d739d964e5aab282fa33eb5b0",
+      "scenario_id": "support-0073",
+      "x": -3.4139,
+      "y": 2.7938,
+      "cluster": 0
+    },
+    {
+      "trace_id": "d91800ce5c908f11b6caf34fd3f6baec",
+      "scenario_id": "support-0072",
+      "x": 1.7059,
+      "y": 0.6374,
+      "cluster": 6
+    },
+    {
+      "trace_id": "559537158489b2070806dd37e73d34e9",
+      "scenario_id": "support-0072",
+      "x": -1.4786,
+      "y": 3.4591,
+      "cluster": 0
+    },
+    {
+      "trace_id": "ab764d8c1137a72f3682454c05dd3e14",
+      "scenario_id": "support-0072",
+      "x": -1.9566,
+      "y": -0.7709,
+      "cluster": 2
+    },
+    {
+      "trace_id": "2ad07aa2b0a7db547867d7c80c0f61ac",
+      "scenario_id": "support-0071",
+      "x": -0.2651,
+      "y": -0.049,
+      "cluster": 7
+    },
+    {
+      "trace_id": "4906618c01f335cf66cfe45af6917aaf",
+      "scenario_id": "support-0071",
+      "x": -0.3309,
+      "y": -0.0836,
+      "cluster": 7
+    },
+    {
+      "trace_id": "2980e2cd7704f585bd0d1fbcc90ef098",
+      "scenario_id": "support-0070",
+      "x": 0.5813,
+      "y": -0.2532,
+      "cluster": 1
+    },
+    {
+      "trace_id": "73d2e15985fcf398da8a2885d83c1f1a",
+      "scenario_id": "support-0069",
+      "x": 1.9459,
+      "y": 0.567,
+      "cluster": 6
+    },
+    {
+      "trace_id": "f2e9cdea2c3ba545d26e962446fdef95",
+      "scenario_id": "support-0069",
+      "x": 0.4264,
+      "y": -0.213,
+      "cluster": 1
+    },
+    {
+      "trace_id": "d10394c8605374142bf67364d0f148b7",
+      "scenario_id": "support-0068",
+      "x": 0.655,
+      "y": -0.3028,
+      "cluster": 1
+    },
+    {
+      "trace_id": "d69821a4b5f82cd2498799d250c5bf2e",
+      "scenario_id": "support-0067",
+      "x": 1.9494,
+      "y": 0.5058,
+      "cluster": 6
+    },
+    {
+      "trace_id": "0150b389dbebc12b30dfa22df12b34cd",
+      "scenario_id": "support-0066",
+      "x": -2.7515,
+      "y": 2.6574,
+      "cluster": 0
+    },
+    {
+      "trace_id": "b7091e0bc04187b3f6281c0d9848d26b",
+      "scenario_id": "support-0065",
+      "x": -0.1023,
+      "y": -0.0916,
+      "cluster": 7
+    },
+    {
+      "trace_id": "f2c6807280d29648f4ed3b7163439229",
+      "scenario_id": "support-0064",
+      "x": 0.5381,
+      "y": -0.2799,
+      "cluster": 1
+    },
+    {
+      "trace_id": "2e1f5430b269bb4c7d6cc6a0c5296775",
+      "scenario_id": "support-0063",
+      "x": 0.6758,
+      "y": -0.3862,
+      "cluster": 1
+    },
+    {
+      "trace_id": "7f68874202ff5e26cf8d158c0efd6d9c",
+      "scenario_id": "support-0062",
+      "x": -2.6668,
+      "y": -1.8027,
+      "cluster": 2
+    },
+    {
+      "trace_id": "7a155361fc56de82c4de2fda16bd9eba",
+      "scenario_id": "support-0061",
+      "x": 0.7033,
+      "y": -0.3286,
+      "cluster": 1
+    },
+    {
+      "trace_id": "20e7b3c6d473fdf892907d90c6e107c5",
+      "scenario_id": "support-0060",
+      "x": 0.3897,
+      "y": -0.2698,
+      "cluster": 4
+    },
+    {
+      "trace_id": "9ba42a3d382c12b0c3a931ae868e5dc6",
+      "scenario_id": "support-0059",
+      "x": 0.5207,
+      "y": -0.2003,
+      "cluster": 1
+    },
+    {
+      "trace_id": "93dc0b8a59d7110035fbc617c9068925",
+      "scenario_id": "support-0058",
+      "x": 1.9237,
+      "y": 0.5654,
+      "cluster": 6
+    },
+    {
+      "trace_id": "77b4df61ac34272cd743c686cc5409d7",
+      "scenario_id": "support-0058",
+      "x": -1.1876,
+      "y": -1.0576,
+      "cluster": 2
+    },
+    {
+      "trace_id": "9ac4efc93a125e1d92788118d1545d5a",
+      "scenario_id": "support-0057",
+      "x": -1.1599,
+      "y": 3.3986,
+      "cluster": 0
+    },
+    {
+      "trace_id": "ce3a58d6a79fb120dbb4b912809c0e38",
+      "scenario_id": "support-0057",
+      "x": 0.1221,
+      "y": -0.1329,
+      "cluster": 4
+    },
+    {
+      "trace_id": "33a26cfdfa6073f4022702c963644fc0",
+      "scenario_id": "support-0056",
+      "x": 0.394,
+      "y": -0.2232,
+      "cluster": 1
+    },
+    {
+      "trace_id": "b60d49c39309a10d5b6e760ca8f56ef6",
+      "scenario_id": "support-0055",
+      "x": 2.0215,
+      "y": 0.5946,
+      "cluster": 6
+    },
+    {
+      "trace_id": "2f6cef45f216327ce8acbe8615ce94aa",
+      "scenario_id": "support-0055",
+      "x": 2.1279,
+      "y": 0.5287,
+      "cluster": 6
+    },
+    {
+      "trace_id": "0e00ccd0dd6d68b862f39e154492812a",
+      "scenario_id": "support-0054",
+      "x": -1.716,
+      "y": -0.8292,
+      "cluster": 2
+    },
+    {
+      "trace_id": "1e66d4a933fb9d3488eb64a660e026c8",
+      "scenario_id": "support-0053",
+      "x": -2.6366,
+      "y": -1.8114,
+      "cluster": 2
+    },
+    {
+      "trace_id": "a2c0a27330b629d2d647b3e4b4613511",
+      "scenario_id": "support-0052",
+      "x": -1.0683,
+      "y": -1.0489,
+      "cluster": 2
+    },
+    {
+      "trace_id": "105a675f9c36bf5b59edd1d456db35dc",
+      "scenario_id": "support-0051",
+      "x": 0.414,
+      "y": -0.2104,
+      "cluster": 4
+    },
+    {
+      "trace_id": "dec15cabc8328a48186a40f3eae6eaf0",
+      "scenario_id": "support-0050",
+      "x": 0.6113,
+      "y": -0.2752,
+      "cluster": 1
+    },
+    {
+      "trace_id": "81d462bf774cb5478c7caf06b674a3ca",
+      "scenario_id": "support-0049",
+      "x": 1.9675,
+      "y": 0.5128,
+      "cluster": 6
+    },
+    {
+      "trace_id": "ccae17ee51b982decf63715a54b4d909",
+      "scenario_id": "support-0049",
+      "x": 2.0891,
+      "y": 0.499,
+      "cluster": 6
+    },
+    {
+      "trace_id": "8e93ace45efa2b0b9ee275dda76ecc96",
+      "scenario_id": "support-0049",
+      "x": 1.9758,
+      "y": 0.5593,
+      "cluster": 6
+    },
+    {
+      "trace_id": "877aabba9983607e2305b63037cee569",
+      "scenario_id": "support-0048",
+      "x": 0.5468,
+      "y": -0.2652,
+      "cluster": 1
+    },
+    {
+      "trace_id": "9a6b435db92f46b95890f2dc413a443d",
+      "scenario_id": "support-0048",
+      "x": 0.4192,
+      "y": -0.2551,
+      "cluster": 1
+    },
+    {
+      "trace_id": "4275020bd50ebc51402999d5082af22b",
+      "scenario_id": "support-0047",
+      "x": 0.4347,
+      "y": -0.3057,
+      "cluster": 1
+    },
+    {
+      "trace_id": "c63788d5773c6a42bb099ccebba634b9",
+      "scenario_id": "support-0046",
+      "x": 0.4766,
+      "y": -0.2244,
+      "cluster": 1
+    },
+    {
+      "trace_id": "70d403ecf44e16f26a59472ef82fc309",
+      "scenario_id": "support-0045",
+      "x": 2.1451,
+      "y": 0.4885,
+      "cluster": 6
+    },
+    {
+      "trace_id": "dd45478379462cf9488d80f6baedddf8",
+      "scenario_id": "support-0044",
+      "x": 0.3182,
+      "y": -0.2288,
+      "cluster": 4
+    },
+    {
+      "trace_id": "35338a4bbda74b9c0b062125f082f086",
+      "scenario_id": "support-0043",
+      "x": 0.3752,
+      "y": -0.2272,
+      "cluster": 4
+    },
+    {
+      "trace_id": "1a339409d30fbe0e909e3a897b8c04ce",
+      "scenario_id": "support-0042",
+      "x": 0.5785,
+      "y": -0.3083,
+      "cluster": 1
+    },
+    {
+      "trace_id": "c0bf5f432c27828ae85a60a6615559b4",
+      "scenario_id": "support-0041",
+      "x": -1.9112,
+      "y": -1.3115,
+      "cluster": 2
+    },
+    {
+      "trace_id": "a3b66f5c3044cca1d651df9aa9d4e651",
+      "scenario_id": "support-0040",
+      "x": 0.2973,
+      "y": -0.1985,
+      "cluster": 4
+    },
+    {
+      "trace_id": "b3e40911ecc70eca5531df1e43299a27",
+      "scenario_id": "support-0039",
+      "x": -0.2842,
+      "y": -0.6291,
+      "cluster": 4
+    },
+    {
+      "trace_id": "eb1094187a216d98bbab5391a0aa42b1",
+      "scenario_id": "support-0038",
+      "x": 0.3742,
+      "y": -0.1866,
+      "cluster": 4
+    },
+    {
+      "trace_id": "c66a1b1e3b87d9a5569ac1f04f9d9a5a",
+      "scenario_id": "support-0037",
+      "x": 1.9966,
+      "y": 0.5693,
+      "cluster": 6
+    },
+    {
+      "trace_id": "95010ec137f68522f7f65025ad0e4b9a",
+      "scenario_id": "support-0036",
+      "x": 0.3674,
+      "y": -0.2177,
+      "cluster": 4
+    },
+    {
+      "trace_id": "ce939793106ca1f7f3fada5f196047fd",
+      "scenario_id": "support-0035",
+      "x": 0.6872,
+      "y": -0.2683,
+      "cluster": 1
+    },
+    {
+      "trace_id": "4a150491c537bb6155321b9835a2885e",
+      "scenario_id": "support-0035",
+      "x": 0.6662,
+      "y": -0.345,
+      "cluster": 1
+    },
+    {
+      "trace_id": "c407ed16476bf341ca50637251ab7e05",
+      "scenario_id": "support-0034",
+      "x": 0.3396,
+      "y": -0.1385,
+      "cluster": 4
+    },
+    {
+      "trace_id": "ae73a686f451b4f18aaa80bb16d3ef81",
+      "scenario_id": "support-0034",
+      "x": 1.7424,
+      "y": 0.6459,
+      "cluster": 6
+    },
+    {
+      "trace_id": "130cc2e67a78ca5f63f7f950042844b1",
+      "scenario_id": "support-0034",
+      "x": 0.2369,
+      "y": -0.1421,
+      "cluster": 4
+    },
+    {
+      "trace_id": "04c6c30f19fbd789d0f3d2d0080f145a",
+      "scenario_id": "support-0033",
+      "x": -1.1614,
+      "y": 3.3018,
+      "cluster": 0
+    },
+    {
+      "trace_id": "c42e37efb29a35d71506ccc424f5e65d",
+      "scenario_id": "support-0033",
+      "x": -0.0105,
+      "y": -0.1448,
+      "cluster": 7
+    },
+    {
+      "trace_id": "6e0047cbd686730f28d7bbe7a6582a64",
+      "scenario_id": "support-0032",
+      "x": -4.6546,
+      "y": 2.5982,
+      "cluster": 0
+    },
+    {
+      "trace_id": "37927c3e2e5dc9e82809cbdae6a57291",
+      "scenario_id": "support-0032",
+      "x": 0.3425,
+      "y": -0.1924,
+      "cluster": 4
+    },
+    {
+      "trace_id": "1d48e77de152af8e068f08610108031a",
+      "scenario_id": "support-0031",
+      "x": 0.5253,
+      "y": -0.1726,
+      "cluster": 1
+    },
+    {
+      "trace_id": "ce672220b6b71f1a674868f96df927b7",
+      "scenario_id": "support-0030",
+      "x": -3.1669,
+      "y": 2.7786,
+      "cluster": 0
+    },
+    {
+      "trace_id": "9d256d9e95666ee2c8d6e3f2f35476d7",
+      "scenario_id": "support-0029",
+      "x": -1.5212,
+      "y": -0.9276,
+      "cluster": 2
+    },
+    {
+      "trace_id": "a47fb1865d06f8a1e22b49a48834f788",
+      "scenario_id": "support-0028",
+      "x": 0.4376,
+      "y": -0.2112,
+      "cluster": 1
+    },
+    {
+      "trace_id": "22ad4d7328c3b6afaded695595a8bf38",
+      "scenario_id": "support-0027",
+      "x": -1.1806,
+      "y": 0.2607,
+      "cluster": 3
+    },
+    {
+      "trace_id": "9598f8ad4677fcdba32abf20e58054dd",
+      "scenario_id": "support-0026",
+      "x": 0.4409,
+      "y": -0.2404,
+      "cluster": 4
+    },
+    {
+      "trace_id": "fd5bd309d3b2244bc86ca1857ea3be2a",
+      "scenario_id": "support-0025",
+      "x": 0.4782,
+      "y": -0.2034,
+      "cluster": 1
+    },
+    {
+      "trace_id": "700dfd786d163af67eac2f94c69b539f",
+      "scenario_id": "support-0024",
+      "x": 2.0728,
+      "y": 0.5781,
+      "cluster": 6
+    },
+    {
+      "trace_id": "490e9e582091fddb34e801898375b29f",
+      "scenario_id": "support-0023",
+      "x": 2.054,
+      "y": 0.5262,
+      "cluster": 6
+    },
+    {
+      "trace_id": "9e3dfb0fdde38939035935e1150df395",
+      "scenario_id": "support-0022",
+      "x": 1.8487,
+      "y": 0.5579,
+      "cluster": 6
+    },
+    {
+      "trace_id": "9ac3b849304cfbbaeb7e0211964e00ef",
+      "scenario_id": "support-0022",
+      "x": -5.0319,
+      "y": -1.6313,
+      "cluster": 3
+    },
+    {
+      "trace_id": "4619d898dc48e43485335638c993c91d",
+      "scenario_id": "support-0021",
+      "x": 0.2328,
+      "y": -0.1487,
+      "cluster": 4
+    },
+    {
+      "trace_id": "3dbdce3d48329a0598dea1418ce0b0b2",
+      "scenario_id": "support-0020",
+      "x": -3.0826,
+      "y": -0.4535,
+      "cluster": 3
+    },
+    {
+      "trace_id": "f20ef9a2b6ed9c7a7da6086bb3cd82e4",
+      "scenario_id": "support-0019",
+      "x": -0.2951,
+      "y": -0.0481,
+      "cluster": 7
+    },
+    {
+      "trace_id": "39991505b766ece745c3736995d045e7",
+      "scenario_id": "support-0018",
+      "x": 0.4167,
+      "y": -0.2538,
+      "cluster": 1
+    },
+    {
+      "trace_id": "0b635c9b96508411e618293261d4db2d",
+      "scenario_id": "support-0017",
+      "x": 2.2025,
+      "y": 0.5164,
+      "cluster": 6
+    },
+    {
+      "trace_id": "a0e42d7ca4e9bbb26868f22aed49370f",
+      "scenario_id": "support-0016",
+      "x": -1.1504,
+      "y": -0.9901,
+      "cluster": 2
+    },
+    {
+      "trace_id": "ef537e8053a619cbd94d12b4338eb0b4",
+      "scenario_id": "support-0015",
+      "x": 0.439,
+      "y": -0.3221,
+      "cluster": 4
+    },
+    {
+      "trace_id": "6dc819a9872d43d6d28d926ee4f58544",
+      "scenario_id": "support-0015",
+      "x": -1.0483,
+      "y": -0.992,
+      "cluster": 2
+    },
+    {
+      "trace_id": "b4098f93c09fa394bdf5abab8005553d",
+      "scenario_id": "support-0014",
+      "x": -1.1767,
+      "y": 0.3265,
+      "cluster": 3
+    },
+    {
+      "trace_id": "ce859f80263664912a027b302aeb42cb",
+      "scenario_id": "support-0013",
+      "x": 0.5107,
+      "y": -0.2157,
+      "cluster": 1
+    },
+    {
+      "trace_id": "1c605379fbfd471a947fbfac4c468cdd",
+      "scenario_id": "support-0012",
+      "x": 1.8803,
+      "y": 0.6196,
+      "cluster": 6
+    },
+    {
+      "trace_id": "bbfb86bebc310da28d225c9fb5a100ce",
+      "scenario_id": "support-0012",
+      "x": -1.1953,
+      "y": 0.2481,
+      "cluster": 3
+    },
+    {
+      "trace_id": "d5759202d279fe21207f93e505b730d0",
+      "scenario_id": "support-0011",
+      "x": 0.6073,
+      "y": -0.1808,
+      "cluster": 1
+    },
+    {
+      "trace_id": "13746a66e758037a9173e5b8335258a0",
+      "scenario_id": "support-0010",
+      "x": -2.8566,
+      "y": -1.7142,
+      "cluster": 2
+    },
+    {
+      "trace_id": "c2115bd9072ab8a7428ef3bd984f4072",
+      "scenario_id": "support-0009",
+      "x": -2.5477,
+      "y": -1.7445,
+      "cluster": 2
+    },
+    {
+      "trace_id": "c69492b6e3d91a76771098a81020d109",
+      "scenario_id": "support-0008",
+      "x": -1.747,
+      "y": -0.7502,
+      "cluster": 2
+    },
+    {
+      "trace_id": "88a4a45c0a30be2b627da57d10909400",
+      "scenario_id": "support-0007",
+      "x": -6.4754,
+      "y": 1.2594,
+      "cluster": 0
+    },
+    {
+      "trace_id": "11ae428943b9f6a5440e5684e34a35eb",
+      "scenario_id": "support-0006",
+      "x": 0.5745,
+      "y": -0.2309,
+      "cluster": 1
+    },
+    {
+      "trace_id": "0198b4dffe52dabf7ae4501e7e7e00f3",
+      "scenario_id": "support-0005",
+      "x": 0.6884,
+      "y": -0.3415,
+      "cluster": 1
+    },
+    {
+      "trace_id": "b7523e73d49fa0a99c65c65024841eb6",
+      "scenario_id": "support-0004",
+      "x": 0.2286,
+      "y": -0.1564,
+      "cluster": 4
+    },
+    {
+      "trace_id": "500f25c9b6bb3b132171be701512516a",
+      "scenario_id": "support-0003",
+      "x": 0.1822,
+      "y": -0.2143,
+      "cluster": 4
+    },
+    {
+      "trace_id": "ea5e608db184766ea42d6b79977de0d1",
+      "scenario_id": "support-0002",
+      "x": 2.261,
+      "y": 0.5055,
+      "cluster": 6
+    },
+    {
+      "trace_id": "52ba2a6eda56b7a4090acd0458474def",
+      "scenario_id": "support-0002",
+      "x": 0.5039,
+      "y": -0.2528,
+      "cluster": 1
+    },
+    {
+      "trace_id": "33d188faaa39bdfd22cb0b4719ffbd8a",
+      "scenario_id": "support-0001",
+      "x": -1.7461,
+      "y": -0.8064,
+      "cluster": 2
+    }
+  ],
+  "clusters": [
+    {
+      "id": 0,
+      "label": "(21 traces)"
+    },
+    {
+      "id": 1,
+      "label": "(87 traces)"
+    },
+    {
+      "id": 2,
+      "label": "(49 traces)"
+    },
+    {
+      "id": 3,
+      "label": "(15 traces)"
+    },
+    {
+      "id": 4,
+      "label": "(60 traces)"
+    },
+    {
+      "id": 6,
+      "label": "(66 traces)"
+    },
+    {
+      "id": 7,
+      "label": "(27 traces)"
+    }
+  ]
+}
