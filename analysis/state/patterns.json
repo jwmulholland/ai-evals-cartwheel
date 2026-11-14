@@ -80,10 +80,11 @@
       ],
       "evaluator_guess": "LLM judge",
       "spec": {
-        "requirement": "RESP-4",
-        "status": "revision pending, reviewer to write: state the result; no praise, celebration, enthusiasm or comment on prices or the user's situation; bare status words and regret when refusing are allowed"
+        "requirement": "RESP-5",
+        "status": "recorded SPEC.md revision: RESP-5 amended (2026-11-14)",
+        "motivating_annotations": "0153 (d2532a13): 'Do not exclaim or be overexcitable'; 0161 t1 (f96cfc87): 'No celebration needed'; 0230 t1 (0134f255): 'why are we excited about this'"
       },
-      "boundary": null,
+      "boundary": "Separates from over_explaining: this mode is about reaction (praise, celebration, enthusiasm, empathy lines, or opinion on the price or the user's situation), whatever the reply's length. over_explaining is about amount (restating, speculating, a second ask). 'Great!' plus one needed fact fails only this mode; a restated fact with no reaction fails only over_explaining; an opinion such as 'strengthens your case' with extra text can fail both. A bare status ('Done!', 'All set!'), a regretful 'unfortunately' framing of a refusal, and plain courtesy ('Thanks for reporting this') pass.",
       "close_negative_trace_ids": [
         "548579d92139d4b6e59e64f3346cd3a9",
         "0d8438327c3287badad55cf7d74a53a3",
@@ -164,7 +165,7 @@
       "evaluator_guess": "LLM judge",
       "spec": {
         "requirement": "AUTH-1 / TOOL",
-        "status": "spec decision needed: RESP-3 allows asking for missing information, so a new requirement would say to look up orders and context first, and to answer questions that depend on an order from the order, not from the general policy"
+        "status": "no SPEC.md revision made; candidate: look up orders and context before asking the user (RESP-3 currently allows asking)"
       },
       "boundary": "0057 (answered generally instead of fetching the specific date) is kept out; it is a separate note, not a mode, for now",
       "close_negative_trace_ids": [
@@ -271,8 +272,9 @@
       ],
       "evaluator_guess": "LLM judge",
       "spec": {
-        "requirement": "ESC-3 / ESC-4",
-        "status": "may split into message wording versus when to escalate"
+        "requirement": "ESC-3 / ESC-4 / ESC-5",
+        "status": "recorded SPEC.md revision: ESC-5 added (2026-11-14)",
+        "motivating_annotations": "0206 (945d39a9): 'don't proactively escalate'; 0161 t2 (8592a5cb); 0152 t2 (955b20d4): 'no reason to believe this needs to be escalated'"
       },
       "boundary": "Concerns WHEN the agent offers or opens escalation. Opening a ticket without asking the user belongs to write_without_confirmation. Phrasing of an acceptable offer ('I'd like to', 'happy to') and length belong elsewhere (editorial_commentary / over_explaining).",
       "rule_history": [
@@ -361,10 +363,11 @@
       ],
       "evaluator_guess": "LLM judge",
       "spec": {
-        "requirement": "RESP-1 to RESP-3",
-        "status": "two sub-rules under one mode: (a) completeness/limit, (b) promised outcome. Split if one product change cannot fix both: (a) is fixed by reporting the limit or raising it, (b) by not promising beyond the SLA."
+        "requirement": "RESP-1 to RESP-3 / RESP-7",
+        "status": "recorded SPEC.md revision: RESP-7 added (2026-11-14)",
+        "motivating_annotations": "0108 (8dcfdaa3); 0034 t3 (c407ed16); 0132 (d1edd704); 0048 t2 comment"
       },
-      "boundary": null,
+      "boundary": "Separates from misses_available_lookup: this mode is about what the reply asserts that the tool output or policy does not support. misses_available_lookup is about what the agent failed to fetch when a lookup would have answered. A guess stated as fact ('it has already shipped') fails this mode; a guess made because the agent did not look up the order fails the lookup mode; it can fail both. Hedged speculation that asserts nothing false and only adds length belongs to over_explaining. Reporting an oddity without explaining it (0111's -$5 price) passes.",
       "close_negative_trace_ids": [
         "be63ecbaa59335c1849d8866eac20201"
       ],
@@ -481,8 +484,9 @@
       },
       "evaluator_guess": "LLM judge or tool-call check",
       "spec": {
-        "requirement": "confirmation before write tools",
-        "status": "spec gap: nothing in SPEC.md covers confirmation before a write, including what implied affirmation means"
+        "requirement": "RESP-6",
+        "status": "recorded SPEC.md revision (2026-11-14)",
+        "motivating_annotations": "0137 (8908b60d): 'Offer to cancel instead of canceling out right'; 0184 (0d843832): 'should not jump to cancel right away'; first-turn refunds such as 0009"
       },
       "boundary": "Opening a support ticket without the user's go-ahead belongs here (a ticket counts as a write). 0234 also carries a store-policy and item-condition concern; watch for a separate mode. Escalation message wording belongs to escalation_handling. Asking for details only the user has before acting is not a failure.",
       "origin": "emerged in batch 2 (action-type stratification)",
@@ -624,7 +628,8 @@
       "evaluator_guess": "LLM judge",
       "spec": {
         "requirement": "RESP-5",
-        "status": "tension: RESP-5 asks for language that explains the relevant decision, which pulls against brevity"
+        "status": "recorded SPEC.md revision: RESP-5 amended to say each fact once (2026-11-14)",
+        "motivating_annotations": "0104 (48cfa852): 'Overcomplicated wording, too much explanation'; 0030 (ce672220)"
       },
       "boundary": "About how much is said, not whether it is true or allowed. Unsupported claims -> claim_exceeds_evidence; when to offer escalation -> escalation_handling; human-sounding phrasing and exclamations -> editorial_commentary / agent_voice.",
       "origin": "emerged in batch 3 (three notes about wordiness)",
@@ -744,5 +749,20 @@
       "0206: not a write_without_confirmation failure (explicit command); still an escalation_handling positive",
       "0225: stays over_explaining positive (OE5); 'added info not from the tool' is an unassigned new issue"
     ]
-  }
+  },
+  "spec_revisions": [
+    {
+      "date": "2026-11-14",
+      "file": "SPEC.md",
+      "added": [
+        "ESC-5",
+        "RESP-6",
+        "RESP-7"
+      ],
+      "amended": [
+        "RESP-5"
+      ],
+      "note": "SPEC.md does not change the running agent; agent/agent.py still carries the old prompt."
+    }
+  ]
 }

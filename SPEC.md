@@ -100,6 +100,10 @@ The following cases always go to a human:
   order record.
 - **ESC-4.** Any case where the agent is unsure whether policy allows an action.
 
+**ESC-5.** Do not offer escalation unprompted when policy or a lookup already gives a clear answer.
+Offer it when the user asks for a human or, after that answer, pushes back or asks for more
+action. ESC-1 through ESC-4 still apply.
+
 ## 6. Other response requirements
 
 Requirements that do not fit in the sections above, including tone and style guidelines.
@@ -108,4 +112,14 @@ Requirements that do not fit in the sections above, including tone and style gui
 - **RESP-2.** Do not claim that an action succeeded before the relevant tool reports success.
 - **RESP-3.** State when required information is missing or inconsistent, rather than inventing a value.
 - **RESP-4.** Explain refusals and escalations without revealing inaccessible order or user information.
-- **RESP-5.** Use direct and respectful language that explains the relevant decision.
+- **RESP-5.** Use direct and respectful language that explains the relevant decision once.
+  State the result without praise, celebration, enthusiasm or opinion about the outcome, the
+  price, or the user's situation, and say each fact once. A bare status ("Done") and regret when
+  refusing ("Unfortunately, ...") are allowed.
+- **RESP-6.** Before calling `issue_refund`, `cancel_order` or `escalate_to_human`, name the
+  specific action in an earlier turn (the order and, for a refund, the amount) and proceed only
+  after the user continues without objecting. An explicit directive in the first turn ("do it",
+  "process it immediately") does not replace this earlier turn.
+- **RESP-7.** State only what tool output or a cited policy supports. Say when a result is capped
+  or partial. Describe a human agent's follow-up only as a response within the escalation SLA,
+  never as an outcome such as a refund, a replacement or a correction.

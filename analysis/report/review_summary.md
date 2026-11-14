@@ -1,6 +1,6 @@
 # HW4 review summary (DRAFT for the student to edit)
 
-Status: drafted by the coding agent from the saved state files. The student owns the final wording, the SPEC.md revisions and the video. Items marked **PENDING** are not done.
+Status: drafted by the coding agent from the saved state files, for the student to edit. Items marked **PENDING** are not done.
 
 ## Reviewed sample: size and composition
 
@@ -46,22 +46,22 @@ HW5 needs at least 30 Pass and 30 Fail per mode. Every mode has 30 or more Pass.
 
 Other revisions made from the student's own test cases: `escalation_handling` was narrowed from "wording of an escalation message" to *when* escalation is offered; `editorial_commentary` was rewritten from "any exclamation or valence word" to reaction versus status after the student's labels contradicted the first draft; `asks_for_retrievable_info` was renamed `misses_available_lookup` and defined by what the platform holds, with a cause tag (agent choice or tool gap).
 
-## Relationship to SPEC.md
+## SPEC.md revisions
 
-| Mode | Requirement | Note |
+Error analysis showed behaviors the specification did not require, so `SPEC.md` was revised (the revisions are in the same commit). Each is tied to the annotations that motivated it. SPEC.md does not change the running agent; `agent/agent.py` still carries the old prompt.
+
+| Revision | Mode | Motivating annotations |
 |---|---|---|
-| `escalation_handling` | ESC-3, ESC-4, RESP-4 | tension: ESC-3/ESC-4 say escalate when unresolved or unsure; the student's notes say not to offer it once policy settles the case |
-| `claim_exceeds_evidence` | RESP-1 to RESP-3 | |
-| `over_explaining` | RESP-5 | tension: RESP-5 asks for language that explains the decision, which pulls against saying each fact once |
-| `write_without_confirmation` | confirmation before writes | the first-turn directive does not replace a second turn |
-| `misses_available_lookup` | AUTH-1 / TOOL | RESP-3 allows asking for missing information; a new requirement would say to look up orders and context first |
-| `editorial_commentary` | RESP-4 | |
+| **RESP-6** (new): name a write action in an earlier turn and proceed only after the user continues; a first-turn directive does not replace this | `write_without_confirmation` | 0137: "Offer to cancel instead of canceling out right"; 0184: "should not jump to cancel right away"; first-turn refunds such as 0009 |
+| **ESC-5** (new): do not offer escalation unprompted once policy or a lookup gives a clear answer; offer it on request or after pushback | `escalation_handling` | 0206: "don't proactively escalate"; 0161 turn 2; 0152 turn 2: "no reason to believe this needs to be escalated" |
+| **RESP-7** (new): state only what tool output or a cited policy supports; say when a result is capped; describe a human's follow-up only as a response within the SLA, never as an outcome | `claim_exceeds_evidence` | 0108 (capped list as a "collection"); 0034 turn 3 ("arrange a replacement"); 0132 ("process the refund within 24 hours"); 0048 turn 2 comment |
+| **RESP-5** (amended): explain the decision once, with no praise, celebration or opinion; bare status and regret when refusing are allowed | `editorial_commentary`, `over_explaining` | 0153: "Do not exclaim or be overexcitable"; 0161 turn 1: "No celebration needed"; 0230 turn 1: "why are we excited about this"; 0104: "too much explanation" |
 
-**PENDING (student):** the exact SPEC.md revision wording, each with the motivating annotation. Candidate annotations: the 0001/0161/0206 notes (proactive escalation), the 0225 and 0189 notes (ungrounded claims), the 0137 and 0184 notes (cancel before confirmation), and the 0003 and 0144 notes (tool gaps). Not specifically sampled: RESP-4 and AUTH-1 (see the manifest).
+Requirement sources for the other mode: `misses_available_lookup` maps to AUTH-1 and the tools section, with RESP-3 as the nearest rule. RESP-3 currently allows asking for missing information, so a requirement to look up orders and context first is a candidate but was not added. RESP-4 and AUTH-1 were not specifically sampled (see the manifest).
 
 ## Open items
 
-- **PENDING:** the student's video, SPEC.md wording, and final reading of this summary.
+- **PENDING (student):** a final read of this summary. The video is recorded.
 - Label questions raised during Part E and resolved by the student: 0137 turn 2 and 0184 turn 2 (`write_without_confirmation`, both now pass, since the agent named the cancel and the user continued); 0072 and 0206 (`misses_available_lookup`, both now fail); 0137 turn 2 (`editorial_commentary`, now pass). Still worth a last look: the emoji cases 0074 and 0215 (`editorial_commentary`, pass), because the student's own test sentence with an emoji was a fail, and 0161 turn 2 and 0227 turn 2 (fail with no reaction phrase found).
 - Part C (Raindrop Workshop) was skipped, so there is no `workshop_notes.md`.
 - No judge models were used. All labels are the student's; the agent only drafted suggestions, shown as pre-marks and never saved.
