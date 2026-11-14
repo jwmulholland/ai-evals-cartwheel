@@ -59,9 +59,6 @@ Error analysis showed behaviors the specification did not require, so `SPEC.md` 
 
 Requirement sources for the other mode: `misses_available_lookup` maps to AUTH-1 and the tools section, with RESP-3 as the nearest rule. RESP-3 currently allows asking for missing information, so a requirement to look up orders and context first is a candidate but was not added. RESP-4 and AUTH-1 were not specifically sampled (see the manifest).
 
-## Open items
-
-- **PENDING (student):** a final read of this summary. The video is recorded.
-- Label questions raised during Part E and resolved by the student: 0137 turn 2 and 0184 turn 2 (`write_without_confirmation`, both now pass, since the agent named the cancel and the user continued); 0072 and 0206 (`misses_available_lookup`, both now fail); 0137 turn 2 (`editorial_commentary`, now pass). Still worth a last look: the emoji cases 0074 and 0215 (`editorial_commentary`, pass), because the student's own test sentence with an emoji was a fail, and 0161 turn 2 and 0227 turn 2 (fail with no reaction phrase found).
+## Additional Notes
 - Part C (Raindrop Workshop) was skipped, so there is no `workshop_notes.md`.
-- No judge models were used. All labels are the student's; the agent only drafted suggestions, shown as pre-marks and never saved.
+- No LLM judge was run; in Part E the coding agent drafted a present, absent or unsure pre-mark for every trace and mode from the written rules. The student reviewed each pair and saved every label.
