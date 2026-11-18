@@ -109,7 +109,8 @@ def _backend() -> str:
     Return ``docetl`` when a model key is present and ``none`` in an offline
     environment.
     """
-    if os.environ.get("GEMINI_API_KEY") or os.environ.get("OPENAI_API_KEY"):
+    if (os.environ.get("GEMINI_API_KEY") or os.environ.get("OPENAI_API_KEY")
+            or os.environ.get("ANTHROPIC_API_KEY")):
         return "docetl"
     return "none"
 

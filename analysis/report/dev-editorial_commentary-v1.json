@@ -1,0 +1,21 @@
+{
+  "judge_id": "editorial_commentary-v1",
+  "split": "dev",
+  "tpr": 1.0,
+  "tnr": 1.0,
+  "tpr_interval": [
+    0.7719,
+    1.0
+  ],
+  "tnr_interval": [
+    0.8569,
+    1.0
+  ],
+  "agreement": 1.0,
+  "tp": 13,
+  "fn": 0,
+  "tn": 23,
+  "fp": 0,
+  "n": 36,
+  "disagreements": []
+}

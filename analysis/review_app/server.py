@@ -97,6 +97,44 @@ def read_label_rows(mode: str) -> list[dict]:
     return rows
 
 
+def judge_data() -> dict[str, Any]:
+    """{mode: {human: {trace_id: 1 pass | 0 fail}, judges: [...]}} for modes with an HW5 label file.
+
+    Human labels come from state/hw5_labels (Pass = 1, superseded records dropped). A judge's test
+    predictions are exposed only once it is frozen, so a development-stage judge never leaks them.
+    """
+    out: dict[str, Any] = {}
+    d = STATE_DIR / "hw5_labels"
+    if not d.is_dir():
+        return out
+    splits = read_json(STATE_DIR / "splits.json", {})
+    for p in sorted(d.glob("*.jsonl")):
+        mode = p.stem
+        human: dict[str, int] = {}
+        for line in p.read_text(encoding="utf-8").splitlines():
+            if line.strip():
+                r = json.loads(line)
+                if not r.get("superseded_by") and r.get("label") in (0, 1):
+                    human[r["trace_id"]] = r["label"]
+        judges = []
+        for jp in sorted((STATE_DIR / "judges").glob(f"{mode}-v*.json"), key=lambda x: int(x.stem.rsplit("-v", 1)[1])):
+            j = read_json(jp, {})
+            by_hash = j.get("predictions") or {}
+            preds = by_hash.get(j.get("prompt_hash")) or next(iter(by_hash.values()), {})
+            crits = j.get("critiques") or {}
+            crits = crits.get(j.get("prompt_hash")) or next((v for v in crits.values() if isinstance(v, dict)), crits)
+            frozen = j.get("status") == "frozen"
+            test_ids = set((splits.get(mode) or {}).get("test", []))
+            rows = {
+                tid: {"pred": int(v), "critique": crits.get(tid, ""),
+                      "split": next((k for k in ("train", "dev", "test") if tid in set((splits.get(mode) or {}).get(k, []))), None)}
+                for tid, v in preds.items() if frozen or tid not in test_ids
+            }
+            judges.append({"judge_id": j.get("judge_id"), "model": j.get("model"), "status": j.get("status"), "preds": rows})
+        out[mode] = {"human": human, "judges": judges}
+    return out
+
+
 def all_labels() -> dict[str, dict[str, int]]:
     """{trace_id: {mode: label}} from labels/*.jsonl (reserved files skipped)."""
     out: dict[str, dict[str, int]] = {}
@@ -184,6 +222,8 @@ class Handler(BaseHTTPRequestHandler):
                 return self._json({"error": "SPEC.md not found"}, 404)
         if path == "/api/labels":
             return self._json(all_labels())
+        if path == "/api/judges":  # HW5: judge verdicts and critiques beside the human HW5 labels
+            return self._json(judge_data())
         if path == "/api/drafts":  # agent-drafted pass/fail suggestions per mode; never labels
             return self._json(read_json(STATE_DIR / "drafts.json", {}))
         if path == "/api/manifest":  # review batches: which traces were drawn, and why

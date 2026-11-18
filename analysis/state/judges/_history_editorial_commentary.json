@@ -1,0 +1,12 @@
+{
+  "versions": [
+    {
+      "judge_id": "editorial_commentary-v0",
+      "prompt_hash": "aeb0648f88a0"
+    },
+    {
+      "judge_id": "editorial_commentary-v1",
+      "prompt_hash": "bbd0c1a79a7f"
+    }
+  ]
+}
