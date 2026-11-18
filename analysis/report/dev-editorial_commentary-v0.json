@@ -1,0 +1,33 @@
+{
+  "judge_id": "editorial_commentary-v0",
+  "note": "recalculated from cached v0 predictions after label revisions",
+  "split": "dev",
+  "tpr": 0.9231,
+  "tnr": 0.6087,
+  "tpr_interval": [
+    0.6669,
+    0.9863
+  ],
+  "tnr_interval": [
+    0.4079,
+    0.7784
+  ],
+  "agreement": 0.7222,
+  "tp": 12,
+  "fn": 1,
+  "tn": 14,
+  "fp": 9,
+  "n": 36,
+  "disagreements": [
+    "7f68874202ff5e26cf8d158c0efd6d9c",
+    "88138a7ebf13da3ee91ceef26f1800fc",
+    "8908b60d2df66e663a6366fb0cb13211",
+    "8e93ace45efa2b0b9ee275dda76ecc96",
+    "b060dc9f9da6c8d933f3a083b30126cb",
+    "c2115bd9072ab8a7428ef3bd984f4072",
+    "c8b6c74de9df9730d7f000d9715a0b66",
+    "d65625a8d5368f8e7305e7a2ac385d6b",
+    "dbf25e0e3fb6b52f3b918b4181d6d256",
+    "f07637125c3de31e9a226c60683b933b"
+  ]
+}

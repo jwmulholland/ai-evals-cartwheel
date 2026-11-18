@@ -13,16 +13,18 @@ const S = {
   labels: {}, graph: { nodes: [], clusters: [] }, source: {}, sampledIds: new Set(),
   cur: null, tab: 'review', q: '', expanded: new Set(), showAll: new Set(), detailsOpen: false,
   labelFilter: 'all', specText: null,
-  drafts: {}, lmode: null, ldraft: 'all', ljudged: 'all', active: null,   // Label tab: drafts = mode -> trace -> {draft, reason}
+  drafts: {}, judges: {}, lmode: null, ldraft: 'all', ljudged: 'all', ljudge: 'all', active: null,   // Label tab: drafts = mode -> trace -> {draft, reason}
   manifest: {}, batch: 'all', sort: 'id',   // manifest: trace_id -> pick ({batch, method, cluster, reason})
 };
 const batchesOf = () => [...new Set(Object.values(S.manifest).map(p => p.batch).filter(b => b != null))].sort((a, b) => a - b);
-const pickTag = p => p.batch == null ? 'thread sibling' : `batch ${p.batch} · ${p.method}${p.value ? ' · ' + p.value : ''}`;
+const pickTag = p => (p.batch == null ? 'thread sibling' : `batch ${p.batch} · ${p.method}${p.value ? ' · ' + p.value : ''}`) + (p.hw5_split ? ` · HW5 ${p.hw5_split}` : '');
 const railBadge = ps => { const bs = [...new Set(ps.map(p => p.batch).filter(b => b != null))].sort((a, b) => a - b); return bs.length ? bs.map(b => 'B' + b).join('+') : 'sib'; };
-const batchTraces = s => s.trace_ids.filter(t => S.manifest[t] && (S.batch === 'all' || String(S.manifest[t].batch) === S.batch));
+const inBatch = t => { const p = S.manifest[t]; if (!p) return false; if (S.batch === 'all') return true; if (S.batch.startsWith('hw5:')) return p.hw5_split === S.batch.slice(4); return String(p.batch) === S.batch; };
+const batchTraces = s => s.trace_ids.filter(inBatch);
 function fillBatchSelect() {
   const sel = $('#batch'), bs = batchesOf();
-  sel.innerHTML = `<option value="all">all (${allTraceIds().length})</option>` + bs.map(b => `<option value="${b}">batch ${b} (${Object.values(S.manifest).filter(p => p.batch === b).length})</option>`).join('');
+  sel.innerHTML = `<option value="all">all (${allTraceIds().length})</option>` + bs.map(b => `<option value="${b}">batch ${b} (${Object.values(S.manifest).filter(p => p.batch === b).length})</option>`).join('')
+    + ['train', 'dev', 'test'].map(k => `<option value="hw5:${k}">HW5 ${k} (${Object.values(S.manifest).filter(p => p.hw5_split === k).length})</option>`).join('');
   sel.value = S.batch;
 }
 
@@ -144,7 +146,7 @@ function renderRail() {
   if (S.tab === 'label') return renderLabelRail();
   const q = S.q.trim().toLowerCase();
   const list = S.sessions.filter(s => (!q || s._blob.includes(q)) && (S.batch === 'all' || batchTraces(s).length)).sort(SORTERS[S.sort] || SORTERS.id);
-  const scope = S.batch === 'all' ? allTraceIds() : allTraceIds().filter(t => S.manifest[t] && String(S.manifest[t].batch) === S.batch);
+  const scope = S.batch === 'all' ? allTraceIds() : allTraceIds().filter(inBatch);
   const nRev = scope.filter(isReviewed).length;
   $('#rail-count').innerHTML = `<span>${list.length} of ${S.sessions.length} sessions</span><span class="rev">${nRev} ${nRev === 1 ? 'trace' : 'traces'} reviewed</span>`;
   $('#sessions').innerHTML = list.map(s => {
@@ -384,11 +386,34 @@ function draftFor(tid) {
   if ((m.close_negative_trace_ids || []).includes(tid)) return { draft: 'absent', reason: 'Already decided: your close negative for this mode.', known: true };
   const d = (S.drafts[S.lmode] || {})[tid]; return d ? { ...d, known: false } : null;
 }
+/* HW5: judge verdicts beside the human HW5 label (Pass = 1, Fail = 0). Latest judge version with a prediction wins for filtering. */
+const judgeInfo = () => S.judges[S.lmode] || { human: {}, judges: [] };
+const judgeRuns = tid => judgeInfo().judges.filter(j => tid in j.preds);
+function judgeState(tid) {
+  const runs = judgeRuns(tid), h = judgeInfo().human[tid];
+  if (!runs.length) return 'none';
+  return h != null && runs[runs.length - 1].preds[tid].pred !== h ? 'disagree' : 'agree';
+}
+const pf = v => (v === 1 ? 'Pass' : 'Fail');
+function judgeLines(tid) {
+  const info = judgeInfo(), runs = judgeRuns(tid), h = info.human[tid];
+  if (!runs.length) return info.judges.length ? '<div class="jline muted small">judge: no prediction for this trace</div>' : '';
+  return runs.slice().reverse().map(j => {
+    const p = j.preds[tid], bad = h != null && p.pred !== h, key = `jc:${tid}:${j.judge_id}`, open = S.expanded.has(key);
+    return `<div class="jline"><span class="jl">${esc(j.judge_id.split('-').pop())}${j.status === 'frozen' ? ' frozen' : ''} · ${esc(p.split || '')}</span>
+      judge <span class="dchip ${p.pred === 1 ? 'absent' : 'present'}">${pf(p.pred)}</span>
+      HW5 human <span class="dchip ${h === 1 ? 'absent' : 'present'}">${h == null ? '?' : pf(h)}</span>
+      ${bad ? '<b class="dis">disagree</b>' : '<span class="muted small">agree</span>'}
+      <button class="linkish" data-toggle="${esc(key)}">${open ? 'hide' : 'show'} critique</button>
+      ${open ? `<div class="dreason">${esc(p.critique || '(no critique saved)')}</div>` : ''}</div>`;
+  }).join('');
+}
 function passesLabelFilter(tid) {
   const d = draftFor(tid), sv = savedLabel(tid);
   if (S.ldraft !== 'all' && (d ? d.draft : 'none') !== S.ldraft) return false;
   if (S.ljudged === 'todo' && sv != null) return false;
   if (S.ljudged === 'done' && sv == null) return false;
+  if (S.ljudge !== 'all' && judgeState(tid) !== S.ljudge) return false;
   return true;
 }
 function labelSessions() {
@@ -399,7 +424,7 @@ const labelOrder = () => labelSessions().flatMap(s => batchTraces(s).filter(pass
 function fillLabelControls() {
   const ms = finalModes(); if (!S.lmode || !ms.some(m => m.name === S.lmode)) S.lmode = (ms.find(m => S.drafts[m.name]) || ms[0] || {}).name || null;
   $('#lmode').innerHTML = ms.map(m => `<option ${m.name === S.lmode ? 'selected' : ''}>${esc(m.name)}</option>`).join('');
-  $('#ldraft').value = S.ldraft; $('#ljudged').value = S.ljudged;
+  $('#ldraft').value = S.ldraft; $('#ljudged').value = S.ljudged; $('#ljudge').value = S.ljudge;
 }
 function renderLabelRail() {
   const list = labelSessions(), all = allTraceIds().filter(t => S.manifest[t]);
@@ -428,7 +453,7 @@ function judgeBar(t) {
     ${chip}${pre ? `<button class="btn sm" data-accept-draft="${tid}">Accept draft</button>` : ''}
     ${d ? `<button class="linkish" data-toggle="dr:${tid}">${open ? 'hide' : 'show'} reason</button>` : ''}
     <input class="jc" data-jc="${tid}" placeholder="optional comment" size="26" aria-label="Optional comment saved with the label">
-    ${open && d ? `<div class="dreason">${esc(d.reason)}</div>` : ''}</div>`;
+    ${open && d ? `<div class="dreason">${esc(d.reason)}</div>` : ''}${judgeLines(tid)}</div>`;
 }
 function roNote(a) { return `<div class="mnote" data-note="${a.id}"><div class="q">“${esc(a.quote)}”</div><div class="nb">${linkReqs(esc(a.note || '(empty note)'))}</div>${a.mode ? `<div class="act"><span class="badge neutral">${esc(a.mode)}</span></div>` : ''}</div>`; }
 function renderLabel() {
@@ -594,6 +619,7 @@ document.addEventListener('change', e => {
   if (t.id === 'lmode') { S.lmode = t.value; S.active = null; return render(); }
   if (t.id === 'ldraft') { S.ldraft = t.value; return render(); }
   if (t.id === 'ljudged') { S.ljudged = t.value; return render(); }
+  if (t.id === 'ljudge') { S.ljudge = t.value; return render(); }
 });
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') { if (!$('#spec-overlay').hidden) return closeSpec(); if (!$('#pop').hidden) return closePop(); }
@@ -661,6 +687,7 @@ addEventListener('resize', () => { if (S.tab === 'review') layoutMargin(); });
       api.get('/api/patterns'), api.get('/api/graph'), api.get('/api/labels'), api.get('/api/samples_state').catch(() => []),
     ]);
     S.drafts = await api.get('/api/drafts').catch(() => ({}));
+    S.judges = await api.get('/api/judges').catch(() => ({}));
     S.sessions = sessions; S.source = source; indexData();
     try {
       const mf = await api.get('/api/manifest');
