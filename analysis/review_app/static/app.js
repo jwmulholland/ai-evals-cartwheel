@@ -395,10 +395,14 @@ function judgeState(tid) {
   return h != null && runs[runs.length - 1].preds[tid].pred !== h ? 'disagree' : 'agree';
 }
 const pf = v => (v === 1 ? 'Pass' : 'Fail');
+function revisionLine(tid) {
+  const r = (judgeInfo().revisions || {})[tid];
+  return r ? `<div class="jline rev-line"><span class="jl">relabeled</span> <span class="dchip ${r.from === 1 ? 'absent' : 'present'}">${pf(r.from)}</span> → <span class="dchip ${r.to === 1 ? 'absent' : 'present'}">${pf(r.to)}</span> <span class="muted small">${esc(r.reason)}</span></div>` : '';
+}
 function judgeLines(tid) {
   const info = judgeInfo(), runs = judgeRuns(tid), h = info.human[tid];
-  if (!runs.length) return info.judges.length ? '<div class="jline muted small">judge: no prediction for this trace</div>' : '';
-  return runs.slice().reverse().map(j => {
+  if (!runs.length) return revisionLine(tid) + (info.judges.length ? '<div class="jline muted small">judge: no prediction for this trace</div>' : '');
+  return revisionLine(tid) + runs.slice().reverse().map(j => {
     const p = j.preds[tid], bad = h != null && p.pred !== h, key = `jc:${tid}:${j.judge_id}`, open = S.expanded.has(key);
     return `<div class="jline"><span class="jl">${esc(j.judge_id.split('-').pop())}${j.status === 'frozen' ? ' frozen' : ''} · ${esc(p.split || '')}</span>
       judge <span class="dchip ${p.pred === 1 ? 'absent' : 'present'}">${pf(p.pred)}</span>
@@ -413,7 +417,8 @@ function passesLabelFilter(tid) {
   if (S.ldraft !== 'all' && (d ? d.draft : 'none') !== S.ldraft) return false;
   if (S.ljudged === 'todo' && sv != null) return false;
   if (S.ljudged === 'done' && sv == null) return false;
-  if (S.ljudge !== 'all' && judgeState(tid) !== S.ljudge) return false;
+  if (S.ljudge === 'relabeled') { if (!(judgeInfo().revisions || {})[tid]) return false; }
+  else if (S.ljudge !== 'all' && judgeState(tid) !== S.ljudge) return false;
   return true;
 }
 function labelSessions() {

@@ -243,3 +243,5 @@ table.grid th { position: sticky; top: 0; background: var(--panel); }
 .jline .jl { font-weight: 600; margin-right: 4px; }
 .jline .dchip.absent { border-color: var(--ok, #2e7d32); color: var(--ok, #2e7d32); }
 .jline .dis { color: var(--err); margin: 0 6px; }
+
+.jline.rev-line { border-top: none; margin-top: 4px; }

@@ -111,11 +111,15 @@ def judge_data() -> dict[str, Any]:
     for p in sorted(d.glob("*.jsonl")):
         mode = p.stem
         human: dict[str, int] = {}
-        for line in p.read_text(encoding="utf-8").splitlines():
-            if line.strip():
-                r = json.loads(line)
-                if not r.get("superseded_by") and r.get("label") in (0, 1):
-                    human[r["trace_id"]] = r["label"]
+        recs = [json.loads(x) for x in p.read_text(encoding="utf-8").splitlines() if x.strip()]
+        by_id = {r.get("label_id"): r for r in recs}
+        revisions: dict[str, dict] = {}  # relabels: old label -> new label and the stated reason
+        for r in recs:
+            if not r.get("superseded_by") and r.get("label") in (0, 1):
+                human[r["trace_id"]] = r["label"]
+                old = by_id.get(r.get("revised_from"))
+                if old is not None:
+                    revisions[r["trace_id"]] = {"from": old.get("label"), "to": r["label"], "reason": r.get("revision_reason", "")}
         judges = []
         for jp in sorted((STATE_DIR / "judges").glob(f"{mode}-v*.json"), key=lambda x: int(x.stem.rsplit("-v", 1)[1])):
             j = read_json(jp, {})
@@ -131,7 +135,7 @@ def judge_data() -> dict[str, Any]:
                 for tid, v in preds.items() if frozen or tid not in test_ids
             }
             judges.append({"judge_id": j.get("judge_id"), "model": j.get("model"), "status": j.get("status"), "preds": rows})
-        out[mode] = {"human": human, "judges": judges}
+        out[mode] = {"human": human, "judges": judges, "revisions": revisions}
     return out
 
 
