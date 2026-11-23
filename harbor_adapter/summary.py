@@ -30,6 +30,27 @@ def _reward(trial: dict[str, Any]) -> float | None:
     return None
 
 
+def load_trial_results(job_dir: Path, result: dict[str, Any]) -> list[dict[str, Any]]:
+    """Return the trial records for a job.
+
+    Use the job-level ``trial_results`` list when Harbor wrote one. Some Harbor
+    runs write only ``stats`` there, so fall back to each trial directory's own
+    ``result.json``, ordered by start time then trial name.
+    """
+    listed = result.get("trial_results")
+    if listed:
+        return list(listed)
+    trials = []
+    for path in job_dir.glob("*/result.json"):
+        trial = json.loads(path.read_text())
+        if isinstance(trial, dict) and "task_name" in trial:
+            trials.append(trial)
+    return sorted(
+        trials,
+        key=lambda t: (str(t.get("started_at", "")), str(t.get("trial_name", ""))),
+    )
+
+
 def summarize_job(
     job_dir: Path,
     *,
@@ -49,7 +70,7 @@ def summarize_job(
     result = json.loads(result_path.read_text())
     trials: dict[str, list[dict[str, Any]]] = defaultdict(list)
     unknown: list[str] = []
-    for trial in result.get("trial_results", []):
+    for trial in load_trial_results(job_dir, result):
         case_id = _case_id(str(trial.get("task_name", "")), set(by_id))
         if case_id is None:
             unknown.append(str(trial.get("task_name", "")))
